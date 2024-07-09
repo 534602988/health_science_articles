@@ -11,7 +11,6 @@ def insert_with_check(collection:Collection,key,record):
 def get_db():
     # Establish a connection to MongoDB
     client = MongoClient('mongodb://172.16.232.251:27017/')
-
     # Create a new database
     db = client['health_articles']
     # Create a new collection (table)

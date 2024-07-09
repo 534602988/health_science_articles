@@ -1,6 +1,8 @@
 import os
 import pandas as pd
 from process_mongo import get_db,insert_with_check
+import jieba
+
 def files2db(folder_path,header,collection):
     folder_name = os.path.basename(folder_path)
     author = folder_name.split('_')[1:]
@@ -36,6 +38,18 @@ def xlsx2db(folder_path,collection):
             for record in data_dict:
                 insert_with_check(collection,'title',record)
 
+def segment():
+    database = get_db()
+    collection = database['articles'].find()
+    count = 0
+    for record in collection:
+        if 'text' in record.keys():
+            text_seg = ' '.join(jieba.lcut(record['text']))
+            record1 = {'title': record['title'], 'text_seg': text_seg}
+            insert_with_check(database['articles'], 'title', record1)
+            count += 1
+            if count % 1000 == 0:
+                print(f"Processed {count} records")
 
 if __name__ == "__main__":
     database = get_db()
