@@ -1,28 +1,34 @@
 from collections import Counter
-from process_mongo import get_db,insert_with_check
+import re
+
+import numpy as np
+from process_mongo import get_db, insert_with_check
 import jieba.posseg as pseg
 from bs4 import BeautifulSoup
 
+LONG2SHORT = 10
+SENTENCE_SPLIT = r'[。.!?]'
+
 def count_html_elements(html_content):
     # 解析HTML内容
-    soup = BeautifulSoup(html_content, 'html.parser')
+    soup = BeautifulSoup(html_content, "html.parser")
     # 统计各类元素的数量
-    img_count = len(soup.find_all('img'))
-    audio_count = len(soup.find_all('audio'))
-    video_count = len(soup.find_all('video'))
-    p_count = len(soup.find_all('p'))
-    table_count = len(soup.find_all('table'))
-    link_count = len(soup.find_all('a'))
+    img_count = len(soup.find_all("img"))
+    audio_count = len(soup.find_all("audio"))
+    video_count = len(soup.find_all("video"))
+    p_count = len(soup.find_all("p"))
+    table_count = len(soup.find_all("table"))
+    link_count = len(soup.find_all("a"))
     return {
-        'images': img_count,
-        'audio': audio_count,
-        'video': video_count,
-        'paragraphs': p_count,
-        'tables': table_count,
-        'links': link_count
+        "images": img_count,
+        "audio": audio_count,
+        "video": video_count,
+        "paragraphs": p_count,
+        "tables": table_count,
+        "links": link_count,
     }
- 
-    
+
+
 def count_about_word(words):
     word_counts = Counter(words)
     # 计算词频为1的词的数量
@@ -36,23 +42,55 @@ def count_about_word(words):
     # index
     average_length = sum(word_lengths) / len(word_lengths) if word_lengths else 0
 
+
 def count_word_pos(text):
     # 使用jieba进行分词和词性标注
     words = pseg.cut(text)
     # 统计词性
     pos_counts = {}
+    pos_list = []
     for word, flag in words:
+        pos_list.append(flag)
         if flag not in pos_counts:
             pos_counts[flag] = 0
         pos_counts[flag] += 1
-    return {'pos':pos_counts}
+    return {"pos_count": pos_counts, "pos_list": pos_list}
 
 
-def get_structure_index(record:dict):
-    if 'html' in record.keys():
-        result = count_html_elements(record['html'])
-        result['title'] = record['title']
+def count_about_sentence(text: str, pos_list: list):
+    sentences = re.split(SENTENCE_SPLIT, text)
+    sentence_lengths = [len(sentence.strip()) for sentence in sentences]
+    sentence_count = len(sentences)
+    long_sentence_count = len(
+        [sentence for sentence in sentences if len(sentence.strip()) > LONG2SHORT]
+    )
+    sentence_length_dev = float(np.std(sentence_lengths) if sentence_lengths else 0)
+    short_sentence_count = sentence_count - long_sentence_count
+    average_length = (
+        sum(sentence_lengths) / len(sentence_lengths) if sentence_lengths else 0
+    )
+    cohesive = 1 / average_length
+    mark_count = pos_list.count("x")
+    v_a = pos_list.count("v")/pos_list.count('a')
+    return {
+        "sentenced_length_dev": sentence_length_dev,
+        "long_sentence_count": long_sentence_count,
+        "short_sentence_count": short_sentence_count,
+        "sentence_count": sentence_count,
+        "average_length": average_length,
+        "cohesive": cohesive,
+        "mark_radio":mark_count/len(pos_list),
+        "break":mark_count/sentence_count,
+        'v_a':v_a,
+    }
+
+
+def get_structure_index(record: dict):
+    if "html" in record.keys():
+        result = count_html_elements(record["html"])
+        result["title"] = record["title"]
         return result
+
 
 # def get_pos(record:dict):
 #     if 'text' in record.keys():
@@ -62,7 +100,9 @@ def get_structure_index(record:dict):
 
 if __name__ == "__main__":
     DATABASE = get_db()
-    records = DATABASE['articles'].find()
+    records = DATABASE["articles"].find()
     for record in records:
-        print(get_structure_index(record))
+        print(record['text'])
+        print(count_about_sentence(record["text"], record["pos_list"]))
+        break
         # Rest of the code
