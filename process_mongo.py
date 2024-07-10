@@ -2,7 +2,22 @@ from pymongo import MongoClient
 from pymongo.collection import Collection
 
 
-def insert_with_check(collection: Collection, key, record):
+def count_calls(func):
+    count = 0
+    def wrapper(*args, **kwargs):
+        nonlocal count
+        if count == 0:
+            print(f"Function {func.__name__} has started running.")
+        count += 1
+        if count % 1000 == 0:
+            print(f"Function {func.__name__} has been called {count} times.")
+        return func(*args, **kwargs)
+
+    return wrapper
+
+
+
+def insert_with_check(collection: Collection, record, key="title"):
     try:
         collection.update_one({key: record[key]}, {"$set": record}, upsert=True)
     except:
@@ -56,4 +71,8 @@ if __name__ == "__main__":
 
     # collection = db["articles"]
     # delete_empty_text(collection, field="text")
-    copy_a2b(db["articles"], db["index"],'pos_list','title')
+    # copy_a2b(db["articles"], db["index"], "pos_list", "title")
+    collection = db['articles']
+    field_to_remove = 'sentiment_'
+    result = collection.update_many({}, {'$unset': {field_to_remove: ""}})
+    print(f"{result.modified_count} documents updated.")

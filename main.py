@@ -1,7 +1,7 @@
 import os
 from read_data import files2db, xlsx2db, segment
 from process_mongo import get_db, copy_a2b, insert_with_check
-from calculate_index import count_word_pos
+import calculate_index 
 
 DATEBASE = get_db()
 DATAPATH = "/workspace/dataset/health_article/article"
@@ -20,14 +20,23 @@ def main():
     # copy_a2b(DATEBASE['articles'],DATEBASE['demand'])
     # segment()
     collection = DATEBASE["articles"].find()
-    for record in collection:
+    insert_count = 0
+    update_count = 0
+    for i, record in enumerate(collection):
         try:
-            word_index = count_word_pos(record["text"])
-            word_index["title"] = record["title"]
+            new_record = calculate_index.count_about_sentence(record["text"],record['pos_list'])
+            # word_index = count_word_pos(record["text"])
+            new_record["title"] = record["title"]
             # print(word_index['pos_list'])
-            insert_with_check(DATEBASE["index"], "title", word_index)
-        except:
-            print(f"wrong{record}")
+            insert_with_check(DATEBASE["index"], new_record)
+            insert_count += 1
+        except Exception as e:
+            update_count += 1
+            print(e)
+        if (i + 1) % 1000 == 0:
+            print(f"Processed {i + 1} records")
+    print(f"Insert count: {insert_count}")
+    print(f"Update count: {update_count}")
 
 
 if __name__ == "__main__":

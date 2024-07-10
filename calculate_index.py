@@ -1,13 +1,14 @@
 from collections import Counter
 import re
-
 import numpy as np
 from process_mongo import get_db, insert_with_check
 import jieba.posseg as pseg
 from bs4 import BeautifulSoup
 
 LONG2SHORT = 10
-SENTENCE_SPLIT = r'[。.!?]'
+SENTENCE_SPLIT = r"[。.!?]"
+DATABASE = get_db()
+
 
 def count_html_elements(html_content):
     # 解析HTML内容
@@ -31,16 +32,16 @@ def count_html_elements(html_content):
 
 def count_about_word(words):
     word_counts = Counter(words)
-    # 计算词频为1的词的数量
     unique_words = [word for word, count in word_counts.items() if count == 1]
-    # index
     unique_word_count = len(unique_words)
     total_word_count = len(words)
-    # index
     word_ratio = word_counts / total_word_count if total_word_count > 0 else 0
     word_lengths = [len(word) for word in words]
-    # index
     average_length = sum(word_lengths) / len(word_lengths) if word_lengths else 0
+    return {
+        'unique_word_count':unique_word_count,
+        'word_ratio':word_ratio,
+    }
 
 
 def count_word_pos(text):
@@ -71,7 +72,8 @@ def count_about_sentence(text: str, pos_list: list):
     )
     cohesive = 1 / average_length
     mark_count = pos_list.count("x")
-    v_a = pos_list.count("v")/pos_list.count('a')
+    v= pos_list.count("v")
+    a = pos_list.count("a")
     return {
         "sentenced_length_dev": sentence_length_dev,
         "long_sentence_count": long_sentence_count,
@@ -79,9 +81,18 @@ def count_about_sentence(text: str, pos_list: list):
         "sentence_count": sentence_count,
         "average_length": average_length,
         "cohesive": cohesive,
-        "mark_radio":mark_count/len(pos_list),
-        "break":mark_count/sentence_count,
-        'v_a':v_a,
+        "mark_radio": mark_count / len(pos_list),
+        "break": mark_count / sentence_count,
+        "v_a": v/v+a+0.0001,
+    }
+
+
+def count_sentiment(sentiment: list):
+    sentiment_score = int(np.array(sentiment).mean())
+    unique_sentiments = set(sentiment)
+    return {
+        "sentiment_score": sentiment_score,
+        "sentiment_": len(unique_sentiments),
     }
 
 
@@ -99,10 +110,9 @@ def get_structure_index(record: dict):
 #         return result
 
 if __name__ == "__main__":
-    DATABASE = get_db()
     records = DATABASE["articles"].find()
     for record in records:
-        print(record['text'])
+        print(record["text"])
         print(count_about_sentence(record["text"], record["pos_list"]))
         break
         # Rest of the code

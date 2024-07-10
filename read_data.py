@@ -16,7 +16,7 @@ def files2db(folder_path, header, collection):
                 content = file.read()
                 title = file_name.replace(".txt", "").replace(f"{header}_", "")
                 record = {header: content, "title": title, "author": author}
-                insert_with_check(collection, "title", record)
+                insert_with_check(collection, record)
                 records.append(record)
     return records
 
@@ -53,7 +53,7 @@ def segment():
         if "text" in record.keys():
             text_seg = " ".join(jieba.lcut(record["text"]))
             record1 = {"title": record["title"], "text_seg": text_seg}
-            insert_with_check(database["articles"], "title", record1)
+            insert_with_check(database["articles"], record1)
             count += 1
             if count % 1000 == 0:
                 print(f"Processed {count} records")
