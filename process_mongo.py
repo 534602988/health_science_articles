@@ -71,8 +71,8 @@ if __name__ == "__main__":
 
     # collection = db["articles"]
     # delete_empty_text(collection, field="text")
-    # copy_a2b(db["articles"], db["index"], "pos_list", "title")
-    collection = db['articles']
-    field_to_remove = 'sentiment_'
-    result = collection.update_many({}, {'$unset': {field_to_remove: ""}})
-    print(f"{result.modified_count} documents updated.")
+    copy_a2b(db["articles"], db["index"], "pos_count", "title")
+    # collection = db['articles']
+    # field_to_remove = 'sentiment_'
+    # result = collection.update_many({}, {'$unset': {field_to_remove: ""}})
+    # print(f"{result.modified_count} documents updated.")

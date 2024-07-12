@@ -1,11 +1,15 @@
 import os
+import pandas as pd
 from read_data import files2db, xlsx2db, segment
 from process_mongo import get_db, copy_a2b, insert_with_check
 import calculate_index 
 
 DATEBASE = get_db()
 DATAPATH = "/workspace/dataset/health_article/article"
-
+RARE_PATH = 'data/rarewords.txt'
+with open(RARE_PATH, 'r', encoding='utf-8') as file:
+    rare_word = file.read()
+is_real_dict = pd.read_csv("data/pos.csv").set_index('en')['isreal'].to_dict()
 
 def write_file2db(parent_folder):
     for folder_name in os.listdir(parent_folder):
@@ -24,7 +28,7 @@ def main():
     update_count = 0
     for i, record in enumerate(collection):
         try:
-            new_record = calculate_index.count_about_sentence(record["text"],record['pos_list'])
+            new_record = calculate_index.count_metaphor(record["text_seg"].split(' '))
             # word_index = count_word_pos(record["text"])
             new_record["title"] = record["title"]
             # print(word_index['pos_list'])
