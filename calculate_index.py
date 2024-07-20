@@ -4,6 +4,7 @@ import os
 import re
 import numpy as np
 import pandas as pd
+import torch
 from process_mongo import get_db, insert_with_check
 import jieba.posseg as pseg
 from bs4 import BeautifulSoup
@@ -12,7 +13,24 @@ from collections import Counter
 LONG2SHORT = 10
 SENTENCE_SPLIT = r"[。.!?！？]"
 DATABASE = get_db()
-conjunctions_prepositions = ['和', '但', '或', '因为', '所以', '然而', '虽然', '如果', '但是', '因此', '于是', '即使', '可是', '并且', '还有','是']
+conjunctions_prepositions = [
+    "和",
+    "但",
+    "或",
+    "因为",
+    "所以",
+    "然而",
+    "虽然",
+    "如果",
+    "但是",
+    "因此",
+    "于是",
+    "即使",
+    "可是",
+    "并且",
+    "还有",
+    "是",
+]
 metaphorical_expressions = [
     "如",
     "像",
@@ -38,36 +56,30 @@ metaphorical_expressions = [
     "赛过",
     "好比",
     "如同是",
-    "仿如"
+    "仿如",
 ]
 
 
 def txt2list(folder_path: str):
-    # 初始化空列表
     words_list = []
     # 遍历文件夹中的所有文件
     for filename in os.listdir(folder_path):
         # 检查文件是否是 txt 文件
         if filename.endswith(".txt"):
             file_path = os.path.join(folder_path, filename)
-            # 打开文件并读取内容
             with open(file_path, "r", encoding="utf-8") as file:
                 for line in file:
-                    # 移除每行的换行符并添加到列表中
                     words_list.append(line.strip())
     return words_list
 
 
 def sum_occurrences(a: list, b: list):
-    # 计算列表b中每个元素的出现次数
     counter_b = Counter(b)
-    # 计算列表a中的每个元素在列表b中出现的次数并求和
     total_occurrences = sum(counter_b[element] for element in a)
     return total_occurrences
 
 
 def count_html_elements(html_content):
-    # 解析HTML内容
     soup = BeautifulSoup(html_content, "html.parser")
     # 统计各类元素的数量
     img_count = len(soup.find_all("img"))
@@ -101,7 +113,6 @@ def count_about_word(words):
 
 
 def count_word_pos(text):
-    # 使用jieba进行分词和词性标注
     words = pseg.cut(text)
     # 统计词性
     pos_counts = {}
@@ -179,16 +190,10 @@ def count_about_dict(word_list):
 
 
 def count_rare(text, rare_word):
-    # Split the content into individual characters
     content_chars = list(rare_word)
-    # Count the occurrences of each character in the text string
     char_counts = {char: text.count(char) for char in content_chars}
-    # Print the character counts
-    # Calculate the total count
     total_count = sum(char_counts.values())
-    # Print the total count
     return {"rare": total_count}
-    # rest of the code
 
 
 def count_isreal(pos_count: dict, is_real: dict):
@@ -203,15 +208,11 @@ def count_isreal(pos_count: dict, is_real: dict):
 
 def count_parallelism(word_list):
     from collections import defaultdict
-
-    # 排除标点符号和数字
     filtered_lst = [item for item in word_list if item in conjunctions_prepositions]
-    # 记录每个元素出现的位置
     positions = defaultdict(list)
     for idx, value in enumerate(filtered_lst):
         positions[value].append(idx)
     result = []
-    # 检查每个元素的出现位置
     for value, pos_list in positions.items():
         if len(pos_list) >= 3:
             count = 0
@@ -225,17 +226,52 @@ def count_parallelism(word_list):
                 if count >= 3:
                     break
 
-    return {'parallelism':len(result)}
+    return {"parallelism": len(result)}
+
 
 def count_metaphor(word_list):
-    return {'metaphor':sum_occurrences(word_list, metaphorical_expressions)}
+    return {"metaphor": sum_occurrences(word_list, metaphorical_expressions)}
+
+def count_fog(avg_sentence_len, complex_words_percentage):
+    return {"fog": 0.8 * avg_sentence_len + complex_words_percentage}
+    
 # def get_pos(record:dict):
 #     if 'text' in record.keys():
 #         result = count_word_pos(record['text'])
 #         result['title'] = record['title']
 #         return result
 
+
+def keyword_generation(model, tokenizer, text):
+    # tokenize
+    text = f"'关键词抽取':【{text}】这篇文章的关键词是什么？"
+    encode_dict = tokenizer(text, max_length=512, padding="max_length", truncation=True)
+
+    inputs = {
+        "input_ids": torch.tensor([encode_dict["input_ids"]]).long(),
+        "attention_mask": torch.tensor([encode_dict["attention_mask"]]).long(),
+    }
+
+    # generate answer
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    model.to(device)
+    inputs["input_ids"] = inputs["input_ids"].to(device)
+    inputs["attention_mask"] = inputs["attention_mask"].to(device)
+
+    logits = model.generate(
+        input_ids=inputs["input_ids"],
+        attention_mask=inputs["attention_mask"],
+        max_length=100,
+        do_sample=True,
+        # early_stopping=True,
+    )
+
+    logits = logits[:, 1:]
+    predict_label = [tokenizer.decode(i, skip_special_tokens=True) for i in logits]
+    return {"predict_label": predict_label}
+
+
 if __name__ == "__main__":
     records = DATABASE["articles"].find()
     for record in records:
-        print(count_metaphor(record["text_seg"].split(' ')))
+        print(count_metaphor(record["text_seg"].split(" ")))

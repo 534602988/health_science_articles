@@ -29,13 +29,10 @@ def xlsx2db(folder_path, collection):
             df = df.rename(
                 columns={"标题": "title", "作者": "author", "阅读量": "read"}
             )
-            # 假设"打赏人数"列名为 'donation_count'，找到它的索引
             columns = df.columns
             start_index = columns.get_loc("打赏人数")
             end_index = columns.get_loc("有我关心的内容")
-            # 获取从打赏人数这一列到最后一列的所有列
             columns_to_check = columns[start_index : end_index + 1]
-            # 检查这些列是否全为0，并创建一个新列 '数据可用性'
             df["data_availability"] = (df[columns_to_check].sum(axis=1) != 0).astype(
                 int
             )

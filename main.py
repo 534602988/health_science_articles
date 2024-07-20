@@ -8,8 +8,25 @@ DATEBASE = get_db()
 DATAPATH = "/workspace/dataset/health_article/article"
 RARE_PATH = 'data/rarewords.txt'
 with open(RARE_PATH, 'r', encoding='utf-8') as file:
-    rare_word = file.read()
-is_real_dict = pd.read_csv("data/pos.csv").set_index('en')['isreal'].to_dict()
+    RARE_WORD = file.read()
+IS_REAL_DICT = pd.read_csv("data/pos.csv")
+
+from transformers import T5Tokenizer, T5Config, T5ForConditionalGeneration
+pretrained_model = "../../model/Randeng-T5-784M-MultiTask-Chinese"
+special_tokens = ["<extra_id_{}>".format(i) for i in range(100)]
+TOKENIZER = T5Tokenizer.from_pretrained(
+    pretrained_model,
+    do_lower_case=True,
+    max_length=512,
+    truncation=True,
+    additional_special_tokens=special_tokens,
+)
+config = T5Config.from_pretrained(pretrained_model)
+KEYWORD_MODEL = T5ForConditionalGeneration.from_pretrained(pretrained_model, config=config)
+KEYWORD_MODEL.resize_token_embeddings(len(TOKENIZER))
+KEYWORD_MODEL.eval()
+
+
 
 def write_file2db(parent_folder):
     for folder_name in os.listdir(parent_folder):
@@ -28,7 +45,7 @@ def main():
     update_count = 0
     for i, record in enumerate(collection):
         try:
-            new_record = calculate_index.count_metaphor(record["text_seg"].split(' '))
+            new_record = calculate_index.keyword_generation(KEYWORD_MODEL,TOKENIZER,record["text"])
             # word_index = count_word_pos(record["text"])
             new_record["title"] = record["title"]
             # print(word_index['pos_list'])
@@ -44,4 +61,5 @@ def main():
 
 
 if __name__ == "__main__":
+    
     main()
