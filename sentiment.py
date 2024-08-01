@@ -4,27 +4,42 @@ import json
 import re
 import jieba
 import pandas as pd
+import pymongo
 from process_mongo import get_db, insert_with_check
 from calculate_index import SENTENCE_SPLIT
 
 
-def get_label_data():
-    SENTEIMENT_DICT_PATH = "data/sentiment.xlsx"
-    sem_data = pd.read_excel(SENTEIMENT_DICT_PATH)
+def get_label_data(sentiment_dict_path:str = "data/sentiment.xlsx")->dict:
+    """
+    Reads sentiment data from an Excel file and returns a dictionary of labeled data.
+
+    Args:
+        sentiment_dict_path (str): The path to the Excel file containing the sentiment data. 
+        Defaults to "data/sentiment.xlsx".
+
+    Returns:
+        dict: A dictionary containing labeled data, where the keys are the sentiment categories
+        ("joy", "surprise", "anger", "sadness", "fear", "disgust") and the values are
+        dictionaries mapping words to sentiment scores.
+    """
+    # Read sentiment data from the Excel file
+    sem_data = pd.read_excel(sentiment_dict_path)
+
+    # Iterate over each row in the data
     for i in range(sem_data.shape[0]):
         score = 0
+
+        # Convert sentiment values of 2 to -1
         if sem_data.iloc[i, 6] == 2:
             sem_data.iat[i, 6] = -1
         if sem_data.iloc[i, 9] == 2:
             sem_data.iat[i, 9] = -1
-        # 是否需要辅助情感分类，目前先不要啦
-        #     if sem_data.iloc[i,8] >= 0:
-        #         score += sem_data.iloc[i, 8] * sem_data.iloc[i, 9]
-        #         print(score)
-        # 增加每个词语的情感强度值
+
+        # Calculate the score based on the sentiment values
         score += sem_data.iloc[i, 5] * sem_data.iloc[i, 6]
         sem_data.iat[i, -1] = score
-    # 定义情感字典
+
+    # Define a dictionary to store the labeled data
     match_dict = {
         "joy": ["PA", "PE"],
         "surprise": ["PC"],
@@ -33,20 +48,40 @@ def get_label_data():
         "fear": ["NI", "NC", "NG"],
         "disgust": ["ND", "NE", "NN", "NK", "NL"],
     }
-    # 获取情感类别
     label_dict = {}
+
+    # Iterate over each sentiment category
     keys = match_dict.keys()
     for k in keys:
         word_dict = {}
+
+        # Iterate over each row in the data
         for i in range(sem_data.shape[0]):
             label = sem_data.iloc[i, 4]
+
+            # Check if the label matches the sentiment category
             if label in match_dict[k]:
                 word_dict[sem_data.iloc[i, 0]] = sem_data.iloc[i, -1]
+
+        # Add the word dictionary to the label dictionary
         label_dict[k] = word_dict
+
+    # Return the labeled data dictionary
     return label_dict
 
 
-def calculate_sentiment_sentence(sentence, sentiment_dict):
+def calculate_sentiment_sentence(sentence:str, sentiment_dict:dict)->int:
+    """
+    Calculate the sentiment score of a given sentence based on a sentiment dictionary.
+
+    Args:
+        sentence (str): The input sentence to calculate the sentiment score for.
+        sentiment_dict (dict): A dictionary containing sentiment scores for different words.
+
+    Returns:
+        int: The total sentiment score of the sentence.
+
+    """
     # 分词
     words = jieba.lcut(sentence)
     # 计算情感值
@@ -63,7 +98,18 @@ def calculate_sentiment_sentence(sentence, sentiment_dict):
     return int(total_score)
 
 
-def calculate_sentiment_text(text, sentiment_dict):
+def calculate_sentiment_text(text: str, sentiment_dict: dict) -> dict:
+    """
+    Calculate the sentiment score for each sentence in the given text using the provided sentiment dictionary.
+
+    Args:
+        text (str): The text to analyze for sentiment.
+        sentiment_dict (dict): A dictionary containing sentiment scores for words.
+
+    Returns:
+        dict: A dictionary containing the sentiment scores for each sentence in the text.
+            The sentiment scores are stored in a list under the key 'sentiment_list'.
+    """
     sentences = re.split(SENTENCE_SPLIT, text)
     sentiment_list = []
     for sentence in sentences:
@@ -72,8 +118,17 @@ def calculate_sentiment_text(text, sentiment_dict):
     return {"sentiment_list": sentiment_list}
 
 
-def get_sentiment():
-    records = get_db()["articles"].find({"text": {"$ne": ""}}, {"text": 1, "title": 1})
+def get_sentiment(database:pymongo.database.Database)->dict:
+    """
+    Retrieves the sentiment of articles from a given database and updates/inserts the sentiment scores.
+
+    Args:
+        database (pymongo.database.Database): The database containing the articles.
+
+    Returns:
+        dict: A dictionary containing the counts of updated and inserted records.
+    """
+    records = database["articles"].find({"text": {"$ne": ""}}, {"text": 1, "title": 1})
     with open("data/sentiment_dict.json", "r") as file:
         sentiment_dict = json.load(file)
     updated_count = 0
@@ -82,7 +137,7 @@ def get_sentiment():
         text = record["text"]
         sentiment_score = calculate_sentiment_text(text, sentiment_dict)
         sentiment_score.update({"title": record["title"]})
-        if insert_with_check(collection=get_db()["articles"], record=sentiment_score):
+        if insert_with_check(collection=database["articles"], record=sentiment_score):
             inserted_count += 1
         else:
             updated_count += 1
@@ -90,4 +145,4 @@ def get_sentiment():
 
 
 if __name__ == "__main__":
-    get_sentiment()
+    get_sentiment(get_db())
