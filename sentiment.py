@@ -1,12 +1,11 @@
-import codecs
 from collections import defaultdict
-import json
 import re
 import jieba
 import pandas as pd
 import pymongo
-from process_mongo import get_db, insert_with_check
-from calculate_index import SENTENCE_SPLIT
+from tqdm import tqdm
+import global_var
+from process_mongo import get_db
 
 
 def get_label_data(sentiment_dict_path:str = "data/sentiment.xlsx")->dict:
@@ -24,7 +23,6 @@ def get_label_data(sentiment_dict_path:str = "data/sentiment.xlsx")->dict:
     """
     # Read sentiment data from the Excel file
     sem_data = pd.read_excel(sentiment_dict_path)
-
     # Iterate over each row in the data
     for i in range(sem_data.shape[0]):
         score = 0
@@ -38,7 +36,6 @@ def get_label_data(sentiment_dict_path:str = "data/sentiment.xlsx")->dict:
         # Calculate the score based on the sentiment values
         score += sem_data.iloc[i, 5] * sem_data.iloc[i, 6]
         sem_data.iat[i, -1] = score
-
     # Define a dictionary to store the labeled data
     match_dict = {
         "joy": ["PA", "PE"],
@@ -49,23 +46,18 @@ def get_label_data(sentiment_dict_path:str = "data/sentiment.xlsx")->dict:
         "disgust": ["ND", "NE", "NN", "NK", "NL"],
     }
     label_dict = {}
-
     # Iterate over each sentiment category
     keys = match_dict.keys()
     for k in keys:
         word_dict = {}
-
         # Iterate over each row in the data
         for i in range(sem_data.shape[0]):
             label = sem_data.iloc[i, 4]
-
             # Check if the label matches the sentiment category
             if label in match_dict[k]:
                 word_dict[sem_data.iloc[i, 0]] = sem_data.iloc[i, -1]
-
         # Add the word dictionary to the label dictionary
         label_dict[k] = word_dict
-
     # Return the labeled data dictionary
     return label_dict
 
@@ -110,7 +102,7 @@ def calculate_sentiment_text(text: str, sentiment_dict: dict) -> dict:
         dict: A dictionary containing the sentiment scores for each sentence in the text.
             The sentiment scores are stored in a list under the key 'sentiment_list'.
     """
-    sentences = re.split(SENTENCE_SPLIT, text)
+    sentences = re.split(global_var.SENTENCE_SPLIT, text)
     sentiment_list = []
     for sentence in sentences:
         sentiment_score = calculate_sentiment_sentence(sentence, sentiment_dict)
@@ -118,7 +110,7 @@ def calculate_sentiment_text(text: str, sentiment_dict: dict) -> dict:
     return {"sentiment_list": sentiment_list}
 
 
-def get_sentiment(database:pymongo.database.Database)->dict:
+def get_sentiment_list(sentiment_dict:dict,read_collection:pymongo.collection.Collection,wrote_collection:pymongo.collection.Collection)->None:
     """
     Retrieves the sentiment of articles from a given database and updates/inserts the sentiment scores.
 
@@ -128,21 +120,25 @@ def get_sentiment(database:pymongo.database.Database)->dict:
     Returns:
         dict: A dictionary containing the counts of updated and inserted records.
     """
-    records = database["articles"].find({"text": {"$ne": ""}}, {"text": 1, "title": 1})
-    with open("data/sentiment_dict.json", "r") as file:
-        sentiment_dict = json.load(file)
-    updated_count = 0
-    inserted_count = 0
-    for record in records:
+    records = read_collection.find({"text": {"$ne": ""}}, {"text": 1, "title": 1})
+    bulk_updates = []
+    bulk_updates = []
+    for record in tqdm(records,desc='Processing records sentiment_list'):
         text = record["text"]
-        sentiment_score = calculate_sentiment_text(text, sentiment_dict)
-        sentiment_score.update({"title": record["title"]})
-        if insert_with_check(collection=database["articles"], record=sentiment_score):
-            inserted_count += 1
-        else:
-            updated_count += 1
-    return {"updated_count": updated_count, "inserted_count": inserted_count}
+        new_record = calculate_sentiment_text(text, sentiment_dict)
+        new_record.update({"title": record["title"]})
+        bulk_updates.append(
+            pymongo.UpdateOne(
+                {"title": new_record["title"]}, {"$set": new_record}, upsert=True
+            )
+        )
+
+    if bulk_updates:
+        wrote_collection.bulk_write(bulk_updates)
+    return None
 
 
 if __name__ == "__main__":
-    get_sentiment(get_db())
+
+    sentiment_dict = global_var.get_sentiment_dict()
+    get_sentiment_list(sentiment_dict,get_db(),'articles','indexs')

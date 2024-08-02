@@ -1,16 +1,16 @@
 import os
+import re
 import traceback
 import pandas as pd
 import pymongo.collation
 import pymongo.collection
 import pymongo.database
 from process_mongo import get_db
-import jieba
 import pymongo
 from tqdm import tqdm
 
 
-def write_file2db(parent_folder: str) -> None:
+def write_txt_html_xlsx2db(database:pymongo.database.Database,txt_collection_name:str,html_collection_name:str,xlsx_collection_name:str,parent_folder: str) -> None:
     """
     Writes files from the specified parent folder to the database.
 
@@ -20,12 +20,11 @@ def write_file2db(parent_folder: str) -> None:
     Returns:
         None
     """
-    DATEBASE = get_db()
-    for folder_name in os.listdir(parent_folder):
+    for folder_name in tqdm(os.listdir(parent_folder)):
         folder_path = os.path.join(parent_folder, folder_name)
-        files2db(folder_path, "text", DATEBASE["articles"])
-        files2db(folder_path, "html", DATEBASE["articles"])
-        xlsx2db(folder_path, DATEBASE["demand"])
+        files2db(folder_path, "text", database[txt_collection_name])
+        files2db(folder_path, "html", database[html_collection_name])
+        xlsx2db(folder_path, database[xlsx_collection_name])
 
 
 def files2db(
@@ -42,6 +41,7 @@ def files2db(
     Returns:
         None
     """
+    title_pattern = re.compile(r'(?:html|text)_(?:\d+\.)?(.*?)\.(?:txt|html)')
     folder_name = os.path.basename(folder_path)
     author = folder_name
     for file_name in os.listdir(folder_path):
@@ -49,7 +49,7 @@ def files2db(
             file_path = os.path.join(folder_path, file_name)
             with open(file_path, "r", encoding="utf-8") as file:
                 content = file.read()
-                title = file_name.replace(".txt", "").replace(f"{header}_", "")
+                title =title_pattern.search(file_name).group(1)
                 record = {header: content, "title": title, "author": author}
                 try:
                     collection.update_one(
@@ -102,34 +102,8 @@ def xlsx2db(folder_path: str, collection: pymongo.collection.Collection) -> None
                 )
 
 
-def segment(database: pymongo.database.Database) -> None:
-    """
-    Segments the text in each record of the 'articles' collection in the database.
-    Uses the jieba library to perform word segmentation on the 'text' field of each record.
-    Updates each record with a new field 'text_seg' containing the segmented text.
-    """
-    collection = database["articles"]
-    count = 0
-    for record in collection.find():
-        if "text" in record.keys():
-            # Perform word segmentation on the 'text' field using jieba library
-            text_seg = " ".join(jieba.lcut(record["text"]))
-            # Create a new record with the segmented text
-            record = {"title": record["title"], "text_seg": text_seg}
-            # Update the record in the collection
-            collection.update_one(
-                {"title": record["title"]}, {"$set": record}, upsert=True
-            )
-            count += 1
-            if count % 1000 == 0:
-                print(f"Processed {count} records")
-
 
 if __name__ == "__main__":
     database = get_db()
-    parent_folder = "/workspace/dataset/health_article/article"
-    for folder_name in tqdm(os.listdir(parent_folder)):
-        folder_path = os.path.join(parent_folder, folder_name)
-        files2db(folder_path, "text", database["articles"])
-        htmls = files2db(folder_path, "html")
-        xlsx2db(folder_path, database["demand"])
+    write_txt_html_xlsx2db(database,"articles","articles","demand","/workspace/dataset/health/article")
+

@@ -1,63 +1,18 @@
-from collections import Counter
 import math
-import os
 import re
+import traceback
 import numpy as np
-from process_mongo import get_db
+from tqdm import tqdm
+import global_var
+import jieba
 import jieba.posseg as pseg
 from bs4 import BeautifulSoup
 from collections import Counter
-import pymongo.database
-import re
-import numpy as np
-
+from global_var import SENTENCE_SPLIT
+import pymongo
+import sentiment
+import count_topic
 LONG2SHORT = 10
-SENTENCE_SPLIT = r"[。.!?！？]"
-conjunctions_prepositions = [
-    "和",
-    "但",
-    "或",
-    "因为",
-    "所以",
-    "然而",
-    "虽然",
-    "如果",
-    "但是",
-    "因此",
-    "于是",
-    "即使",
-    "可是",
-    "并且",
-    "还有",
-    "是",
-]
-metaphorical_expressions = [
-    "如",
-    "像",
-    "似",
-    "仿佛",
-    "宛如",
-    "好像",
-    "彷佛",
-    "犹如",
-    "有如",
-    "仿若",
-    "恰似",
-    "犹若",
-    "如同",
-    "等于",
-    "仿佛是",
-    "彷佛是",
-    "无异于",
-    "胜似",
-    "简直像",
-    "堪比",
-    "有如",
-    "赛过",
-    "好比",
-    "如同是",
-    "仿如",
-]
 
 
 def calculate_entropy(probabilities):
@@ -74,26 +29,6 @@ def calculate_entropy(probabilities):
     entropy = -sum(p * math.log2(p) for p in probabilities.values())
     return entropy
 
-
-def txt2list(folder_path: str):
-    """
-    Convert text files in a folder to a list of words.
-
-    Args:
-        folder_path (str): The path to the folder containing the text files.
-
-    Returns:
-        list: A list of words extracted from the text files.
-    """
-    words_list = []
-    for filename in os.listdir(folder_path):
-        # Check if the file is a txt file
-        if filename.endswith(".txt"):
-            file_path = os.path.join(folder_path, filename)
-            with open(file_path, "r", encoding="utf-8") as file:
-                for line in file:
-                    words_list.append(line.strip())
-    return words_list
 
 
 def sum_occurrences(a: list, b: list):
@@ -276,12 +211,12 @@ def count_about_sentence(text: str, pos_list: list):
     }
 
 
-def count_sentiment(sentiment: list):
+def count_sentiment(sentiment_list: list):
     """
     Calculates the sentiment score and sentiment variety based on the given list of sentiments.
 
     Args:
-        sentiment (list): A list of sentiment values.
+        sentiment_list (list): A list of sentiment values.
 
     Returns:
         dict: A dictionary containing the sentiment score and sentiment variety.
@@ -290,8 +225,8 @@ def count_sentiment(sentiment: list):
         >>> count_sentiment([1, 2, 3, 4, 5])
         {'sentiment_score': 3, 'sentiment_variety': 5}
     """
-    sentiment_score = int(np.array(sentiment).mean())
-    unique_sentiments = set(sentiment)
+    sentiment_score = int(np.array(sentiment_list).mean())
+    unique_sentiments = set(sentiment_list)
     return {
         "sentiment_score": sentiment_score,
         "sentiment_variety": len(unique_sentiments),
@@ -377,7 +312,7 @@ def count_is_real(pos_count: dict, is_real: dict):
     return {"real_percentage": real / (unreal + real)}
 
 
-def count_parallelism(word_list):
+def count_parallelism(word_list:list,conjunctions_list:list):
     """
     Counts the number of parallelism occurrences in a given word list.
 
@@ -392,8 +327,7 @@ def count_parallelism(word_list):
             The count is stored under the key "parallelism".
     """
     from collections import defaultdict
-
-    filtered_lst = [item for item in word_list if item in conjunctions_prepositions]
+    filtered_lst = [item for item in word_list if item in conjunctions_list]
     positions = defaultdict(list)
     for idx, value in enumerate(filtered_lst):
         positions[value].append(idx)
@@ -414,11 +348,12 @@ def count_parallelism(word_list):
     return {"parallelism": len(result)}
 
 
-def count_metaphor(word_list: list):
+def count_metaphor(word_list: list, metaphorical_expressions: list):
     """
     Counts the occurrences of metaphorical expressions in a given word list.
 
     Args:
+        metaphorical_expressions:list
         word_list (list): A list of words to search for metaphorical expressions.
 
     Returns:
@@ -443,30 +378,75 @@ def count_fog(avg_sentence_len, complex_words_percentage):
     return {"fog": 0.8 * avg_sentence_len + complex_words_percentage}
 
 
-# class CalculateIndex:
-#     def __init__(
-#         self,
-#         database: pymongo.database,
-#         conjunctions_list: list,
-#         metaphorical_list: list,
-#         medical_list: list,
-#         rare_pos: list,
-#         real_word: dict,
-#         word_dict: dict,
-#         keywords_model_path: str,
-#     ):
-#         self.db = database
-#         self.conjunctions_list = conjunctions_list
-#         self.metaphorical_list = metaphorical_list
-#         self.medical_list = medical_list
-#         self.rare_pos = rare_pos
-#         self.real_word = real_word
-#         self.word_dict = word_dict
-#         self.keyword_model_path = keywords_model_path
+def segment(collection_read:pymongo.collection.Collection) -> None:
+    """
+    Segments the text in each record of the 'articles' collection in the database.
+    Uses the jieba library to perform word segmentation on the 'text' field of each record.
+    Updates each record with a new field 'text_seg' containing the segmented text.
+    """
+    for record in tqdm(collection_read.find({},{}), desc="Processing records segment"):
+        if "text" in record.keys():
+            # Perform word segmentation on the 'text' field using jieba library
+            text_seg = " ".join(jieba.lcut(record["text"]))
+            # Create a new record with the segmented text
+            record = {"title": record["title"], "text_seg": text_seg}
+            # Update the record in the collection
+            collection_read.update_one(
+                {"title": record["title"]}, {"$set": record}, upsert=True
+            )
+        else:
+            print(f'text field is not found in the record{record}')
+    return None
 
+def calculate_all(articles:pymongo.collection.Collection,indexs:pymongo.collection.Collection)->None:
+    rare_word = global_var.get_rare_list()
+    real_is_dict = global_var.get_real_pos()
+    word_dict = global_var.get_word_dict()
+    medical_list = global_var.get_medical_list()
+    print(f'global var are successfully wrote')
+    segment(articles)
+    sentiment_dict = global_var.get_sentiment_dict()
+    sentiment.get_sentiment_list(sentiment_dict,articles,articles)
+    print(f'sentiment list are successfully wrote to articles')
+    count_topic.count_topic_all(articles,indexs)
+    # Start to calculate the index
+    bulk_updates = []
+    for record in tqdm(articles.find(), desc="Processing records calculate"):
+        try:
+            new_record = {}
+            new_record.update(count_html_elements(record["html"]))
+            new_record.update(count_about_word(record["text_seg"]))
+            new_record.update({"pos_len": len(record["pos_count"])})
+            new_record.update(
+                count_about_sentence(record["text"], record["pos_list"])
+            )
+            new_record.update(
+                count_about_structure(record["text_seg"], word_dict)
+            )
+            new_record.update(
+                count_is_real(record["pos_count"], real_is_dict)
+            )
+            new_record.update(count_sentiment(record["sentiment_list"]))
+            new_record.update(count_metaphor(record["text_seg"],word_dict['metaphor']))
+            new_record.update(count_rare(record["text"], rare_word))
+            new_record.update(count_parallelism(record["text_seg"]),word_dict['conjunctions'])
+            new_record.update(
+                count_medical(record["text_seg"], medical_list)
+            )
+            new_record.update({"character_count": len(record["text"])})
+            new_record["title"] = record["title"]
+            bulk_updates.append(
+                pymongo.UpdateOne(
+                    {"title": new_record["title"]}, {"$set": new_record}, upsert=True
+                )
+            )
+        except Exception as e:
+            print(traceback.print_exc())
+            break
+    if bulk_updates:
+        indexs.bulk_write(bulk_updates)
 
 if __name__ == "__main__":
-    DATABASE = get_db()
-    records = DATABASE["articles"].find()
+    print('test')
     # for record in records:
     #     print(count_fog(record["average_length"], record["complex_words_percentage"]))

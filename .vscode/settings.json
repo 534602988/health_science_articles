@@ -1,5 +1,9 @@
 {
     "cSpell.words": [
-        "indexs"
+        "hdbscan",
+        "indexs",
+        "ngram",
+        "umap",
+        "vectorizer"
     ]
 }
