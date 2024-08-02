@@ -1,0 +1,27 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    心血管病小常识
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">李鑫辉</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount">4524</span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <p><span style="background-color: rgb(255, 255, 0);">心血管小常识</span></p><p> 心脏的工作热情非常高，它日夜不停地有规律地跳动，推动着血液在全身流动，向全身各脏器供给氧气和各种营养物质。然而，心脏本身也是一个器官，它也需要血管输送血液满足自身的需求。新鲜血液自左心室排出进入动脉后，首先从主动脉根部分分出左右两条动脉，这两条动脉都镶嵌在心脏的表面，并环绕在其顶端形成类似“皇冠”的模样，即“冠状动脉”。此动脉由左、右冠状动脉组成，左冠状动脉主要营养左半心脏，右冠状动脉主要营养右半心脏。</p><p>冠状动脉循环潜力很大，冠状动脉各分支犹如纵横的河流供应心肌血液、营养。平时血液流动主要走“主航道”，一旦冠状动脉的一个较大的血管支被阻塞后，血液还可以通过“小河”流动，以保持阻塞血管远端心肌血液供应，这就叫做冠状动脉的“侧支循环”。</p><p><span style=";font-family:宋体;font-size:14px"><br></span></p><p><span style="color: rgb(0, 112, 192);">本文系李鑫辉医生授权好大夫在线（www.haodf.com）发布，未经授权请勿转载</span></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

@@ -1,0 +1,27 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    冠心病支架术后的注意事项
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">艾永飞</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount">21812</span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <ol class=" list-paddingleft-2" style="list-style-type: decimal;"><li style="list-style-type: decimal;"><p>注意休息，避免<!--HAODF:8:ganmao-->感冒<!--HAODF:/8:ganmao-->、避免情绪激动，低盐、低脂饮食，少食多餐并保持大便通畅；</p></li><li style="list-style-type: decimal;"><p>支架植入后，氯吡格雷、阿司匹林至少联合使用12个月，阿司匹林建议长期服用，服用期间注意观察皮肤有无出血点、牙龈有无出血点及大便有无带血，如有异常及时就诊；</p></li><li style="list-style-type: decimal;"><p>他汀类药物也建议长期服用，因他汀类药物有肝脏损害、肌溶解等副作用，服药期间应定期检查肝脏功能、肌酶，建议出院1个月、3个月、半年、1年复查肝功能、肌酶及血脂，如出现明显肌肉酸痛或者乏力及时就医；低密度脂蛋白（LDL）在1.8mml／L以下，才算达标；</p></li><li style="list-style-type: decimal;"><p>倍他乐克如无禁忌症也建议长期服用，减慢心率、减轻心肌耗氧，达标心率为55-60次/分；</p></li><li style="list-style-type: decimal;"><p>急性<!--HAODF:8:xinjigengsi-->心肌梗死<!--HAODF:/8:xinjigengsi-->患者应在术后1个月、3个月、半年、1年复查心脏彩超，以了解心脏功能变化及心腔有无附壁血栓。</p></li></ol><p><span style="color: rgb(0, 112, 192); font-size: 16px; font-family: arial,helvetica,sans-serif;">本文系艾永飞医生授权好大夫在线</span><span style=";font-family:微软雅黑;color:rgb(0,112,192);font-size:16px">（www.haodf.com）发布，未经授权请勿转载。</span></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

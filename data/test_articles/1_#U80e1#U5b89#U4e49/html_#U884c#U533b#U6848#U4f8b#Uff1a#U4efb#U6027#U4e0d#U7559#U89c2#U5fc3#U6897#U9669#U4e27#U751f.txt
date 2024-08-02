@@ -1,0 +1,27 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    行医案例：任性不留观 心梗险丧生
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">殷兆芳</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount"></span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <p style="text-indent: 2em;">72岁的严老伯早上起床后突觉胸闷不适，立即到附近社区卫生服务中心就诊。当时心电图和验血未发现异常，医生让其留院观察，监测心电和复查心肌损伤指标。严老伯觉得医生小题大做，偷偷溜出医院，结果在过马路时突然倒地！</p><p style="text-indent: 2em;">发现严老伯情况的路人拨打120，急救车赶到后，医生在将其送往医院途中给他做了气管插管和电除颤。被送到我院急诊科时，严老伯的神志和自主呼吸均未恢复，心电图提示广泛前壁<!--HAODF:8:xinjigengsi--><a href="https://m.haodf.com/citiao/jibing-xinjigengsi.html" style="color:#4ba2ed;text-decoration:underline;">心肌梗死</a><!--HAODF:/8:xinjigengsi-->。在呼吸机辅助通气和低温疗法下，适时进行支架术开通了闭塞的前降支，4天后，严老伯终于恢复神志和自主呼吸。</p><p style="text-indent: 2em;">临床上，很多患者发现症状时会急着去医院，但有些人当时检查可能会没有异常，从而忽视或拒绝留院观察，导致院外发生危险。这个案例提醒大家注意以下两点:第一，急性<!--HAODF:8:xinjigengsi-->心梗<!--HAODF:/8:xinjigengsi-->的发生发展是个动态变化的过程，在发病的最早期心电图可能并未出现明显异常，抽血化验心肌损伤标志物也不升高，医生怀疑是<!--HAODF:8:xinjigengsi-->心梗<!--HAODF:/8:xinjigengsi-->时，会让患者留院观察，间隔一定时间再做心电图和抽血。这种情况下，患者应充分信任医生，并积极配合治疗。</p><p style="text-indent: 2em;">第二，不能抱有侥幸心理。在我国，<!--HAODF:8:xinjigengsi-->心梗<!--HAODF:/8:xinjigengsi-->猝死在院外占70%以上，抢救成功几率低，不可能人人都像严老伯那么幸运。相比之下，在医院内发生的猝死抢救成功率相对高，因为医生和护士的心肺复苏更专业，同时还能进行其他抢救。目前我国公共场合的心肺复苏水平与欧美发达国家差距甚远。提高公众的心肺复苏水平很有必要。</p><p><span style="color: rgb(0, 112, 192);">本文系</span><span style="color: rgb(0, 112, 192);">殷兆芳</span><span style="color: rgb(0, 112, 192);">医生授权好大夫在线（www.haodf.com）发布，未经授权请勿转载。</span></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

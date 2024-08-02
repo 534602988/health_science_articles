@@ -1,0 +1,27 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    二叶式主动脉瓣畸形的自然病史
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">王广义</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount">477</span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail ql-editor" style="word-wrap: break-word;position:relative;">
+                            <p>二叶式主动脉瓣畸形的自然病史</p><p>1，二叶式主动脉瓣的自然病史亦较为复杂多样，这与其造成的多种并发症密切相关。其患者主动脉瓣狭窄的发展速度更快，因主动脉瓣关闭不全而接受瓣膜置换手术的比例更高，具有更高的感染性心内膜炎风险。</p><p>2，另外，二叶式主动脉瓣畸形的患者往往伴有主动脉扩张，最终导致主动脉夹层的灾难性后果[6-8]。Michelena等（Olmsted County）[9]与Tzemos等（Toronto）[10]分别报道的两项大型系列研究较好地评估了二叶式主动脉瓣畸形患者的自然病程。</p><p>3，在Toronto研究中，大约有25%的患者于平均年龄44岁时发生晚期心脏事件（需医疗或手术干预）；Olmsted County研究报道40%的患者于平均年龄52岁时发生晚期心脏事件。</p><p>4，该两项研究均显示，年龄是二叶式主动脉瓣畸形患者结局的重要决定因素，随着年龄的增长，大多数二叶式主动脉瓣畸形患者需要各种形式的干预，而大多数外科治疗方式涉及主动脉瓣与主动脉瓣根部置换，该两项研究为二叶式主动脉瓣畸形的患者管理提供了有效的参考。</p><p><br></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

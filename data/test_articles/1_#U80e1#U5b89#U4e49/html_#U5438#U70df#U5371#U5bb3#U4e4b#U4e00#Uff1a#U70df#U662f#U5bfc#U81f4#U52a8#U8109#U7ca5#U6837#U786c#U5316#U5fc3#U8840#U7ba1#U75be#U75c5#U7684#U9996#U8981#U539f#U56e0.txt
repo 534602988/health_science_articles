@@ -1,0 +1,38 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    吸烟危害之一：烟是导致动脉粥样硬化心血管疾病的首要原因
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">陈江斌</span></span>
+                                        <span class="ml20">
+                                            <font>9</font>人已购买
+                                        </span>
+                                        <span class="likeNum"><span class="js-readCount">3121</span>人感兴趣</span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <div class="abstractText">
+                              <div>摘要：</div>
+                              <div class="text">   中国的烟民数量太大，有一个原因是被烟雾缭绕的影视剧片在传播后起到了坏作用，听过很多人说，抽烟是他人生的一大乐趣，甚至已经患严重疾病，如冠心病的人也这样说，有此爱好不影响别人是可以的，因为这是你的自由，前段时间看了一篇文章《吸烟的好处，为什么专家不敢说？》，将吸烟极具美化之能事，列出抽烟能降低老年性痴呆的发生，防止脑硬化（什么是脑硬化？），长寿的老人都吸烟等荒谬观点，我很纳闷为什么这样的伪科学观点在公共媒体上能大行其道，点击率超百万，想想真是悲哀。
+                            
+                            </div>
+                            </div>
+                            
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                            <div>
+                                <p class="more-content">还有更多精彩内容，请购买后继续阅读</p>
+                                    <a class="buy-btn js-buyArticle" href="javascript:void(0)">购买
+                                    4.9元</a>
+                            </div>
+                
+                
+                
+                        
+                
+                        

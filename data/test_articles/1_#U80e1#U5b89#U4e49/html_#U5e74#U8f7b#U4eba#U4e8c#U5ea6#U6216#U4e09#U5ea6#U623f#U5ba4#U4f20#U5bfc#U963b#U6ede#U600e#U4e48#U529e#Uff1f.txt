@@ -1,0 +1,27 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    年轻人二度或三度房室传导阻滞怎么办？
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">潘俊杰</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount">7284</span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <p><strong><span class="f16">患者提问</span></strong>：疾病:三度<!--HAODF:8:fangshichuandaozuzhi-->房室传导阻滞<!--HAODF:/8:fangshichuandaozuzhi-->病情描述:心跳慢。希望提供的帮助:不装起搏器能不能治好<br>所就诊医院科室:远大心胸 心内科<br><br></p><p><br></p><p><strong><span class="f16">复旦大学附属华山医院心内科潘俊杰回复</span></strong>：<br>请问你平时有没有<!--HAODF:8:touyun-->头晕<!--HAODF:/8:touyun-->、黑矇、<!--HAODF:8:yunjue-->晕厥<!--HAODF:/8:yunjue-->的情况？把心电图和24小时心电图报告上传给我看看。</p><p><br></p><p><strong><span class="f16">患者提问</span></strong>：<br>图片</p><p><br></p><p><strong><span class="f16">患者提问</span></strong>：<br>没有<!--HAODF:8:touyun-->头晕<!--HAODF:/8:touyun-->眼花什么的，</p><p><br></p><p><strong><span class="f16">患者提问</span></strong>：<br>图片</p><p><br></p><p><strong><span class="f16">复旦大学附属华山医院心内科潘俊杰回复</span></strong>：<br>资料已阅，如无<!--HAODF:8:touyun-->头晕<!--HAODF:/8:touyun-->、黑矇、<!--HAODF:8:yunjue-->晕厥<!--HAODF:/8:yunjue-->情况，可以不安装永久起搏器先随访。</p><p><br></p><p><strong><span class="f16">患者提问</span></strong>：<br>图片</p><p><br></p><p><strong><span class="f16">患者提问</span></strong>：<br>不安装起搏器可以治疗好么</p><p><br></p><p><strong><span class="f16">复旦大学附属华山医院心内科潘俊杰回复</span></strong>：<br>除非是急性的，否则药物治疗无效。</p><p><br></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

@@ -1,0 +1,33 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    5.高血压患者为什么要长期服药？
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">张宁汝</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount">3308</span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail ql-editor" style="word-wrap: break-word;position:relative;">
+                            <p>1.很多患者在经过一段时间降血压治疗后，血压监测到达正常水平后，就认为高血压好了，就可以停药了，不需要长期治疗。可常常停药不久血压反弹，甚至出现严重高血压并发症，后悔莫及！事实上，很多人发现血压升高已经不是早期，血管的病理变化已到不可逆程度，造成高血压因素也没有去除，一旦停药血压必定反弹，甚至更严重！我们建议高血压治疗必须坚持早期治疗、长期治疗。
+</p><p>2.除非以下情况
+</p><p>（1）以前肥胖患者，长期熬夜，处于压力负荷大，大量烟酒，摄入盐量较大，服用激素药，避孕药等，这些诱因完全去除后高血压药减量致停用血压3个月保持正常者。
+</p><p>（2）发生心梗，严重心衰，恶性心律失常及脑血管疾病血压正常或低下
+</p><p>（3）妊娠期高血压分娩后停药血压正常者
+</p><p>（4）继发性高血压矫正后血压正常者
+</p><p>（5）即使出现上述情况暂不服药仍需要长期监测血压</p><p><br></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

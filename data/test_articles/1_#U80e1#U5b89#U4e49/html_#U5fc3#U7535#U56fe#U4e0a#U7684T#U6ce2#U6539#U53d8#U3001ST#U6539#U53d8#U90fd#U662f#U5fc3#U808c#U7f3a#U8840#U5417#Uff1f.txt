@@ -1,0 +1,37 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    心电图上的T波改变、ST改变都是心肌缺血吗？
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">潘俊杰</span></span>
+                                        <span class="ml20">
+                                            <font>318</font>人已购买
+                                        </span>
+                                        <span class="likeNum"><span class="js-readCount">16123</span>人感兴趣</span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <div class="abstractText">
+                              <div>摘要：</div>
+                              <div class="text">平时在门诊，经常碰到有患者说自己“心肌缺血”。详细问一下，原来是心电图上写的“T波改变”或“ST改变”，咨询了某些非专科医生，说他（或她）是“心肌缺血”。而本来没有任何心脏不舒服，却搞得紧张极了，却觉得自己得了心脏病，总是感到心慌，胸口不舒服。甚至有一些敏感小心的人，害怕自己随时会心肌梗死，频繁往返于各大医院心血管内科就诊，要求做各种检查，耗费许多人力、物力和金钱。那么，T波改变和ST改变真的都是缺血吗？
+                            的确，T波改变和ST改变有可能是“心肌缺血”（如图所示，血管由于长了斑块引起狭窄堵塞导致心肌缺血）。但光凭一张心电图，即使是最专业的心内科专家，大多数时候也不能确定是不是“心肌缺血”引起的T波改变或ST改变。</div>
+                            </div>
+                            
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                            <div>
+                                <p class="more-content">还有更多精彩内容，请购买后继续阅读</p>
+                                    <a class="buy-btn js-buyArticle" href="javascript:void(0)">购买
+                                    4.9元</a>
+                            </div>
+                
+                
+                
+                        
+                
+                        

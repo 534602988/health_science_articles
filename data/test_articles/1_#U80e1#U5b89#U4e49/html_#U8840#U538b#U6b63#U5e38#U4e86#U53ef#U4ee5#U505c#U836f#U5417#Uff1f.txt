@@ -1,0 +1,32 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    血压正常了可以停药吗？
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">范书英</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount">4061</span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail ql-editor" style="word-wrap: break-word;position:relative;">
+                            <p>血压正常了，是否可以停药?
+</p><p>
+</p><p>        <a href="https://m.haodf.com/citiao/jibing-gaoxueya.html" style="color:#4ba2ed;text-decoration:underline;">高血压</a>患者常问我这样的问题＂大夫，我高血压，吃降压药，现在降到正常了，是否就可以停药了?＂。我问＂告诉我你当时为什么吃药呢＂。＂因为血压高啊＂。＂那你觉得停药以后会怎么样呢？＂。病人呵呵一笑，＂那肯定还会高＂。＂那你觉得还可以停吗?＂。
+</p><p>        通常情况下，血压正常是因为用了降压药的结果，只要引起高血压的原因还在，停药后必然要反弹，所以不要贸然停药。 
+</p><p>        那什么情况下可以停呢?当用药后出现血压偏低伴有不适，提示药量过了，可以适当减量甚至停药。
+</p><p>本文系范书英医生授权好大夫在线（www.haodf.com）发布，未经授权请勿转载。</p><p><br></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

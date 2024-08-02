@@ -1,0 +1,36 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    原来血压测量大有讲究
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">冯天元</span></span>
+                                        <span class="ml20">
+                                            <font>3</font>人已购买
+                                        </span>
+                                        <span class="likeNum"><span class="js-readCount">8481</span>人感兴趣</span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <div class="abstractText">
+                              <div>摘要：</div>
+                              <div class="text">准确监测血压既是诊断高血压，也是高血压严重程度评估和高血压治疗效果评估的重要手段，但如何正确监测血压并解读所测血压值却大有讲究</div>
+                            </div>
+                            
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                            <div>
+                                <p class="more-content">还有更多精彩内容，请购买后继续阅读</p>
+                                    <a class="buy-btn js-buyArticle" href="javascript:void(0)">购买
+                                    9.9元</a>
+                            </div>
+                
+                
+                
+                        
+                
+                        

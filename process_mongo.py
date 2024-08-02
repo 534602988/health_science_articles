@@ -5,10 +5,13 @@ from tqdm import tqdm
 import json
 from tqdm import tqdm
 
-def get_db():
+
+def get_db(
+    client_url: str = "mongodb://10.48.48.7:27017/", db_name: str = "health_articles"
+):
     # Establish a connection to MongoDB
-    client = MongoClient("mongodb://10.48.48.7:27017/")
-    db = client["health_articles"]
+    client = MongoClient(client_url)
+    db = client[db_name]
     return db
 
 

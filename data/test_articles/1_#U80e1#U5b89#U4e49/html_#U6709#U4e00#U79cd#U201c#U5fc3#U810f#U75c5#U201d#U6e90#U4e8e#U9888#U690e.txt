@@ -1,0 +1,27 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    有一种“心脏病”源于颈椎
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">刘梅颜</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount"></span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <p style="text-align:center"><span style="font-family: 宋体; font-size: 18px;"><img src="http://n1.hdfimg.com/g10/M01/B9/29/vIYBAFocJEOAfp14AABRwevdBr4296.jpg?_ms_=1b8e" title="1511793730320251.jpg" alt="下载.jpg"></span></p><p style="text-indent: 28px; line-height: 1.75em;"><span style="font-family: 宋体; font-size: 18px;">你是否有过长期伏案工作后脖子僵硬，手臂发麻，前胸后背疼，心慌心悸的表现？你是否有过心脏不舒服，但心电图、心肌标志物等检查都正常的就诊经历？你是否有感觉颈椎不舒服时，“心脏病”的症状就加重？颈椎没问题时，“心脏病”也好了？你是否为此而困惑不已？有一种心脏不舒服，是由于<a href="https://m.haodf.com/citiao/jibing-jingzhuibing.html" style="color:#4ba2ed;text-decoration:underline;">颈椎病</a>，也就是所谓的“颈心综合征”。</span></p><p style="text-indent: 28px; line-height: 1.75em;"><span style="font-size: 24px;"><strong><span style="font-family: 宋体;">为什么颈椎病会影响心脏呢？</span></strong></span></p><p style="text-indent: 28px; line-height: 1.75em;"><span style="font-family: 宋体; font-size: 18px;">控制心脏的神经从颈椎部位发出并走行心脏，当长期伏案工作，出现颈椎小<!--HAODF:8:guanjiesunshang-->关节紊乱<!--HAODF:/8:guanjiesunshang-->，颈椎骨质增生，颈椎间盘突出等变化，发生颈椎病，同时会影响心脏神经的传导，进而出现心慌、心悸、胸闷、胸背同等心脏的不适的症状。</span></p><p style="text-indent: 28px; line-height: 1.75em;"><span style="font-size: 24px;"><strong><span style="font-family: 宋体;">怎么知道是心脏病？还是颈心综合征？</span></strong></span></p><p style="text-indent: 28px; line-height: 1.75em;"><span style="font-family: 宋体; font-size: 18px;">有各种典型的颈椎病及<span style="font-family: Calibri; font-size: 18px; line-height: 28px; text-indent: 28px;">（或）</span>胸椎病变的症状、体症及影像学改变；有心前区疼痛、胸闷、憋气、心悸、气短等症状<span style="font-size: 18px; font-family: Calibri;">， </span>甚至<!--HAODF:8:xinlvbuqi-->心律失常<!--HAODF:/8:xinlvbuqi-->，这些症状可因压迫颈及<span style="font-size: 18px; font-family: Calibri;">（或）</span>胸椎椎旁压痛区或颈、背部活动而诱发或症状加重<span style="font-size: 18px; font-family: Calibri;">，</span>或自觉改变头颈姿势减轻其不适，针对颈椎病、胸椎病变的各种有效治疗可解除或缓解其疼痛等症状及<!--HAODF:8:xinlvbuqi-->心律失常<!--HAODF:/8:xinlvbuqi-->；用医治<!--HAODF:8:guanxinbing-->冠心病<!--HAODF:/8:guanxinbing-->及抗<!--HAODF:8:xinlvbuqi-->心律失常<!--HAODF:/8:xinlvbuqi-->的药物治疗常无效<span style="font-size: 18px; font-family: Calibri;">, </span>或疗效不佳；临床类<!--HAODF:8:guanxinbing-->冠心病<!--HAODF:/8:guanxinbing-->症状为主，缺血性心电图改变不明显，或轻度<span style="font-size: 18px; font-family: Calibri;">ST-T</span>改变及<!--HAODF:8:xinlvbuqi-->心律失常<!--HAODF:/8:xinlvbuqi-->。</span></p><p style="text-indent: 28px; line-height: 1.75em;"><span style="font-size: 24px;"><strong><span style="font-family: 宋体;">颈心综合征，怎么预防治疗呢？</span></strong></span></p><p style="text-indent: 28px; line-height: 1.75em;"><span style="font-family: 宋体; font-size: 18px;">主要是通过预防和治疗颈椎病入手，可以通过可以通过改善生活方式，减少伏案时间，保持良好的睡眠姿势，枕头不宜过高，增加仰头运动，如“米”字操，打羽毛球，游泳等，但颈部运动不宜过于激烈；中医保守治疗，如中药、针灸、推拿，牵引等；西医微创手术治疗颈椎病。</span></p><p style="line-height: 1.75em; text-indent: 0em;"><span style="font-family: 宋体; font-size: 18px; color: rgb(0, 112, 192);">本文系刘梅颜医生授权好大夫在线（www.haodf.com）发布，未经授权请勿转载。</span><span style="font-family: 宋体; font-size: 18px;"><br></span></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

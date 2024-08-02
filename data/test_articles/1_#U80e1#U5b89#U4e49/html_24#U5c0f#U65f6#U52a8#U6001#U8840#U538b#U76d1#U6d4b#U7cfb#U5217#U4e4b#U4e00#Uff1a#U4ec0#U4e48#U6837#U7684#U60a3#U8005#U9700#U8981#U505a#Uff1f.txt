@@ -1,0 +1,27 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    24小时动态血压监测系列之一 ：什么样的患者需要做？
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">范书英</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount"></span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <p style="text-align: left; text-indent: 2em;">小刚来看门诊，自诉自测血压有时高，有时不高，想明确自己倒是有没有血压病。待他坐定后，一测血压140/90mmHg。于是告诉他，140/90mmHg刚好是临界值，但凭借目前一次测量结果，尚不能判定有没有<!--HAODF:8:gaoxueya--><a href="https://m.haodf.com/citiao/jibing-gaoxueya.html" style="color:#4ba2ed;text-decoration:underline;">高血压</a><!--HAODF:/8:gaoxueya-->，需要做24小时动态血压监测，才能知道他到底有没有<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->。小刚一脸的迷惑，那到底什么是 24小时动态血压监测、适用于那些患者呢？</p><p style="text-align: left; text-indent: 2em;">24小时动态血压监测，简言之，就是用一个大约小收音机那么大的自动测血压装置，每隔20-30分钟测量一次血压，持续24小时。一般第一天上午8-10点佩戴装置，第二天上午8-10点归还。将数据导出后，就可以知道病人一天一夜的血压波动情况了。病人常常以为24小时动态血压监测需要24小时都呆在医院，其实不是，带上机器后就可以回家了，该干啥干啥，这样才有助于了解正常生活状态下的真实血压水平。</p><p style="text-align: left; text-indent: 2em;">哪些病人适合做24小时动态血压监测呢？</p><p style="text-align: left; text-indent: 2em;">1.正在应用药物治疗的<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->病人，近期血压控制不佳或波动过大</p><p style="text-align: left; text-indent: 2em;">2.首次诊断为<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->的病人</p><p style="text-align: left; text-indent: 2em;">3.偶测血压升高，需要知道到底有没有<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->病的病人</p><p style="text-align: left; text-indent: 2em;">4.不明原因<!--HAODF:8:toutong-->头疼<!--HAODF:/8:toutong-->，需要判定有没有隐性<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->的病人</p><p style="text-align: left; text-indent: 2em;">5.见到大夫就心慌，属于假性<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->的“白大衣<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->”病人</p><p style="text-align: left; text-indent: 2em;">6.老年<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->、血压波动过大、用药困难的病人</p><p style="text-align: left; text-indent: 2em;">以上7类病人需要进行24小时动态血压监测，协助诊断和治疗。</p><p><span style="color: rgb(0, 112, 192); font-family: arial,helvetica,sans-serif; font-size: 16px;"><span style="color: rgb(0, 112, 192); font-size: 16px;">本文系范书英医生授权好大夫在线（</span>www.haodf.com<span style="color: rgb(0, 112, 192); font-size: 16px;">）发布，未经授权请勿转载。</span></span></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

@@ -1,0 +1,36 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    高血压患者在生活中容易被忽视的细节
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">方丹红</span></span>
+                                        <span class="ml20">
+                                            <font>60</font>人已购买
+                                        </span>
+                                        <span class="likeNum"><span class="js-readCount"></span>人感兴趣</span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <div class="abstractText">
+                              <div>摘要：</div>
+                              <div class="text">我们知道高血压患者在日常生活中有许多环节值得注意：控制情绪，避免发怒、急躁，改善生活方式，戒烟戒酒，低盐低脂饮食，减肥，避免参加强度大刺激性强的活动，避免受凉等等。这些对于高血压患者来说都是要引起重视和注意，并要尽量去做到的，对血压的控制很有好处，而且已经被越来越多的人们意识到和接受。但是还有一些生活的细节往往容易被人忽视，但它们所产生的后果有时也是比较严重的。我们也应引起重视，在生活中尽量避免这些细节的产生，以免带来我们不想发生的后果。</div>
+                            </div>
+                            
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                            <div>
+                                <p class="more-content">还有更多精彩内容，请购买后继续阅读</p>
+                                    <a class="buy-btn js-buyArticle" href="javascript:void(0)">购买
+                                    2.9元</a>
+                            </div>
+                
+                
+                
+                        
+                
+                        

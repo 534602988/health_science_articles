@@ -1,0 +1,27 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    高血压日常保健
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">黄辉</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount"></span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <p style="text-align: left;"><strong>1. 减少钠盐摄入</strong></p><p style="text-align: left;">钠盐可显著升<!--HAODF:8:gaoxueya--><a href="https://m.haodf.com/citiao/jibing-gaoxueya.html" style="color:#4ba2ed;text-decoration:underline;">高血压</a><!--HAODF:/8:gaoxueya-->以及<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->的发病风险，而钾盐则可对抗钠盐升<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->的作用。我国各地居民的钠盐摄入量均显著高于目前世界卫生组织每日应少于6克的推荐，而钾盐摄入则严重不足，因此，所有<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->患者均应采取各种措施，尽可能减少钠盐的摄入量，并增加食物中钾盐的摄入量。主要措施包括：</p><ul class=" list-paddingleft-2" style="list-style-type: disc;"><li style="list-style-type: disc;"><p style="text-align: left;">尽可能减少烹调用盐，建议使用可定量的盐勺；</p></li><li style="list-style-type: disc;"><p style="text-align: left;">减少味精、酱油等含钠盐的调味品用量；</p></li><li style="list-style-type: disc;"><p style="text-align: left;">少食或不食含钠盐量较高的各类加工食品，如咸菜、火腿、香肠以及各类炒货；</p></li><li style="list-style-type: disc;"><p style="text-align: left;">增加蔬菜和水果的摄入量；</p></li><li style="list-style-type: disc;"><p style="text-align: left;">肾功能良好者，使用含钾的烹调用盐。</p></li></ul><p style="text-align: left;"><strong>2．控制体重</strong></p><p style="text-align: left;">超重和<!--HAODF:8:feipangzheng-->肥胖<!--HAODF:/8:feipangzheng-->是导致血压升高的重要原因之一，而以腹部<!--HAODF:8:feipangzheng-->脂肪堆积<!--HAODF:/8:feipangzheng-->为典型特征的中心性<!--HAODF:8:feipangzheng-->肥胖<!--HAODF:/8:feipangzheng-->还会进一步增加<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->等心血管与代谢性疾病的风险，适当降低升高的体重，减少体内脂肪含量，可显著降低血压。</p><p style="text-align: left;">衡量超重和<!--HAODF:8:feipangzheng-->肥胖<!--HAODF:/8:feipangzheng-->最简便和常用的生理测量指标是体质指数[计算公式为: 体重(公斤)¸身高(米)2]和腰围。前者通常反映全身<!--HAODF:8:feipangzheng-->肥胖<!--HAODF:/8:feipangzheng-->程度，后者主要反映中心型<!--HAODF:8:feipangzheng-->肥胖<!--HAODF:/8:feipangzheng-->的程度。成年人正常体质指数为18.5-23.9kg/m2，在24-27.9 kg/m2为超重，提示需要控制体重；BMI328 kg/m2 为<!--HAODF:8:feipangzheng-->肥胖<!--HAODF:/8:feipangzheng-->，应减重。成年人正常腰围&lt;90/85cm（男/女），如腰围390/85cm（男/女），同样提示需控制体重，如腰围395/90cm（男/女），也应减重。</p><p style="text-align: left;"><strong>最有效的减重措施是控制能量摄入和增加体力活动。</strong>在饮食方面要遵循平衡膳食的原则，控制高热量食物(高脂肪食物、含糖饮料及酒类等)的摄入，适当控制主食(碳水化合物)用量。在运动方面，规律的、中等强度的有氧运动是控制体重的有效方法。减重的速度因人而异，通常以每周减重0.5~1 kg为宜。对于非药物措施减重效果不理想的重度<!--HAODF:8:feipangzheng-->肥胖<!--HAODF:/8:feipangzheng-->患者，应在医生指导下，使用减肥药物控制体重。</p><p style="text-align: left;"><strong>3. 不吸烟</strong></p><p style="text-align: left;">吸烟是一种不健康行为，是心血管病和癌症的主要危险因素之一。被动吸烟也会显著增加心血管疾病危险。吸烟可导致血管内皮损害，显著增加<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->患者发生动脉粥样硬化性疾病的风险。戒烟的益处十分肯定，而且任何年龄戒烟均能获益。烟草依赖是一种慢性成瘾性疾病，不仅戒断困难，复发率也很高。因此，医生应强烈建议并督促<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->患者戒烟，并鼓励患者寻求药物辅助戒烟（使用尼古丁替代品、安非他酮缓释片和伐尼克兰等），同时也应对戒烟成功者进行随访和监督，避免复吸。</p><p><span style="color: rgb(0, 112, 192);">本文系黄辉医生授权好大夫在线（www.haodf.com）发布，未经授权请勿转载。</span></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

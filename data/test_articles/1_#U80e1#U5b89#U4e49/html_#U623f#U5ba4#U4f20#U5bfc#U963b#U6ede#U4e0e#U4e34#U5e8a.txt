@@ -1,0 +1,30 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    房室传导阻滞与临床
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">陈清启</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount">8787</span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <p>迷走神经张力影响  可引起一度和二度Ⅰ型<a href="https://m.haodf.com/citiao/jibing-fangshichuandaozuzhi.html" style="color:#4ba2ed;text-decoration:underline;">房室传导阻滞</a>，常见于运动员或少数正常人，多发生在夜间或卧位。<br></p>
+                <p>房室传导阻滞常见病因  急性心肌梗死、冠状动脉痉挛、病毒性心肌炎、心内膜炎、心<!--HAODF:8:jibing-->肌病<!--HAODF:/8:jibing-->、急性风湿热、钙化性主动脉瓣狭窄、心脏肿瘤、先天性心血管病、原发性<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->、心脏手术、电解质紊乱、药物中度、Lyme病（螺旋体感染致心肌炎）、Chagas病（原虫感染致心肌炎）、粘液性水肿等。Lev病（心脏纤维支架的钙化）与lenegre病（传导系统本身的原发性硬化变性疾病）可能是成人孤立性慢性心脏传导阻滞最常见的心电图。</p>
+                <p>一度房室传导阻滞通常无症状。二度房室传导阻滞可引起心悸与心搏脱漏。三度房室传导阻滞的症状取决于室率和伴随病变，症状包括乏力、头晕、晕厥、心绞痛、心力衰竭等，严重者可致猝死。</p>
+                <p>主要是针对病因进行治疗。对房室传导阻滞本身一度和二度Ⅰ型心室率不慢者，无需特殊治疗；二度Ⅱ型和三度房室传导阻滞如心室率显著缓慢伴有明显症状或血流动力学障碍应予起搏治疗。药物阿托品可提高房室阻滞的心率，适用于阻滞位于房室结者；异丙肾上腺素适用于任何部位的房室阻滞，但对急性心肌梗死者慎用（因可能导致严重的室性<!--HAODF:8:xinlvbuqi-->心律失常<!--HAODF:/8:xinlvbuqi-->），上述药物仅适用于无心脏起搏条件的应急情况。</p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

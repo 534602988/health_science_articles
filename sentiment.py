@@ -120,18 +120,20 @@ def get_sentiment_list(sentiment_dict:dict,read_collection:pymongo.collection.Co
     Returns:
         dict: A dictionary containing the counts of updated and inserted records.
     """
-    records = read_collection.find({"text": {"$ne": ""}}, {"text": 1, "title": 1})
+    records = list(read_collection.find())
     bulk_updates = []
-    bulk_updates = []
-    for record in tqdm(records,desc='Processing records sentiment_list'):
-        text = record["text"]
-        new_record = calculate_sentiment_text(text, sentiment_dict)
-        new_record.update({"title": record["title"]})
-        bulk_updates.append(
-            pymongo.UpdateOne(
-                {"title": new_record["title"]}, {"$set": new_record}, upsert=True
+    for record in tqdm(records, desc='Processing records sentiment_list',total=len(records)):
+        if "text" not in record.keys():
+            print(f'Text not found in record with title = {record.get("title")}')
+        else:
+            text = record["text"]
+            new_record = calculate_sentiment_text(text, sentiment_dict)
+            new_record.update({"title": record["title"]})
+            bulk_updates.append(
+                pymongo.UpdateOne(
+                    {"title": new_record["title"]}, {"$set": new_record}, upsert=True
+                )
             )
-        )
 
     if bulk_updates:
         wrote_collection.bulk_write(bulk_updates)

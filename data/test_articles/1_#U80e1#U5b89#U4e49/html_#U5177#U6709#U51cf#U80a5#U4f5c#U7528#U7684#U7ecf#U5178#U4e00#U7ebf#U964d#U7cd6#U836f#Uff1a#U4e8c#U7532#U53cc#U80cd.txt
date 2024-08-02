@@ -1,0 +1,43 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    具有减肥作用的经典一线降糖药：二甲双胍
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">陈江斌</span></span>
+                                        <span class="ml20">
+                                            <font>137</font>人已购买
+                                        </span>
+                                        <span class="likeNum"><span class="js-readCount"></span>人感兴趣</span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <div class="abstractText">
+                              <div>摘要：</div>
+                              <div class="text">认识一个二十几岁的小姑娘，一天突然给我短信，询问用二甲双胍来减肥的问题，基于认识的这个姑娘根本不胖，于是告知她不需要用二甲双胍减肥，且二甲双胍减肥可能会引起腹泻或者是腹胀的副作用，她竟然告诉我，只要能减肥，即使拉肚子也忍了。
+                            二甲双胍是当今治疗糖尿病的神药之一，不仅基于它是2型糖尿病的一线用药，根据目前现有的证据，二甲双胍可能会有一系列降血糖之外的好处，其中最引人注目的功能是延年益寿。这部分内容另撰文叙述。下面说说二甲双胍对血糖、血脂和肥胖的作用。
+                            1二甲双胍对2型糖尿病病人的降血糖作用……
+                            2二甲双胍对2型糖尿病病人的血脂调节作用……
+                            3二甲双胍对正常人的血糖有影响吗？……
+                            4二甲双胍能否用来减肥？……
+                            5二甲双胍可以与其它降糖药合用吗？……
+                            6二甲双胍的副作用……</div>
+                            </div>
+                            
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                            <div>
+                                <p class="more-content">还有更多精彩内容，请购买后继续阅读</p>
+                                    <a class="buy-btn js-buyArticle" href="javascript:void(0)">购买
+                                    9.9元</a>
+                            </div>
+                
+                
+                
+                        
+                
+                        

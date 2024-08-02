@@ -1,0 +1,27 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    如何选用家用血压计
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">赵宏伟</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount"></span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <p style="text-align: left; text-indent: 0em;"><span style="font-family:宋体">随着生活水平的提高，以及社会、工作压力的增大，<!--HAODF:8:gaoxueya--><a href="https://m.haodf.com/citiao/jibing-gaoxueya.html" style="color:#4ba2ed;text-decoration:underline;">高血压</a><!--HAODF:/8:gaoxueya-->已经成为最普遍的心血管疾病之一。密切监测血压变化，进一步指导药物应用，是降压治疗的关键。所以越来越多的家庭，已经常备血压计。那么如何选择合适的血压计，不同血压计的优缺点是什么呢？</span></p><p style="text-align: left; text-indent: 0em;"><strong>1<span style="font-family:宋体">．水银血压计</span></strong><span style="font-family:宋体">：水银（汞）血压计是所有血压计中最为准确的测量仪器，绝大多数医疗机构均采用其进行血压测量。水银血压计的历史悠久，甚至血压的计量单位也是以毫米汞柱来规定。医疗机构里的水银血压计，几乎每年甚至每半年进行质量检测，所以能保证持续稳定的测量效果。但应用水银血压计测量血压，所需步骤及注意事项略显繁琐，对于无专业医疗知识的普通群众而言，难以保证测量数据的准确性和可重复性。另外，如果操作不当，会造成水银的泄露，进而影响测量的结果。另一方面，水银为有毒重金属，极易挥发，普通群众缺乏对泄露水银应急处理常识，它可能对家庭成员造成严重危害。所以中国<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->联盟、国家心血管病中心共同发布了《中国<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->基层管理指南》（</span>2014<span style="font-family:宋体">年修订版）建议用电子血压计逐步取代水银血压计，尤其是在家庭内使用。</span></p><p style="text-align: left; text-indent: 0em;"><strong>2.<span style="font-family:宋体">臂式电子血压计</span></strong><span style="font-family:宋体">：目前臂式电子血压计应用比较广泛，它的优点是保存方便，操作简单，无需复杂步骤即可完成血压测量，极大满足了广大中老年患者的血压测量要求。臂式电子血压计的测量原理与水银血压计相同，采用电子传感器等替代传统听诊器，可以得到相对准确的数据，同时可以测量心率。部分高档听诊器甚至可以初步分析<!--HAODF:8:xinlvbuqi-->心律失常<!--HAODF:/8:xinlvbuqi-->情况。但市面上的臂式电子血压计品牌众多，质量参差不齐。我们建议选择欧姆龙、博世、鱼跃等知名公司的产品。电子产品都有使用年限，所以电子血压计也应该进行定期校正，这也是大品牌可能提供的服务。现在也有一些能和手机</span>APP<span style="font-family:宋体">连接的血压计，功能更为全面，而且有分析软件，使用前景广阔。</span></p><p style="text-align: left; text-indent: 0em;"><strong>3.<span style="font-family:宋体">非臂式电子血压计：</span></strong><span style="font-family:宋体">主要是腕式或指尖式电子血压计，这类血压计的优点是体积更为小巧，携带方便，便于商务出差人士使用。对于血管弹性较好，没有明确动脉硬化患者，测量的数据基本可靠。但对于<!--HAODF:8:tangniaobing-->糖尿病<!--HAODF:/8:tangniaobing-->、高血脂、<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->等存在严重血管硬化的患者，测量所得的数据与臂式血压计相差很大，因为这两种血压计都是通过换算测量人体末端小血管的血压来得出大血管的血压的，换算的过程难免产生误差。</span></p><p style="text-align: left; text-indent: 0em;"><span style="font-family:宋体">所以，选择血压计的原则，就是“因人而异”。对于普通家庭，我们更推荐臂式电子血压计。</span></p><p style="text-align: center; text-indent: 0em;"><img src="https://n3.hdfimg.com/g12/M00/CB/A7/2IYBAGIXfyaALHLsAAF9Ws-gfoA359.png?_ms_=c6ea" style="width: 389px; height: 311px;"></p><p style="text-indent: 0em;"><span style=";font-family:微软雅黑;color:rgb(0,112,192);font-size:16px">本文系赵宏伟医生授权好大夫在线（www.haodf.com）发布，未经授权请勿转载</span><span style=";font-family:微软雅黑;color:rgb(0,112,192);font-size:16px">。</span></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

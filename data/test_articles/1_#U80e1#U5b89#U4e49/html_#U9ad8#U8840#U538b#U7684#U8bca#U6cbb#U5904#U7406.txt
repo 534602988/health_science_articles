@@ -1,0 +1,28 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    高血压的诊治处理
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">李正章</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount">1972</span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <p><span style=";font-family:微软雅黑;color:rgb(0,112,192);font-size:16px"><span style="font-family:微软雅黑">本文系医生李正章授权好大夫在线（</span>www.haodf.com）发布，未经授权请勿转载。</span></p>
+                                <iframe src="//m.haodf.com/narticle/showpdf.htm?pdf_url=https%3A%2F%2Fn1.hdfimg.com%2Fg9%2FM00%2F84%2F0D%2FuoYBAFh4hpyAfl1cAAKxvM0n_ys432.pdf" style="width: 100%; height: 480px;border:1px solid #dcdcdc;" scrolling="no" allowfullscreen=""></iframe>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

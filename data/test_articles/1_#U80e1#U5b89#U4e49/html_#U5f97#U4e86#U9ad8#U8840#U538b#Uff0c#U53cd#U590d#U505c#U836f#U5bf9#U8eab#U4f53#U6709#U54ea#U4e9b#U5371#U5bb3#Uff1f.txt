@@ -1,0 +1,27 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    得了高血压，反复停药对身体有哪些危害？
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">王星</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount"></span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <p>这个题目觉得我也反复说过，好多病人都会问，王大夫，我的血压正常了可以停药吗？过几天，王大夫，我的血压又高了，药再吃上怎么效果不好了，能住院吗？……</p><p>这难道不是病人全责么？哈哈，开玩笑，看了我的科普，您就不会错了。</p><p><img src="https://qurl.qutoutiao.net/image/U2FsdGVkX18C0Q6JWoZzb4BST5Q9XaNV8mcqqfulONUGTltfX2TsWzro002r_9BHKlKL45P2jbCNqu_i020y7Iz7DujFI7ctgokFr_CVWXs?signature=U2FsdGVkX1-dA3DxXtIykxFBAcCkNJFuQzhYuRQ3MpjlguMyz6zG9ri9vOqJXejj" alt="药片.jpg"></p><p>首先，<!--HAODF:8:gaoxueya--><a href="https://m.haodf.com/citiao/jibing-gaoxueya.html" style="color:#4ba2ed;text-decoration:underline;">高血压</a><!--HAODF:/8:gaoxueya-->药是不能因为血压正常就停了的，血压为什么正常，毫无疑问，是吃降压药物的结果。现如今<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->药均为长效制剂，起效慢，无效也需要时间，刚开始停药时可能觉得挺好的，过几天就会反复，再用药物压，可能效果就不佳了……因此反复住院，不是吗？</p><p>那血压反复升了降、降了升的危害是什么呢？</p><p>很多研究表明，收缩压的最高值和血压波动强烈预示<!--HAODF:8:naogengsi-->脑梗<!--HAODF:/8:naogengsi-->死的可能，同时，服用降压药物期间的血压波动也是血管事件的高危因素。 也就是说，血压波动有随时脑血管意外的可能性。</p><p>不仅仅如此，反复血压波动与认知功能障碍以及<!--HAODF:8:shensunshang-->肾功能损伤<!--HAODF:/8:shensunshang-->等密切相关。</p><p><img src="https://qurl.qutoutiao.net/image/U2FsdGVkX1-2Ky4jWfSs_8buFlgE1sxx9b6c6FKl6tKyAFjkb5dy29bzdA6TnVA8d94xdSa6UVgTWQHPDK1M4h5lKtwr9p9WbkWUAyl_v7Y?signature=U2FsdGVkX1-dA3DxXtIykxFBAcCkNJFuQzhYuRQ3MpjlguMyz6zG9ri9vOqJXejj" alt="上升.jpg"></p><p>所以，亲爱的朋友，患者，不要因为血压正常了就随便停了降压药物，如果血压过低有了临床症状，那么停药调整是有必要的，如果仍在正常范围，停药需谨慎哦～</p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

@@ -1,0 +1,26 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    心脏支架手术后患者的常见问题
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount">59612</span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <p><strong>心脏支架会脱落吗？</strong></p><p>支架在置入过程中有脱落的危险，主要是由于血管弯曲、钙化严重。在支架成功放入体内后，它不会再发生脱落现象，即使参加活动、或行心外按压、<!--HAODF:8:dianji-->电击<!--HAODF:/8:dianji-->除颤也不会导致其脱落。</p><p><strong><strong>心脏</strong>支架置入人体后会有排斥反应吗？</strong></p><p>目前还没有发现支架与人体存在明显的排斥反应。</p><p><strong><strong>心脏</strong>支架在我的身体里会存留多长时间？</strong></p><p>当支架被成功地置入您的体内，大约4周后支架表面就会被新生内膜完全覆盖而完全融入您的血管中，作为您血管壁的一部分，起到支撑作用。因而，支架将伴随您的一生。植入后，它们不会在身体里移动。</p><p><strong>我会感觉到身体里面</strong><strong>心脏</strong><strong>支架的存在吗？</strong></p><p>不会。一旦支架置入到动脉里，您不会感觉到那个支架。</p><p><strong>放置</strong><strong>心脏</strong><strong>支架后，做核磁检查是 否有影响？</strong></p><p>在置入不锈钢支架后至少八周内不可进行核磁共振检查。新型的钴铬合金支架则无此限制，请咨询您的医生。</p><p><strong>有什么限制或注意事项吗？</strong></p><p>如果您置入了支架，不会影响您进行任何活动，但在剧烈活动之前应咨询您的医生。当其他医生对您进行治疗时，尤其是近期需要外科手术，您需要告知医生您置入了支架。</p><p><strong>何时能重新开始我的日常生活？</strong></p><p>要听从医生的建议。一般会在支架手术一周后返回工作岗位并继续其正常的日常生活。</p><p><strong>在机场接受安检时，我的支架会引起金属探测器发出警报吗？</strong></p><p>不会。</p><p><strong>我的症状会复发吗？</strong></p><p>是的，您可能还会经历那些症状，这可能是由于已接受治疗的区域或者在动脉的其他地方又出现了新的堵塞。术后半年左右无论有无症状都应再复查<!--HAODF:8:guanmaizaoying-->冠状动脉造影<!--HAODF:/8:guanmaizaoying-->以早期发现和及时处理狭窄部位。</p><p><strong>我如何才能防止症状复发？</strong></p><p>虽然没有防止症状复发的确定方法，但您可以通过坚持服药、锻炼、<!--HAODF:8:yancaoyilai-->戒烟<!--HAODF:/8:yancaoyilai-->和健康饮食等来减少复发的风险。请听从医生给您的改变生活方式的建议。</p><p><span style="color: rgb(0, 112, 192); font-size: 16px; font-family: arial, helvetica, sans-serif;"><span style="color: rgb(0, 112, 192); font-size: 16px;">本文系吴永健医生授权好大夫在线（</span>www.haodf.com）发布，未经授权请勿转载。</span></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

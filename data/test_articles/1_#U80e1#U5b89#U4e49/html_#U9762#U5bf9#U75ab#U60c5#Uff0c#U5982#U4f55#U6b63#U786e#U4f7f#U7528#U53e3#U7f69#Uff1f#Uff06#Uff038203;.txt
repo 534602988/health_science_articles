@@ -1,0 +1,27 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    面对疫情，如何正确使用口罩？＆＃8203;
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">李明洲</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount"></span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <p style="text-align: center;"><span style="font-family: 宋体; font-size: 22pt;"><strong>预防新型冠状病毒<!--HAODF:8:ganran--><!--HAODF:8:ganran--><!--HAODF:8:ganran--><!--HAODF:8:ganran--><!--HAODF:8:ganran-->感染<!--HAODF:/8:ganran--><!--HAODF:/8:ganran--><!--HAODF:/8:ganran--><!--HAODF:/8:ganran--><!--HAODF:/8:ganran-->的<!--HAODF:8:feiyan--><!--HAODF:8:feiyan--><!--HAODF:8:feiyan--><!--HAODF:8:feiyan--><!--HAODF:8:feiyan-->肺炎<!--HAODF:/8:feiyan--><!--HAODF:/8:feiyan--><!--HAODF:/8:feiyan--><!--HAODF:/8:feiyan--><!--HAODF:/8:feiyan-->口罩使用指南</strong></span></p><p style="text-align: center;"><span style="font-family: 宋体; font-size: 20px;"><strong>（<span style="font-family: 宋体;">引自卫生部官网</span>）</strong></span><span style="font-family: 宋体; font-size: 22pt;"><strong><br></strong></span></p><p><span style="font-family: 宋体; font-size: 22pt;"><strong><br></strong></span></p><p><span style="font-family: 宋体; font-size: 18px;"><strong></strong> 口罩是预防呼吸道传染病的重要防线，可以降低新型冠状病毒<!--HAODF:8:ganran--><!--HAODF:8:ganran--><!--HAODF:8:ganran--><!--HAODF:8:ganran--><!--HAODF:8:ganran-->感染<!--HAODF:/8:ganran--><!--HAODF:/8:ganran--><!--HAODF:/8:ganran--><!--HAODF:/8:ganran--><!--HAODF:/8:ganran-->风险。口罩不仅可以防止病人喷射飞沫，降低飞沫量和喷射速度，还可以阻挡含病毒的飞沫核，防止佩戴者吸入。根据目前对该疾病的认识，就如何正确使用口罩制定本指南。<br><span style="font-family: 黑体;">  一、佩戴原则<br style="font-family:;"></span>  基本原则是科学合理佩戴，规范使用，有效防护。具体如下：<br>  （一）在非疫区空旷且通风场所不需要佩戴口罩，进入人员密集或密闭公共场所需要佩戴口罩。<br>  （二）在疫情高发地区空旷且通风场所建议佩戴一次性使用医用口罩；进入人员密集或密闭公共场所佩戴医用外科口罩或颗粒物防护口罩。<br>  （三）有疑似症状到医院就诊时，需佩戴不含呼气阀的颗粒物防护口罩或医用防护口罩。<br>  （四）有呼吸道基础疾病患者需在医生指导下使用防护口罩。年龄极小的婴幼儿不能戴口罩，易引起窒息。<br>  （五）棉纱口罩、海绵口罩和活性炭口罩对预防病毒<!--HAODF:8:ganran--><!--HAODF:8:ganran--><!--HAODF:8:ganran--><!--HAODF:8:ganran--><!--HAODF:8:ganran-->感染<!--HAODF:/8:ganran--><!--HAODF:/8:ganran--><!--HAODF:/8:ganran--><!--HAODF:/8:ganran--><!--HAODF:/8:ganran-->无保护作用。<br><span style="font-family: 黑体;">  二、推荐的口罩类型及使用对象<br style="font-family:;"></span>  （一）一次性使用医用口罩：推荐公众在非人员密集的公共场所使用。<br>  （二）医用外科口罩：防护效果优于一次性使用医用口罩，推荐疑似病例、公共交通司乘人员、出租车司机、环卫工人、公共场所服务人员等在岗期间佩戴。<br>  （三）KN95/N95及以上颗粒物防护口罩：防护效果优于医用外科口罩、一次性使用医用口罩，推荐现场调查、采样和检测人员使用，公众在人员高度密集场所或密闭公共场所也可佩戴。<br>  （四）医用防护口罩：推荐<!--HAODF:8:fashao--><!--HAODF:8:fashao--><!--HAODF:8:fashao--><!--HAODF:8:fashao--><!--HAODF:8:fashao-->发热<!--HAODF:/8:fashao--><!--HAODF:/8:fashao--><!--HAODF:/8:fashao--><!--HAODF:/8:fashao--><!--HAODF:/8:fashao-->门诊、隔离病房医护人员及确诊患者转移时佩戴。<br><span style="font-family: 黑体;">  三、使用后口罩处理原则<br style="font-family:;"></span>  （一）健康人群佩戴过的口罩，没有新型冠状病毒传播的风险，一般在口罩变形、弄湿或弄脏导致防护性能降低时更换。健康人群使用后的口罩，按照生活垃圾分类的要求处理即可。<br>  （二）疑似病例或确诊患者佩戴的口罩，不可随意丢弃，应视作医疗废弃物，严格按照医疗废弃物有关流程处理，不得进入流通市场。<br><span style="font-family: 黑体;">  四、儿童佩戴口罩的标准与注意事项<br style="font-family:;"></span>  建议儿童选用符合国家标准GB2626-2006 KN95，并标注儿童或青少年颗粒物防护口罩的产品。儿童使用口罩需注意以下事项：<br>  （一）儿童在佩戴前，需在家长帮助下，认真阅读并正确理解使用说明，以掌握正确使用呼吸防护用品的方法；<br>  （二）家长应随时关注儿童口罩佩戴情况，如儿童在佩戴口罩过程中感觉不适，应及时调整或停止使用；<br>  （三）因儿童脸型较小，与成人口罩边缘无法充分密合，不建议儿童佩戴具有密合性要求的成人口罩。</span></p><p><span style="font-family: 宋体; font-size: 18px;"><br></span></p><p><span style="font-family: 宋体; font-size: 18px;">引自卫生部官网。（信息公开形式：主动公开）</span><br></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

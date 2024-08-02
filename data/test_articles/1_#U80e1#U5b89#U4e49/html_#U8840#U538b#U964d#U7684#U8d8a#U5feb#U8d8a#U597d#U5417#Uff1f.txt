@@ -1,0 +1,40 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    血压降的越快越好吗？
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">高登峰</span></span>
+                                        <span class="ml20">
+                                            <font>4</font>人已购买
+                                        </span>
+                                        <span class="likeNum"><span class="js-readCount"></span>人感兴趣</span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <div class="abstractText">
+                              <div>摘要：</div>
+                              <div class="text">&amp;#8203;认知误区：得了高血压应迅速把血压降至正常，越快越好。
+                            
+                            正解与忠告：
+                            
+                            有的高血压病病人一味追求血压达到正常水平，甚至认为降压应该是越快越好；其实不然，</div>
+                            </div>
+                            
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                            <div>
+                                <p class="more-content">还有更多精彩内容，请购买后继续阅读</p>
+                                    <a class="buy-btn js-buyArticle" href="javascript:void(0)">购买
+                                    2.9元</a>
+                            </div>
+                
+                
+                
+                        
+                
+                        

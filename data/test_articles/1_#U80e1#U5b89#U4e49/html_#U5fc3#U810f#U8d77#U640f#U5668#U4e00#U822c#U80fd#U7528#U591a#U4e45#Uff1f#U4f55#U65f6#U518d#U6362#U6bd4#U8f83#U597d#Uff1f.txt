@@ -1,0 +1,39 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    心脏起搏器一般能用多久？何时再换比较好？
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">陈样新</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount">92044</span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <div class="JDCASE_ITEM">
+                			<div class="CTT PATIENT"><b>患者</b>：心脏起搏器可用多久？对于已用者，何时再换比较好？多少钱换？
+                
+                </div>
+                	</div>
+                <div class="JDCASE_ITEM">
+                			<div class="CTT DOCTOR"><b><!--HAODF:1:458-->中山大学附属第二医院<!--HAODF:/1:458--><!--HAODF:2:1010000-->心血管内科<!--HAODF:/2:1010000-->陈样新</b>：起搏器能用多久取决于很多因素，如：</div><div class="CTT DOCTOR">1、起搏器本身，一般三腔起搏器比双腔起搏器短，双腔又比单腔短。</div><div class="CTT DOCTOR">2、起搏器使用频率，如果起搏器依赖的，那么肯定使用寿命要短，如果只是保护性起搏，平时大部分是自身心跳，那么寿命则长。</div><div class="CTT DOCTOR">3、起搏器功能，一般功能越复杂寿命越短，当然功能越多对患者越有用。比如带有频率应答功能的一般比不便带频率应答的要短。</div><div class="CTT DOCTOR">4、如果是带ICD功能的起搏器如CRTD，那么又和放电次数有关。
+                
+                总之，不能一概而言寿命多久，我们这里比较正规，一般刚装的3月内查一次起搏器功能，再半年查一次，如果都好，以后1年复查一次。每周四下午为起搏器程控专科门诊。程控时能指导起搏器大概还能用多久，这个医生和机器会判断出来并告诉你的。
+                
+                何时换医生会根据检查结果告诉你，治愈多少钱那就象买轿车，买宝马奔驰肯定和买桑塔纳不一样，同样的宝马，3系和5系又不一样，这个道理不言而喻，但装何种起搏器取决于<!--HAODF:0:https://www.haodf.com/jibing/neike/list.htm-->疾病<!--HAODF:/0:https://www.haodf.com/jibing/neike/list.htm-->本身，当然家庭经济因素也是一个。最便宜的单腔3万差点，最好的18万多。</div>
+                	</div>
+                
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

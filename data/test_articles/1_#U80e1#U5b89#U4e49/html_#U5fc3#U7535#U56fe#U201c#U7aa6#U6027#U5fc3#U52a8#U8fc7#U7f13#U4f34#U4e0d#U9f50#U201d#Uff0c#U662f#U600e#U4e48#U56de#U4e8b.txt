@@ -1,0 +1,27 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    心电图“窦性心动过缓伴不齐”，是怎么回事
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">侯爱洁</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount">221392</span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <p>应该没有什么问题，很多人都会有<a href="https://m.haodf.com/citiao/jibing-douxingxindongguohuan.html" style="color:#4ba2ed;text-decoration:underline;">窦性心动过缓</a>伴不齐，多数人是正常的，不必担心。</p><p>窦性<!--HAODF:8:xinlvbuqi-->心律不齐<!--HAODF:/8:xinlvbuqi-->是一种正常的生理现象，不是病。窦性<!--HAODF:8:xinlvbuqi-->心律不齐<!--HAODF:/8:xinlvbuqi-->以儿童、青少年最常见，成年人也不少见。正常人的心脏跳动是由一个称为“窦房结”的高级司令部指挥。窦房结发出信号刺激心脏跳动，这种来自窦房结信号引起的心脏跳动，就称为正常的“窦性心律”，频率每分钟约为60—100次。每分钟心跳的次数，即心率就是由此而来。但这个频率可能受很多因素影响，甚至呼吸的影响。被诊断为“窦性<!--HAODF:8:xinlvbuqi-->心律不齐<!--HAODF:/8:xinlvbuqi-->”的人，可以注意一下自己心率的加速和减速跟呼吸之间有没有关系。只要没有任何其他症状，就不需要治疗，完全可以从事正常的学习和生活。</p><p>窦性心动过缓是指心率低于60次／分的人，是否会出现症状，与其心跳过缓的频率和引起心跳过缓的原因有关。在安静状态下，成年人的心率若在50～60次／分之间一般是不会出现明显症状的。尤其是一些训练有素的运动员以及长期从事体力劳动的人，在安静状态下即使其心率在40次／分左右也不会出现明显症状。但是一般人的心率若在40～50次／分之间，就会出现胸闷、乏力、<!--HAODF:8:touyun-->头晕<!--HAODF:/8:touyun-->等症状，若其心率降至35～40次／分则会发生血流动力学改变，使心脑器官的供血受到影响，从而出现胸部闷痛、<!--HAODF:8:yunjue-->晕厥<!--HAODF:/8:yunjue-->甚至猝死。如果您没有任何不适，不用去理会心电图所说的“窦性心动过缓伴不齐”，但如果有胸闷、乏力、<!--HAODF:8:touyun-->头晕<!--HAODF:/8:touyun-->等不适，马上到医院检查，做个动态心电图检查，如果心跳过慢，就需要按起搏器了。</p><p>总之，心动过缓如没有临床症状可不用理会，一般问题不大。另外经常运动的人心率会偏慢，是好事，医学界发现，如不是严重心动过缓，心率适度慢的人较心率快的长寿，是好事呢。</p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

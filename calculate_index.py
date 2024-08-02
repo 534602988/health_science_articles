@@ -384,7 +384,8 @@ def segment(collection_read:pymongo.collection.Collection) -> None:
     Uses the jieba library to perform word segmentation on the 'text' field of each record.
     Updates each record with a new field 'text_seg' containing the segmented text.
     """
-    for record in tqdm(collection_read.find({},{}), desc="Processing records segment"):
+    records = list(collection_read.find())
+    for record in tqdm(records, desc="Processing records segment",total=len(records)):
         if "text" in record.keys():
             # Perform word segmentation on the 'text' field using jieba library
             text_seg = " ".join(jieba.lcut(record["text"]))
@@ -395,7 +396,7 @@ def segment(collection_read:pymongo.collection.Collection) -> None:
                 {"title": record["title"]}, {"$set": record}, upsert=True
             )
         else:
-            print(f'text field is not found in the record{record}')
+            print(f'text field is not found in the title{record}')
     return None
 
 def calculate_all(articles:pymongo.collection.Collection,indexs:pymongo.collection.Collection)->None:
@@ -404,35 +405,25 @@ def calculate_all(articles:pymongo.collection.Collection,indexs:pymongo.collecti
     word_dict = global_var.get_word_dict()
     medical_list = global_var.get_medical_list()
     print(f'global var are successfully wrote')
-    segment(articles)
-    sentiment_dict = global_var.get_sentiment_dict()
-    sentiment.get_sentiment_list(sentiment_dict,articles,articles)
-    print(f'sentiment list are successfully wrote to articles')
     count_topic.count_topic_all(articles,indexs)
+    print(f'topic are successfully wrote')
     # Start to calculate the index
     bulk_updates = []
-    for record in tqdm(articles.find(), desc="Processing records calculate"):
+    records= list(articles.find())
+    for record in tqdm(records, desc="Processing records calculate", total=len(records)):
         try:
             new_record = {}
             new_record.update(count_html_elements(record["html"]))
             new_record.update(count_about_word(record["text_seg"]))
             new_record.update({"pos_len": len(record["pos_count"])})
-            new_record.update(
-                count_about_sentence(record["text"], record["pos_list"])
-            )
-            new_record.update(
-                count_about_structure(record["text_seg"], word_dict)
-            )
-            new_record.update(
-                count_is_real(record["pos_count"], real_is_dict)
-            )
+            new_record.update(count_about_sentence(record["text"], record["pos_list"]))
+            new_record.update(count_about_structure(record["text_seg"], word_dict))
+            new_record.update(count_is_real(record["pos_count"], real_is_dict))
             new_record.update(count_sentiment(record["sentiment_list"]))
-            new_record.update(count_metaphor(record["text_seg"],word_dict['metaphor']))
+            new_record.update(count_metaphor(record["text_seg"], word_dict['metaphor']))
             new_record.update(count_rare(record["text"], rare_word))
-            new_record.update(count_parallelism(record["text_seg"]),word_dict['conjunctions'])
-            new_record.update(
-                count_medical(record["text_seg"], medical_list)
-            )
+            new_record.update(count_parallelism(record["text_seg"], word_dict['conjunctions']))
+            new_record.update(count_medical(record["text_seg"], medical_list))
             new_record.update({"character_count": len(record["text"])})
             new_record["title"] = record["title"]
             bulk_updates.append(
@@ -440,7 +431,7 @@ def calculate_all(articles:pymongo.collection.Collection,indexs:pymongo.collecti
                     {"title": new_record["title"]}, {"$set": new_record}, upsert=True
                 )
             )
-        except Exception as e:
+        except Exception:
             print(traceback.print_exc())
             break
     if bulk_updates:

@@ -1,0 +1,35 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    高血压病的药物治疗
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">苏威</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount">2230</span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail ql-editor" style="word-wrap: break-word;position:relative;">
+                            <p>药物治疗篇会有点专业化。
+</p><p>    目前大部分医务人员公认的一线降压药物有五大类，包括血管紧张素转化酶抑制剂（ACEI）、血管紧张素II受体拮抗剂（ARB）、钙通道拮抗剂（CCB）、利尿剂、β受体阻滞剂。
+</p><p>    1、ACEI:这一类药物名称的后两个字多为普利，如培哚普利、贝那普利、福辛普利等，心肌梗死、轻度肾功能不全、尿蛋白、合并糖尿病等情况首选该类药物控制血压，不适用于严重肾功能不全、双侧肾血管狭窄或孤立肾肾血管狭窄、高血钾、妊娠期、哺乳期或对该类药物过敏等情况，医生会根据患者的具体情况选用该类药物。比较常见的副作用是干咳，如果干咳难以耐受则需要调整用药。
+</p><p>    2、ARB:这类药物名称最后两个字多为沙坦，如厄贝沙坦、缬沙坦、氯沙坦等，适应证和禁忌证与ACEI类似，大多数情况是首选ACEI，如果有干咳等ACEI不能耐受的情况则可以换用ARB。
+</p><p>    3、CCB:这类药物名称最后两个字多为地平，如氨氯地平、硝苯地平等，禁忌证很少，药物不良反应有头晕头痛、下肢水肿等，多可耐受，是用得比较广泛的一类降压药物。
+</p><p>    4、利尿剂:包括有呋塞米、螺内酯、吲哒帕胺、氢氯噻嗪等，因为单独使用副作用比较多，所以很少单用，多与其他类降压药合用，有些会做成复方制剂，如厄贝沙坦氢氯噻嗪，培哚普利吲哒帕胺等，尤其使用于合并心衰的患者朋友，需要监测电解质。
+</p><p>  5、β受体阻滞剂:这类药物名称最后两字多为洛尔，如美托洛尔、比索洛尔。降压作用相对较弱，同时具有降心率的作用，所以适用于合并有心率快的<a href="https://m.haodf.com/citiao/jibing-gaoxueya.html" style="color:#4ba2ed;text-decoration:underline;">高血压</a>患者。
+</p><p>  6、其他:临床上有时还会用到α受体阻滞剂，如特拉唑嗪，这类药物需注意体位性低血压反应，特别是老年人，所以多晚上睡觉前服用，并需要注意改变体位时动作要慢。
+</p><p>本文系苏威医生授权好大夫在线（www.haodf.com）发布，未经授权请勿转载。</p><p><br></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

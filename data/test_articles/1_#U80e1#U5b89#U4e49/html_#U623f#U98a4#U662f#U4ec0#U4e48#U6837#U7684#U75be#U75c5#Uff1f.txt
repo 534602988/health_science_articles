@@ -1,0 +1,27 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    房颤是什么样的疾病？
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">方雁</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount">3468</span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <p style="text-indent: 2em;"><span style="font-size: 20px;">心<!--HAODF:8:fangchan--><a href="https://m.haodf.com/citiao/jibing-fangchan.html" style="color:#4ba2ed;text-decoration:underline;">房颤</a><!--HAODF:/8:fangchan-->动，简称<!--HAODF:8:fangchan-->房颤<!--HAODF:/8:fangchan-->，通俗的字面意思就是心房在“<strong><span style="color: rgb(255, 0, 0);">颤抖</span></strong>”，失去了正常的跳动功能，是最常见的<!--HAODF:8:xinlvbuqi-->心律失常<!--HAODF:/8:xinlvbuqi-->。</span></p><p style="text-indent: 2em;"><span style="font-size: 20px;">随着年龄增长<!--HAODF:8:fangchan-->房颤<!--HAODF:/8:fangchan-->的发生率不断增加，特别是75岁以上的老年人，发生的概率可以达到10%。</span></p><p style="text-indent: 2em;"><span style="font-size: 20px;"><!--HAODF:8:fangchan-->房颤<!--HAODF:/8:fangchan-->时心房激动的频率达300～600次/分，心跳频率往往快而且不规则，有时候可达100～160次/分，不仅比正常人<strong><span style="font-size: 18px; color: rgb(255, 0, 0);">心跳快</span></strong>得多，而且很不整齐，让人产生一种“心慌、胸闷”的感觉。</span></p><p style="text-indent: 2em;"><span style="font-size: 20px;"><!--HAODF:8:fangchan-->房颤<!--HAODF:/8:fangchan-->时心房丧失收缩功能，血液容易在心房内淤滞而形成血栓，血栓脱落后可随着血液至全身各处，导致<!--HAODF:8:naoxueshuan-->脑栓塞<!--HAODF:/8:naoxueshuan-->（<span style="font-size: 18px; color: rgb(255, 0, 0);"><strong>中风</strong></span>）、肢体动脉栓塞（严重者甚至需要截肢）等。</span></p><p style="text-indent: 2em;"><span style="font-size: 20px;">【<!--HAODF:8:fangchan-->房颤<!--HAODF:/8:fangchan-->心电图】</span></p><p style="text-indent: 2em;"><span style="font-size: 20px;"><img src="http://n4.hdfimg.com/g10/M01/2D/12/vIYBAFjFX-iAeuEJAAB6a5TqC-0213.jpg?_ms_=ceee&amp;_flag_=2" title="1489330151201848.jpg" alt="<!--HAODF:8:fangchan-->房颤<!--HAODF:/8:fangchan-->.jpg"></span></p><p style="text-indent: 2em;"><span style="font-size: 14px;">（提示：每个尖尖代表依次心跳，正常人心跳时规律的，<!--HAODF:8:fangchan-->房颤<!--HAODF:/8:fangchan-->病人心跳是不规律的）</span></p><p><span style="color: rgb(0, 112, 192);">本文系方雁医生授权好大夫在线（www.haodf.com）发布，未经授权请勿转载。</span></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

@@ -1,0 +1,28 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    高血压患者常见问题解答
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">赵颖军</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount">2776</span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <p><span style="color: rgb(0, 112, 192); font-size: 16px; font-family: arial, helvetica, sans-serif;"><span style="color: rgb(0, 112, 192); font-size: 16px;">本文系赵颖军医生授权好大夫在线（</span>www.haodf.com<span style="color: rgb(0, 112, 192); font-size: 16px;">）发布，未经授权请勿转载。</span></span></p>
+                                <iframe src="//m.haodf.com/narticle/showpdf.htm?pdf_url=https%3A%2F%2Fn4.hdfimg.com%2Fg10%2FM00%2F55%2F2A%2FvYYBAFjose2ANm3wAAFPWQBbcFU536.pdf" style="width: 100%; height: 480px;border:1px solid #dcdcdc;" scrolling="no" allowfullscreen=""></iframe>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

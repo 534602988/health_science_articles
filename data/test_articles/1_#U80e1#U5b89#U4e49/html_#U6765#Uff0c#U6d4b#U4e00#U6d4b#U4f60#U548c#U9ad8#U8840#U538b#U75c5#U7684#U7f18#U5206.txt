@@ -1,0 +1,26 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    来，测一测你和高血压病的缘分
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount">2212</span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <p style="text-indent: 2em;"><!--HAODF:8:gaoxueya--><a href="https://m.haodf.com/citiao/jibing-gaoxueya.html" style="color:#4ba2ed;text-decoration:underline;">高血压</a><!--HAODF:/8:gaoxueya-->病是心内科最常见的疾病，没有之一。随着杀猪刀般的岁月雕刻，除了容颜上条条痕迹，身体的内里也或多或少的被划伤了。越来越多的疾病逐渐成了身体的粉丝，挥之不去。<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->病就是其中之一。话说我周边的男同事，一小半也中了<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->的招了（医生懂医，也一样会生病的好不好 ）。那我们来看看，什么因素导致的你和<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->的缘深缘浅。</p><p style="text-indent: 2em;">1，饮食习惯：盐吃的多，含钾水果吃的少，导致高钠、低钾饮食，注定了你比口味清淡饮食均衡人更受<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->病的青睐。我国大部分地区人均盐摄入12-15g以上，而每天多吃2g盐，收缩压和舒张压分别升高2mmHg和1.2mmHg。</p><p style="text-indent: 2em;">2，超重和<!--HAODF:8:feipangzheng-->肥胖<!--HAODF:/8:feipangzheng-->：这个标准是通过计算BMI值（<span style="color: rgb(51, 51, 51); font-family: arial, 宋体, sans-serif; font-size: 16px; text-indent: 28px; background-color: rgb(255, 255, 255);">身体质量指数，又称体质指数，英文为Body Mass Index，简称BMI</span>），这个值在18.5-25之间是正常，超过25是超重，超过28就是<!--HAODF:8:feipangzheng-->肥胖<!--HAODF:/8:feipangzheng-->了。超重的成人发生<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->的风险是正常体重的3-4倍。腰围男性超过90公分或是女性超过85公分，发生<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->的风险也增加4倍。所以说，长胖不是好事啊。</p><p style="text-indent: 2em;">3，过量饮酒：我国是没有限酒令的，无论什么年龄什么商店都可以买到或多或少的酒精饮品，而且中华文化的饮酒史源远流长，无论是喜如洞房花烛夜、金榜题名时还是悲如中年丧偶、老年丧子，无不要畅饮或借酒消愁一番。如果每天饮酒超过0.6两白酒或2两葡萄酒或7两啤酒，收缩压和舒张会分别升高3.5mmHg和2.1mmHg，血压上升幅度随饮酒量增加而增加。在吃药控制血压的患者中，饮酒还会降低药效。</p><p style="text-indent: 2em;">4，精神紧张：可以是多种原因引起的，比如工作压力大、生气、悲痛、工作性质要求高度集中精神等等。</p><p style="text-indent: 2em;">5，<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->病家族史：家里老人或兄弟姐妹有<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->，那你赶紧关注下自己的血压吧！</p><p style="text-indent: 2em;">6，吸烟、年龄增长、缺乏体力活动、<!--HAODF:8:tangniaobing-->糖尿病<!--HAODF:/8:tangniaobing-->、血脂异常等都会拉近你和<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->病的距离。</p><p style="text-indent: 2em;">各位看看，算算，你拥有这些不良习惯和因素越多，你和<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->病的缘分越大呦！</p><p><span style="color: rgb(0, 112, 192);">本文系吴雪萍医生授权好大夫在线（www.haodf.com）发布，未经授权请勿转载。</span></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

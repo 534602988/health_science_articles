@@ -1,0 +1,27 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    血压也有四季轮回、地域之分吗？
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">李莉</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount">2665</span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <p style="text-indent: 2em;">前几天，一个朋友电话问我：</p><p style="text-indent: 2em;">最近总<!--HAODF:8:touyun--><!--HAODF:8:touyun-->头晕<!--HAODF:/8:touyun--><!--HAODF:/8:touyun-->、无力、白天犯困，应该注意什么？</p><p style="text-indent: 2em;">你的血压怎么样？</p><p style="text-indent: 2em;">一直吃药，长期控制很平稳。</p><p style="text-indent: 2em;">最近测量过血压吗？</p><p style="text-indent: 2em;">一直很好，近期就没有测量。</p><p style="text-indent: 2em;">建议你<!--HAODF:8:touyun--><!--HAODF:8:touyun-->头晕<!--HAODF:/8:touyun--><!--HAODF:/8:touyun-->时测量血压看看。</p><p style="text-indent: 2em;">……</p><p style="text-indent: 2em;">几天后朋友再次拨通我的电话：</p><p style="text-indent: 2em;">以前血压很好，最近是不是有点低了？</p><p style="text-indent: 2em;">多少？</p><p style="text-indent: 2em;">90/60mmHg，最高时也就104/70mmHg。</p><p style="text-indent: 2em;">所以，你<!--HAODF:8:touyun--><!--HAODF:8:touyun-->头晕<!--HAODF:/8:touyun--><!--HAODF:/8:touyun-->无力，白天打盹。</p><p style="text-indent: 2em;">啊！为什么呀？</p><p style="text-indent: 2em;">因为血压也有四季的变化，夏天气温高，血管扩张，血压偏低，冬天天冷，血管收缩，血压偏高。即使平时都很好，这两个季节也要注意血压的变化。</p><p style="text-indent: 2em;"><strong>我该怎么办？</strong></p><p style="text-indent: 2em;">减少药量。</p><p style="text-indent: 2em;">多数<!--HAODF:8:gaoxueya--><!--HAODF:8:gaoxueya--><a href="https://m.haodf.com/citiao/jibing-gaoxueya.html" style="color:#4ba2ed;text-decoration:underline;">高血压</a><!--HAODF:/8:gaoxueya--><!--HAODF:/8:gaoxueya-->患者一旦血压短时间内控制平稳正常后，就忽略继续关注血压的变化了。其实，我们要时常监测血压，及时发现血压的变化，及时调整用药。</p><p style="text-indent: 2em;">血压有一个特点，就是随着气候的冷热变化而变化。</p><p style="text-indent: 2em;">地域变化：北方寒冷地区的<!--HAODF:8:gaoxueya--><!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya--><!--HAODF:/8:gaoxueya-->患病率明显高于南方温热地区。如果<!--HAODF:8:gaoxueya--><!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya--><!--HAODF:/8:gaoxueya-->患者短时间内奔波于南北方不同的地区，血压就会表现出明显的地域变化。如北方到南方，多数<!--HAODF:8:gaoxueya--><!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya--><!--HAODF:/8:gaoxueya-->患者需要减量用药，而由南方到北方，可能要增加药量，尤其在冬季，这种情况非常明显。</p><p style="text-indent: 2em;">季节变化：血压是随着季节的变化而变化的，冬季血压增高明显，需要加量降压，而夏季血压自然变低，冬季的药量就可能不适合于夏季，这时就要减量降压，个别的患者可以暂时停止用药。一旦夏季已过，秋季来临，血压自然开始上升，因此降压药剂量需要重新调整，甚至增加新的种类。</p><p style="text-indent: 2em;">因此，血压也有季节性、地域性，<!--HAODF:8:gaoxueya--><!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya--><!--HAODF:/8:gaoxueya-->患者在长期的用药过程中需要经常监测血压的变化，以免血压过高或过低带来的身体损害。<!--HAODF:8:gaoxueya--><!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya--><!--HAODF:/8:gaoxueya-->的患者随时携带血压计，随时测量血压，尤其在季节更替、地域变化时更要关注血压的变化。</p><p style="text-indent: 2em; text-align: right;">文章源于本人公众号： Doctor-Li-Li</p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

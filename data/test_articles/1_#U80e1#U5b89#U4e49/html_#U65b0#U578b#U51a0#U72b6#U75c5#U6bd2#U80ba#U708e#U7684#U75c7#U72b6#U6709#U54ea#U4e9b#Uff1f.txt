@@ -1,0 +1,27 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    新型冠状病毒肺炎的症状有哪些？
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">王琦</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount"></span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail ql-editor" style="word-wrap: break-word;position:relative;">
+                            <p>首先要有疫病或者疫区接触史，才能考虑感染新型冠状病毒肺炎。新冠肺炎的主要症状和临床表现：</p><p>（1）基于目前的流行病学调查：该病潜伏期为 1～14d，多为 3～7d。临床以发热、乏力、干咳为主要表现。少数患者伴有鼻塞、流涕、咽痛和腹泻等症状。重症患者多在发病 1 周后出现呼吸困难和/或低氧血症，严重者可快速进展为急性呼吸窘迫综合征、脓毒症休克、难以纠正的代谢性酸中毒和出凝血功能障碍。值得注意的是重症、危重症患者病程中可为中低热，甚至无明显发热。</p><p>（2）轻型患者仅表现为低热、轻微乏力等，无肺炎表现。</p><p>（3）从目前收治的病例情况看，多数患者预后良好，少数患者病情危重。老年人和有慢性基础疾病者预后较差。儿童病例症状相对较轻。</p><p><br></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

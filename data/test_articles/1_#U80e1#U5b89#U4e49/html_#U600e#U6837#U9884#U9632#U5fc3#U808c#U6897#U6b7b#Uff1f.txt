@@ -1,0 +1,33 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    怎样预防心肌梗死？
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">杨学东</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount">2556</span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail ql-editor" style="word-wrap: break-word;position:relative;">
+                            <p>急性<a href="https://m.haodf.com/citiao/jibing-xinjigengsi.html" style="color:#4ba2ed;text-decoration:underline;">心肌梗死</a>是冠状动脉粥样硬化性心脏病(简称，冠心病)最严重的形式，主要病因是动脉粥样硬化斑块形成，导致心脏动脉管腔严重狭窄或急性闭塞。
+</p><p>
+</p><p>正常的血管内膜很光滑，管腔没有狭窄。粥样硬化的血管内膜下逐渐出现血脂沉积，粥样斑块形成，造成管腔不同程度狭窄，引起心肌缺血症状。当斑块出现突然侵蚀甚至破裂，诱发局部血栓形成，可以引起管腔突然闭塞，造成心肌细胞缺血、坏死，这就是急性心肌梗死。 
+</p><p>
+</p><p>引起动脉硬化的原因有: 高龄，吸烟，高血脂，高血压，糖尿病，肥胖，久坐不动等。所以，预防心肌梗死应该首先从改善生活方式做起，建议低盐低脂饮食，严格戒烟、戒酒，生活起居规律，适度有氧运动，控制血压、血糖和血脂，定期健康查体。如果有胸闷、胸痛不适，请及时去心血管内科就医。
+</p><p>
+</p><p>本文系杨学东医生授权好大夫在线（www.haodf.com）发布，未经授权请勿转载。</p><p><br></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

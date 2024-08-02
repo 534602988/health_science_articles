@@ -1,0 +1,27 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    为什么心肌梗塞偏爱冬季和早晨
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">林梓卿</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount">3747</span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <p style="text-indent: 2em; text-align: left;">目前认为<!--HAODF:8:xinjigengsi-->心肌梗塞<!--HAODF:/8:xinjigengsi-->的原因在于冠状动脉内的斑块突然破裂，然后导致急性的血栓形成，在非常短的时间内导致血管完全堵塞或者严重堵塞，导致心肌坏死。那么为什么急性<!--HAODF:8:xinjigengsi-->心肌梗塞<!--HAODF:/8:xinjigengsi-->常常发生在冬季和早晨，这个问题其实就变成了为什么斑块就特别容易在这个时候突然破裂。</p><p style="text-indent: 2em; text-align: left;">冬季时候，天气变冷，人体为了应对这样的情况，必然要血管收缩，减少散热，保存体温，不然就冻死了。人体为了应对这样的情况，必然要血管收缩，减少散热，保存体温，不然就冻死了。人体的血管一收缩，导致血压明显升高，你会发现许多<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->的病人到了冬天血压就会变得难以控制，就是这个原因。过高的血管导致血流前行时对血管壁的冲击力增加。而正常时血管壁是光滑的，即使血流速度增加问题不大，对血管壁的冲击力增加不多，血管壁也能应付。可是在有斑块的地方，血流变成了遄流，局部冲击力变大，斑块表面的收到的冲击力本来就比其他地方大得多，此时血流速度加快就会导致斑块表面承受更大的冲击力，可谓屋漏偏逢连夜雨。突然在某一刻，火山爆发，斑块被冲破，暴露出里面的成分，那么这就会激发出血栓反应。血液中的血小板，红细胞就会奋不顾身，争先恐后的扑向这个破口，一定要把这个破口给堵住，这是人体的正常反应。最后破口是堵住了，但是血管也被他们形成的血栓给彻底阻断了，于是就发生了<!--HAODF:8:xinjigengsi-->心肌梗塞<!--HAODF:/8:xinjigengsi-->。</p><p style="text-indent: 2em; text-align: left;">冬天，除了血管收缩，血流较快，斑块受到的冲击力增加等原因外，还有其他一些机制：例如冬天时人体的交感神经是亢进的，血液中的肾上腺素等等也是增加的，血小板功能相对也是增加的，等等这些都会导致斑块变得不稳定，更容易破裂，血栓更容易形成。那么<!--HAODF:8:xinjigengsi-->心肌梗塞<!--HAODF:/8:xinjigengsi-->也就更容易发生。</p><p style="text-indent: 2em; text-align: left;">早晨，尤其是冬天的早晨，是一天中最冷的时候，此时血管内的斑块承受了相当大的冲击力，此时的交感神经活性也是一天中的最高点，而且是从熟睡状态进入到早晨特别忙碌的状态，而之前是迷走神经最高点，交感神经最低点的时间段，所以这个时间是谷底迅速进入高峰。此时血压升高，同时经过一夜的不进食，不进水，血液也变得相当的粘稠，血小板的功能也亢进，所以这些不利的因素集中起来导致早晨，尤其是冬天的早晨成为<!--HAODF:8:xinjigengsi-->心肌梗塞<!--HAODF:/8:xinjigengsi-->和<!--HAODF:8:naogengsi-->脑梗塞<!--HAODF:/8:naogengsi-->的高发时段。这个时间段被称为心血管疾病的魔鬼时间。</p><p style="text-indent: 2em; text-align: left;">在病房值夜班时，我最担心的不是夜晚，而是第二天的早上，尤其是在冬季。那个时间段，第一本身就是魔鬼时间，病情最容易出现变化，同时因为医护人员上了一天班，也是最疲劳的时候，此时最容易出现各种意外。几十年的医疗生涯见过了太多这样的清晨悲剧。</p><p style="text-align: left; text-indent: 0em;"><span style="color: rgb(0, 112, 192);">本文系林梓卿医生授权好大夫在线（www.haodf.com）发布，未经授权请勿转载。</span><br></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

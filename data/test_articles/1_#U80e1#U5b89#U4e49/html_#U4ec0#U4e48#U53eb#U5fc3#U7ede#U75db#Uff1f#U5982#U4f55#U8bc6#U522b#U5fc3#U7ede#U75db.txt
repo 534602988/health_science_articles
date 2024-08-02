@@ -1,0 +1,27 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    什么叫心绞痛？如何识别心绞痛
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">汪奇</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount"></span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <p style="text-indent: 2em; text-align: left;">临床上经常碰到这样的患者，诊断明确为<!--HAODF:8:guanxinbing-->冠心病<!--HAODF:/8:guanxinbing-->、<a href="https://m.haodf.com/citiao/jibing-xinjiaotong.html" style="color:#4ba2ed;text-decoration:underline;">心绞痛</a>，但患者却很奇怪的问我：我一点都不痛啊，怎么叫心绞痛啊？所以我们来通俗的谈谈什么叫心绞痛。</p><p style="text-indent: 2em; text-align: left;">简单的比喻，心肌细胞好似田里的麦苗，我们的冠脉好似灌溉的水管，心绞痛就是水管堵了，田里的麦苗缺水，反映到大脑来的一种警示。下面就心绞痛的几个特点加以阐述。</p><p style="text-indent: 2em; text-align: left;">1、心绞痛的位置：典型的位置应该在胸骨后方，但我们常说从鼻子以下水平到肚脐以上水平，这个范围的疼痛都有可能是心绞痛的表现，而并不是只有左侧胸口痛才是心绞痛，这也让很多患者发生误诊。常碰到牙痛的患者，查来查去最后发现是严重的<!--HAODF:8:guanxinbing-->冠心病<!--HAODF:/8:guanxinbing-->；另外表现为“掐脖子”症状的患者，往往是冠脉近段严重狭窄的表现；还有许多常年“胃痛”“胃不舒服”的患者，最后发现也是严重<!--HAODF:8:guanxinbing-->冠心病<!--HAODF:/8:guanxinbing-->所致。所以，我查房时也常与患者交代，在鼻子以下肚脐以上这个区间，如果发生疼痛不适症状，又是<!--HAODF:8:guanxinbing-->冠心病<!--HAODF:/8:guanxinbing-->的高危人群（具体见《什么样的人易得<!--HAODF:8:guanxinbing-->冠心病<!--HAODF:/8:guanxinbing-->？》），首先需要排除<!--HAODF:8:guanxinbing-->冠心病<!--HAODF:/8:guanxinbing-->、心绞痛的可能，因为其他系统疾病都没有<!--HAODF:8:guanxinbing-->冠心病<!--HAODF:/8:guanxinbing-->、心绞痛、心肌梗死发展这么快、危害这么大，这是至关重要的。此外，心绞痛的位置一般不可能是一个“点”，患者应无法准确的指出疼痛点，而是一个“片”的不适，按摩或手指按压是不会改善症状的。</p><p style="text-indent: 2em; text-align: left;">2、心绞痛的诱因：心绞痛按照诱因的不同，可分为稳定性心绞痛与不稳定性心绞痛。最常见的稳定性心绞痛的诱因就是劳累性，也最容易理解，患者剧烈活动（如爬楼、奔跑、迎风爬坡等等）后出现心绞痛症状；另外诱因包括情绪激动、寒冷刺激、饱食、惊吓等等；而安静状态下就发作的心绞痛，是危险度最高的不稳定性心绞痛表现，往往代表冠脉内存在斑块破裂，需要尽快到医院就诊；</p><p style="text-indent: 2em; text-align: left;">3、心绞痛的性质：典型的表现应为胸骨后压榨样、紧缩感，患者往往需要“捧心蹲地”休息，其他的表现包括胸口压大石感、胸闷、憋气、气短，还往往仅表现为头痛、胃痛或浑身不舒服等等，一般不表现为一过性的“针刺样”或“刀割样”疼痛，另外还有完全无症状性的心绞痛，往往表现在长期<!--HAODF:8:tangniaobing-->糖尿病<!--HAODF:/8:tangniaobing-->的患者。临床上我们经常碰到持续性胸闷，喜欢“长出气”或“深呼吸”的患者，往往都是女性患者，最后都被排除了<!--HAODF:8:guanxinbing-->冠心病<!--HAODF:/8:guanxinbing-->，考虑多为心脏神经官能症。</p><p style="text-indent: 2em; text-align: left;">4、心绞痛的持续时间：心绞痛一般持续数分钟到不超过20分钟。我们常说胸部不适几秒钟或持续超过半小时，都不考虑心绞痛的可能。临床上常碰到肋间神经痛或肩周炎的患者，疼痛剧烈且持续存在，这些都不是心绞痛的表现；另外针对患带状疱疹的老年人，持续性的胸痛发作，在皮损发生之前，也往往容易误诊为心绞痛，需要我们注意。</p><p style="text-indent: 2em; text-align: left;">5、心绞痛的转归：心绞痛在停下休息后或舌下含服硝酸甘油后，数分钟内就能缓解。如果是劳累性心绞痛，在心绞痛缓解后继续活动，心绞痛还会继续发作，这就是我们经常碰到患者爬个5层楼需要休息3、4次的原因。而针对静息心绞痛的患者，反复发作往往预示着要发生心肌梗死，所以及时就诊至关重要。</p><p style="text-indent: 2em; text-align: left;">综上所述，心绞痛的表现千变万化，但也还是有迹可循，重要的是提高警惕，加强重视，不要讳疾忌医！不要迷信症状！现在的无创影像学检查非常准确，是不是心绞痛，我们能给出答案！</p><p style="text-indent: 2em; text-align: left;">如有问题或疑问，欢迎在好大夫网站文字或电话咨询！</p><p style="white-space: normal; text-indent: 2em; text-align: left;"><span style="text-indent: 28px;">汪奇大夫专家门诊：门诊大楼7层，每周二上午，周五上午。</span></p><p><span style=" arial, helvetica, sans-serif; color: rgb(0, 112, 192); "><span style="color: rgb(0, 112, 192); ">本文系汪奇医生授权好大夫在线（</span>www.haodf.com）发布，未经授权请勿转载。</span></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

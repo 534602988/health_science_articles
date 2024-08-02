@@ -1,0 +1,31 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    频发室性早搏怎么治？
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount"></span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <div>
+                <div patient?="">  如果２４小时心电图显示单一形态的<!--HAODF:8:shixingzaobo-->室性早搏<!--HAODF:/8:shixingzaobo-->&gt;１万次/日（或总心跳的５％）,可以考虑通过射频消融手术打掉早搏起源点彻底根治。手术效果关键看起源点是否在容易到位的心脏部位。胺碘酮用于长期控制早搏不是最好的选择，副作用较大。</div>
+                <div patient?="">  如果没有基础<!--HAODF:8:xinzangbing-->心脏病<!--HAODF:/8:xinzangbing-->、<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->等，数量不多，早搏时没有明显不舒服，这种<!--HAODF:8:shixingzaobo-->室性早搏<!--HAODF:/8:shixingzaobo-->没有多大危害，可以观察，而不用吃药。早搏时有明显不舒服感觉，但２４小时室早数量又不多，可以在早搏多时选择药物临时服用缓解一下症状既可。<br> 射频消融手术有三种费用：常规方法1.7万-国产耗材，2.5万元-进口耗材；三维标测法6万。武汉市医保的自费部分分别为：5千元、7千元、1.5万元。</div>
+                <div patient?=""> 三维标测更精准，如同<font color="#ff0000">精确制导</font>武器<font color="#ff0000">定点消除</font>病灶，<font color="#ff0000">误伤范围小</font>、<font color="#ff0000">成功率更高</font>！<strong><em>非接触式三维标测下针对<!--HAODF:8:shixingzaobo-->室性早搏<!--HAODF:/8:shixingzaobo-->起源点进行导管射频消融治疗</em></strong>成为目前该类手术的<strong>最佳选择</strong>！不过，费用较高、技术较复杂，掌握该技术的医生还较少！目前，武汉亚洲<!--HAODF:8:xinzangbing-->心脏病<!--HAODF:/8:xinzangbing-->医院是中南地区该类手术量最大的医疗中心！</div>
+                <div patient?=""> 手术成功的三个条件：1.早搏数量多，不是一过性的，超过总心跳的10-20%以上，均匀出现，不是时多时少甚至没有，特别是手术中频繁发作最有利于手术；2.定位精准，靶点及疗效判断准确；3.靶点处消融导管易于到位并固定住，且靶点处没有重要心脏结构，放电治疗安全！</div>
+                <div patient?=""></div></div>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

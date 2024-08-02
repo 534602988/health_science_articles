@@ -1,0 +1,39 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    合理饮食，助降脂！
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">张文举</span></span>
+                                        <span class="ml20">
+                                            <font>4</font>人已购买
+                                        </span>
+                                        <span class="likeNum"><span class="js-readCount">906</span>人感兴趣</span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <div class="abstractText">
+                              <div>摘要：</div>
+                              <div class="text">高血脂是心脑血管疾的危险因素之一，很多人检查发现血脂增高、脂肪肝或者因为冠心病、脑梗塞住院治疗后，医生总是安排要控制血脂，那么除了药物控制之外，我们还能做些什么？
+                            一个方面是活动，因为现在生活环境、工作环境的改变，让人们的活动量明显降低，消耗减少的同时，营养素的摄入不变，这是很多人血脂增高的原因。我国国民体质监测显示，我国成年人每周参加1次锻炼、每次锻炼时间30-60分钟的比例只占三成左右。未达到预防疾病的目的，建议每天的活动量至少达到6000步，也就是3千米左右，可以是散步、可以是跳舞、可以是做家务等等。
+                            除了运动之外，大家关心比较多的还是饮食方面，我们应该怎么吃才是合适？
+                            油脂是人体的一大类营养素，除了能够提供能量，提供保温、保护作用外，还是构成细胞膜、细胞核、线粒体膜、内质网膜等细胞结构的成分，很多活性蛋白也包含脂质成分；</div>
+                            </div>
+                            
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                            <div>
+                                <p class="more-content">还有更多精彩内容，请购买后继续阅读</p>
+                                    <a class="buy-btn js-buyArticle" href="javascript:void(0)">购买
+                                    2.9元</a>
+                            </div>
+                
+                
+                
+                        
+                
+                        

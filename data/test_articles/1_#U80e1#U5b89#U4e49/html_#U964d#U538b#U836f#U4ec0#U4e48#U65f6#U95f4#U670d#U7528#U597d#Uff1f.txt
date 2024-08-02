@@ -1,0 +1,27 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    降压药什么时间服用好？
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">徐瑞</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount">24088</span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <p style="text-indent:32px;line-height:200%"></p><p style=";margin-bottom:0;text-indent:28px;line-height:200%"><span style="font-size:14px;line-height:200%">降压药什么时间服用最好，早上还是晚上服？饭前还是饭后服用是<!--HAODF:8:gaoxueya--><a href="https://m.haodf.com/citiao/jibing-gaoxueya.html" style="color:#4ba2ed;text-decoration:underline;">高血压</a><!--HAODF:/8:gaoxueya-->患者经常询问的话题。降压药物服用时间首先看药物的作用维持时间，如果是长效的一天服用一次就可以了，一般情况下如果一天一次的话，应该在早上起床后半小时服用，不拘饭前饭后，虽然有的药物不受食物干扰，但是如果没有<!--HAODF:8:weibing-->胃病<!--HAODF:/8:weibing-->，建议最好在进食前</span><span style="font-size:14px;line-height:200%;font-family:'Tahoma','sans-serif'">20</span><span style="font-size:14px;line-height: 200%">分钟以上服用。如果是每天服用两次，第一次用药在早上起床后半小时以内，第二次可以在下午</span><span style="font-size:14px;line-height:200%;font-family:'Tahoma','sans-serif'">4-6</span><span style="font-size:14px;line-height: 200%">点之间服用。如果有</span><span style="font-size: 14px;line-height:200%;font-family:'Tahoma','sans-serif'">24</span><span style="font-size:14px;line-height:200%">小时血压监测，可以在</span><span style="font-size:14px;line-height: 200%;font-family:'Tahoma','sans-serif'">24</span><span style="font-size:14px;line-height:200%">小时血压监测的结果指导下在高峰前</span><span style="font-size:14px;line-height:200%;font-family:'Tahoma','sans-serif'">1-2</span><span style="font-size:14px;line-height: 200%">小时服药。如果不做</span><span style="font-size: 14px;line-height:200%;font-family:'Tahoma','sans-serif'">24</span><span style="font-size:14px;line-height:200%">小时动态血压监测，患者可以在一天中选择</span><span style="font-size:14px;line-height:200%;font-family:'Tahoma','sans-serif'">4</span><span style="font-size:14px;line-height:200%">个时间点，每</span><span style="font-size:14px;line-height:200%;font-family:'Tahoma','sans-serif'">6</span><span style="font-size:14px;line-height:200%">小时测一次血压，连测</span><span style="font-size: 14px;line-height:200%;font-family:'Tahoma','sans-serif'">3</span><span style="font-size:14px;line-height:200%">天，就能够知道自己血压波动情况。由此也可以自己推断出一个服药时间。</span></p><p style=";margin-bottom:0;text-indent:28px;line-height:200%"><span style="font-size:14px;line-height:200%">其次要看血压波动的特点，通常血压波动呈白天高，晚上低的勺型曲线，白天血压有两个高峰阶段，一个是早上</span><span style="font-size:14px;line-height:200%;font-family:'Tahoma','sans-serif'">6</span><span style="font-size:14px;line-height:200%">点到</span><span style="font-size:14px;line-height:200%;font-family:'Tahoma','sans-serif'">10</span><span style="font-size:14px;line-height:200%">点，一个是下午</span><span style="font-size:14px;line-height:200%;font-family:'Tahoma','sans-serif'">4</span><span style="font-size:14px;line-height:200%">点到</span><span style="font-size:14px;line-height:200%;font-family:'Tahoma','sans-serif'">6</span><span style="font-size:14px;line-height:200%">点，这部分患者如果服用长效的药物，早上服用一次就可以了。但也有少数患者出现日夜差异消失的曲线，甚至出现晚上高白天低的反勺型曲线，这部分患者除了早上服用一次降压药物以外，晚上应加一次降压药物，以覆盖夜间血压增高，避免靶器官损害。</span></p><p style=";margin-bottom:0;text-indent:28px;line-height:200%"><span style="font-size:14px;line-height:200%">最后要看药物的作用特点，比如利尿剂应在早上一次服药，避免晚上服用，造成夜尿次数增加，影响睡眠。</span></p><p style=";margin-bottom:0;text-indent:28px;line-height:200%"><span style="font-size:14px;line-height:200%">降压治疗是一项长期工程，不仅要关注服药时间，更有坚持长期服用。</span></p><p><span style=";font-family:微软雅黑;color:rgb(0,112,192);font-size:16px">本文</span><span style="color: rgb(0, 112, 192);"><span style="font-family: 微软雅黑; font-size: 16px;">系</span>徐瑞<span style="font-family: 微软雅黑; font-size: 16px;">医生</span></span><span style=";font-family:微软雅黑;color:rgb(0,112,192);font-size:16px">授权好大夫在线（www.haodf.com）发布，未经授权请勿转载。</span></p><p><br></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

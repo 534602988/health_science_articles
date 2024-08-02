@@ -1,0 +1,45 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    冠脉介入（心脏支架术）手术过程简图
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">范中杰</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount">121246</span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <p><font size="3" face="黑体">一、心脏血管视图</font></p>
+                <p><font size="3" face="黑体"> </font><a href="http://n2.hdfimg.com/g3/M00/42/F0/p4YBAFIvkkWAc3CjAABWU4zR4Ew458.gif?_ms_=8356&amp;_flag_=1" target="_blank"><img border="0" src="http://n2.hdfimg.com/g3/M00/42/F0/p4YBAFIvkkWAXofCAABWU4zR4Ew475.gif?_ms_=5e50&amp;_flag_=1"></a></p>
+                <p><font size="3"><font face="黑体"></font></font></p>
+                <p><font size="3" face="黑体"></font> </p>
+                <p><font size="3" face="黑体">二、动脉导管途径</font></p>
+                <p><font size="3" face="黑体"></font></p>
+                <p><font size="3"><font face="黑体">  <a href="http://n2.hdfimg.com/g3/M00/42/F0/p4YBAFIvkkyAQfmIAABVtgyOULc716.jpg?_ms_=8bfb&amp;_flag_=1" target="_blank"><img border="0" src="http://n2.hdfimg.com/g3/M00/42/F0/p4YBAFIvkkyATf51AABVtgyOULc177_600_600_1.jpg?5d33"></a></font></font></p>
+                <p><font size="3"><font face="黑体">三、心脏血管狭窄部位和X线显像</font></font></p>
+                <p><font size="3"><font face="黑体"><a href="http://n2.hdfimg.com/g3/M00/42/F0/p4YBAFIvkkyAe0zoAABtzegTiM0529.jpg?_ms_=cd5e&amp;_flag_=1" target="_blank"><img border="0" src="http://n2.hdfimg.com/g3/M00/42/F0/p4YBAFIvkkyAOE5xAABtzegTiM0743.jpg?_ms_=b480&amp;_flag_=1"></a></font></font></p>
+                <p><font size="3"><font face="黑体">四、球囊进入狭窄部位和球囊扩张</font></font></p>
+                <p><font size="3"><font face="黑体"><a href="http://n2.hdfimg.com/g3/M00/42/F0/p4YBAFIvkkyAVGvaAABBpuNYgso791.jpg?_ms_=ad48&amp;_flag_=1" target="_blank"><img border="0" src="http://n2.hdfimg.com/g3/M00/42/F0/p4YBAFIvkkyAYMpnAABBpuNYgso322.jpg?_ms_=2d28&amp;_flag_=1"></a></font></font></p>
+                <p><font size="3"><font face="黑体">五、支架进入及释放过程</font></font></p>
+                <p><font size="3"><font face="黑体"><a href="http://n2.hdfimg.com/g3/M00/42/F0/p4YBAFIvkkyAejSCAABWDFzNivQ027.jpg?_ms_=a79f&amp;_flag_=1" target="_blank"><img border="0" src="http://n2.hdfimg.com/g3/M00/42/F0/p4YBAFIvkkyABKAYAABWDFzNivQ200.jpg?_ms_=1eba&amp;_flag_=1"></a></font></font></p>
+                <p><font size="3"><font face="黑体">六、造影剂显像确认冠脉处理效果</font></font></p>
+                <p><font size="3"><font face="黑体"><a href="http://n2.hdfimg.com/g3/M00/42/F0/p4YBAFIvkkyAG5nsAAAqRHdeKr0094.jpg?_ms_=d0fe&amp;_flag_=1" target="_blank"><img border="0" src="http://n2.hdfimg.com/g3/M00/42/F0/p4YBAFIvkkyAOjrxAAAqRHdeKr0739.jpg?_ms_=890e&amp;_flag_=1"></a></font></font></p>
+                <p><font size="3"><font face="黑体">七、心脏支架术前后对照</font></font></p>
+                <p><font size="3"><font face="黑体"><a href="http://n2.hdfimg.com/g3/M00/42/F0/p4YBAFIvklKAd5rFAAA_0j3boLM907.jpg?_ms_=be0a&amp;_flag_=1" target="_blank"><img border="0" src="http://n2.hdfimg.com/g3/M00/42/F0/p4YBAFIvklKAOmI1AAA_0j3boLM210.jpg?_ms_=665c&amp;_flag_=1"></a></font></font></p>
+                <p><font size="3"><font face="黑体">八、穿刺部位局部处理、手术结束</font></font></p>
+                <p><font size="3"><font face="黑体"></font></font><font size="3"><font face="黑体"></font></font><font size="3"><font face="黑体"><a href="http://n2.hdfimg.com/g3/M00/42/F0/p4YBAFIvklKADRlpAAAqOScXtp0716.jpg?_ms_=6b48&amp;_flag_=1" target="_blank"><img border="0" src="http://n2.hdfimg.com/g3/M00/42/F0/p4YBAFIvklKAE2ohAAAqOScXtp0838.jpg?_ms_=0835&amp;_flag_=1"></a></font></font></p><img src="https://n2.hdfimg.com/g3/M00/42/F0/p4YBAFIvklKAE2ohAAAqOScXtp0838.jpg?_ms_=0835" style="display:block; margin:10px 0; "><img src="https://n3.hdfimg.com/g3/M00/42/F0/p4YBAFIvklKADRlpAAAqOScXtp0716.jpg?_ms_=6b48" style="display:block; margin:10px 0; "><img src="https://n1.hdfimg.com/g3/M00/42/F0/p4YBAFIvklKAOmI1AAA_0j3boLM210.jpg?_ms_=665c" style="display:block; margin:10px 0; "><img src="https://n1.hdfimg.com/g3/M00/42/F0/p4YBAFIvklKAd5rFAAA_0j3boLM907.jpg?_ms_=be0a" style="display:block; margin:10px 0; "><img src="https://n1.hdfimg.com/g3/M00/42/F0/p4YBAFIvkkyAOjrxAAAqRHdeKr0739.jpg?_ms_=890e" style="display:block; margin:10px 0; "><img src="https://n1.hdfimg.com/g3/M00/42/F0/p4YBAFIvkkyAG5nsAAAqRHdeKr0094.jpg?_ms_=d0fe" style="display:block; margin:10px 0; "><img src="https://n4.hdfimg.com/g3/M00/42/F0/p4YBAFIvkkyABKAYAABWDFzNivQ200.jpg?_ms_=1eba" style="display:block; margin:10px 0; "><img src="https://n4.hdfimg.com/g3/M00/42/F0/p4YBAFIvkkyAejSCAABWDFzNivQ027.jpg?_ms_=a79f" style="display:block; margin:10px 0; "><img src="https://n1.hdfimg.com/g3/M00/42/F0/p4YBAFIvkkyAYMpnAABBpuNYgso322.jpg?_ms_=2d28" style="display:block; margin:10px 0; "><img src="https://n1.hdfimg.com/g3/M00/42/F0/p4YBAFIvkkyAVGvaAABBpuNYgso791.jpg?_ms_=ad48" style="display:block; margin:10px 0; "><img src="https://n1.hdfimg.com/g3/M00/42/F0/p4YBAFIvkkyAOE5xAABtzegTiM0743.jpg?_ms_=b480" style="display:block; margin:10px 0; "><img src="https://n1.hdfimg.com/g3/M00/42/F0/p4YBAFIvkkyAe0zoAABtzegTiM0529.jpg?_ms_=cd5e" style="display:block; margin:10px 0; "><img src="https://n3.hdfimg.com/g3/M00/42/F0/p4YBAFIvkkyATf51AABVtgyOULc177.jpg?_ms_=55fe" style="display:block; margin:10px 0; "><img src="https://n4.hdfimg.com/g3/M00/42/F0/p4YBAFIvkkyAQfmIAABVtgyOULc716.jpg?_ms_=8bfb" style="display:block; margin:10px 0; "><img src="https://n4.hdfimg.com/g3/M00/42/F0/p4YBAFIvkkWAXofCAABWU4zR4Ew475.gif?_ms_=5e50" style="display:block; margin:10px 0; "><img src="https://n3.hdfimg.com/g3/M00/42/F0/p4YBAFIvkkWAc3CjAABWU4zR4Ew458.gif?_ms_=8356" style="display:block; margin:10px 0; ">
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

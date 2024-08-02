@@ -1,0 +1,27 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    房颤与中风
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">廖旺</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount"></span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <p>什么是房颤？</p><p>心房颤动简称房颤，是一种很常见的<!--HAODF:8:xinlvbuqi-->心律失常<!--HAODF:/8:xinlvbuqi-->，或者通俗的说是一种心跳紊乱、不规则，它是心房快速而不协调的乱颤，致使整个心脏的跳动失去了原有的规律性 。年纪越大，发病率越高。房颤有哪些症状？并不是所有的房颤患者都有症状，但大多数房颤患者会因为心跳快、心跳不整齐不规则而产生不适的感觉，称为“心悸”。不少房颤的患者还会感觉到<!--HAODF:8:touyun-->头昏<!--HAODF:/8:touyun-->、气短、虚弱、疲劳。如果是<!--HAODF:8:guanxinbing-->冠心病<!--HAODF:/8:guanxinbing-->的患者，出现房颤而心跳快是还可能出现心绞痛发作。</p><p></p><p>房颤和中风有什么关系？</p><p>中风是房颤的严重后果之一。房颤时心房内的血液流动性发生变化，血液中的成分容易在心房内形成血栓，这些血栓脱落随着血流进入到脑动脉中并堵塞脑动脉就会造成脑组织的缺血缺氧，产生中风。因此，防止血栓的形成进而预防中风是房颤治疗的重要目标。</p><p>房颤患者如何预防中风？</p><p>防止房颤患者血栓形成是预防中风的重要方法。使用阿司匹林或华法林可以降低血液黏滞度，从而减少血栓形成，降低中风的发生。大型临床研究证实，使用华法林可以大大降低房颤患者中风的危险，是房颤患者预防中风治疗中最重要的药物之一。近年来利伐沙班、达比加群等新型药物对于房颤患者预防血栓也有着良好的效果，应用逐步增多。预防血栓的药物，尤其是华法林等，应该在专科医师的严格指导下使用。</p><p><span style=";font-family:微软雅黑;color:rgb(0,112,192);font-size:16px">本文系廖旺医生授权好大夫在线（www.haodf.com）发布，未经授权请勿转载</span><span style=";font-family:微软雅黑;color:rgb(0,112,192);font-size:16px">。</span></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

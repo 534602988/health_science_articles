@@ -1,0 +1,30 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    血压降至正常范围就可停药吗？
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">林锐波</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount">15224</span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail ql-editor" style="word-wrap: break-word;position:relative;">
+                            <p>答案：不可以！
+</p><p>所有降压药都只有在服药期间才有效。如果血压正常就停药，那么血压或早或晚将恢复到治疗前的水平。
+</p><p>降压药需长期服用。选择适合的药物，将血压控制在适合的范围内，才能减少对身体的危害。
+</p><p>本文系林锐波医生授权好大夫在线（www.haodf.com）发布，未经授权请勿转载</p><p><br></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

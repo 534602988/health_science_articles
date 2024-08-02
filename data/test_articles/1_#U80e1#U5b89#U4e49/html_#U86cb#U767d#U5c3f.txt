@@ -1,0 +1,27 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    蛋白尿
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">刘宁宁</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount">1217</span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail ql-editor" style="word-wrap: break-word;position:relative;">
+                            <p>正常人尿液中仅含微量蛋白，用一般方法难以测出，呈阴性。当尿中蛋白质含量增加，即24小时尿蛋白含量大于150 mg时,普通尿常规检查即可查出，称为蛋白尿。蛋白尿可反映肾小球或肾小管功能损害，其他如心力衰竭、多囊肾、肾结核、尿路感染、血尿、肾移植排异反应时，尿蛋白也会呈不同程度的异常。</p><p><br></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

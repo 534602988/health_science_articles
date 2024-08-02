@@ -52,7 +52,7 @@ def count_topic_all(read_collection:pymongo.collection.Collection,wrote_collecti
     info_df = topic_model.get_document_info(articles)
     info_dict = info_df[["Document", "Topic"]].set_index("Document")["Topic"].to_dict()
     bulk_updates = []
-    for title in tqdm(title2articles.keys()):
+    for title in tqdm(title2articles.keys(),desc='Processing records topic count', total=len(list(title2articles.keys()))):
         articles = title2articles[title]
         new_record = {"title": title, "count_topic": count_topic(articles, info_dict)}
         bulk_updates.append(

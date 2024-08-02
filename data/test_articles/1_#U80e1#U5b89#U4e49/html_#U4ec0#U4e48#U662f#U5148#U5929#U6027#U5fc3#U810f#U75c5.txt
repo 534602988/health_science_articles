@@ -1,0 +1,48 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    什么是先天性心脏病
+                        </h1>
+                            <div class="d-subtitle-box">
+                                <div class="subtitle">
+                                    --先天性心脏病一
+                                </div>
+                            </div>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">张伟</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount">1784</span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail ql-editor" style="word-wrap: break-word;position:relative;">
+                            <p>一、什么是<a href="https://m.haodf.com/citiao/jibingfenlei-xiantianxingxinzangbing.html" style="color:#4ba2ed;text-decoration:underline;">先天性心脏病</a>？
+</p><p>这是一种先天的心脏发育畸形。常见的先心病包括以下几种：
+</p><p>1.房间隔缺损；
+</p><p>2.室间隔缺损；
+</p><p>3.肺动脉瓣狭窄；
+</p><p>4.动脉导管未闭；
+</p><p>5.法洛四联症。
+</p><p>
+</p><p>二、“先心病”的危害有哪些？
+</p><p>1.病情严重者出生后数周或数月即死亡；
+</p><p>2.一些患者可以和正常人一样工作、学习和生活；
+</p><p>3.如果不及时治疗，随着年龄增长会出现并发症，减少预期寿命。
+</p><p>
+</p><p>三、什么原因可以引起先心病？
+</p><p>1.环境因素；
+</p><p>2.遗传因素；
+</p><p>3.营养因素。</p><p><br></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

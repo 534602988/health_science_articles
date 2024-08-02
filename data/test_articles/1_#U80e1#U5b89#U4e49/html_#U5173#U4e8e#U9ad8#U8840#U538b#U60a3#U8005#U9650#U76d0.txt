@@ -1,0 +1,28 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    关于高血压患者限盐
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">侯晓峰</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount">2849</span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail ql-editor" style="word-wrap: break-word;position:relative;">
+                            <p>盐与<a href="https://m.haodf.com/citiao/jibing-gaoxueya.html" style="color:#4ba2ed;text-decoration:underline;">高血压</a>的密切关系，我国在古时候就发现了。早在公元前的《皇帝内经》中就这样描述，“咸者，脉弦也”。弦脉，“端直而长，如按琴弦”，是中医诊断高血压的一种脉象。这里说得很明白，吃得咸，血压高。据观察盐摄入量明确与心血管脑血管疾病的严重并发症的发生相关，也就是说盐摄入越多，心脑血管疾病发生率越高。严格限盐是高血压治疗的重要手段。我们要求患者每日限盐摄入6克 但对于高盐饮食的中华民族似乎非常困难，所以建议可以加用小剂量利尿剂，帮助钠排出来达到目的
+</p><p>本文系侯晓峰医生授权好大夫在线（www.haodf.com）发布，未经授权请勿转载。</p><p><br></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

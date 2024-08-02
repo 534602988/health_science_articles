@@ -1,0 +1,27 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    糖尿病有哪些并发症？
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">童鸿</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount">42922</span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <p style="TEXT-INDENT: 2em"><!--HAODF:8:tangniaobing-->糖尿病<!--HAODF:/8:tangniaobing-->血糖控制不良，可引起多种急、慢性并发症，包括：</p><p style="TEXT-INDENT: 2em">一、急性并发症</p><p style="TEXT-INDENT: 2em">1、 <span style="color:#ff0000"><!--HAODF:8:tangniaobing-->糖尿病<!--HAODF:/8:tangniaobing-->酮症酸中毒、高渗性昏迷，</span>这类并发症重者可致死。</p><p style="TEXT-INDENT: 2em">2、<span style="font-size:12px"></span><span style="font-size:10px">各种</span>感染：如皮肤化脓性感染、真菌感染如足癣、女性<!--HAODF:8:tangniaobing-->糖尿病<!--HAODF:/8:tangniaobing-->患者易发生白色念珠菌感染导致阴道炎、尿路感染如膀胱炎及肾盂肾炎、合并<!--HAODF:8:feijiehe-->肺结核<!--HAODF:/8:feijiehe-->。</p><p style="TEXT-INDENT: 2em">二、慢性并发症</p><p style="TEXT-INDENT: 2em">1、 <span style="color:#ff0000">大血管病变：</span><!--HAODF:8:tangniaobing-->糖尿病<!--HAODF:/8:tangniaobing-->患者动脉粥样硬化的患病率很高，发病年龄较轻，病情进展较快，大、中动脉粥样硬化主要侵犯主动脉、冠状动脉、脑动脉、肾动脉、肢体外周动脉等，引起冠心病、脑血管病、肾动脉硬化、肢体动脉硬化。其中<!--HAODF:8:tangniaobing-->糖尿病<!--HAODF:/8:tangniaobing-->是冠心病的等危症，引起的冠心病呈多支弥漫性严重病变，容易发生心肌梗死及心力衰竭甚至肺水肿；脑血管病易致死致残；肾动脉硬化导致肾动脉狭窄，血压升高不易控制；外周动脉硬化尤其是下肢动脉硬化出现疼痛、感觉异常、间歇性跛行，严重狭窄时出现肢体坏死，甚至需截肢。</p><p style="TEXT-INDENT: 2em">2、 <span style="color:#ff0000">微血管病变：</span>主要表现为<!--HAODF:8:tangniaobing-->糖尿病<!--HAODF:/8:tangniaobing--><!--HAODF:8:shenbing-->肾病<!--HAODF:/8:shenbing-->、视网膜病变、<!--HAODF:8:tangniaobing-->糖尿病<!--HAODF:/8:tangniaobing-->心肌病。</p><p style="TEXT-INDENT: 2em"><!--HAODF:8:tangniaobing-->糖尿病<!--HAODF:/8:tangniaobing--><!--HAODF:8:shenbing-->肾病<!--HAODF:/8:shenbing-->，常见于病史超过10年患者，是1型<!--HAODF:8:tangniaobing-->糖尿病<!--HAODF:/8:tangniaobing-->的主要死因，2型<!--HAODF:8:tangniaobing-->糖尿病<!--HAODF:/8:tangniaobing-->发生该并发症的严重性次于冠心病及脑血管并发症，导致肾功能下降，出现浮肿、高血压、蛋白尿等，严重时发展为尿毒症。</p><p style="TEXT-INDENT: 2em"><!--HAODF:8:tangniaobing-->糖尿病<!--HAODF:/8:tangniaobing-->视网膜病变，是失明的主要原因之一，<!--HAODF:8:tangniaobing-->糖尿病<!--HAODF:/8:tangniaobing-->患者应定期行眼底镜检查。</p><p style="TEXT-INDENT: 2em"><!--HAODF:8:tangniaobing-->糖尿病<!--HAODF:/8:tangniaobing-->心肌病，可诱发心力衰竭、心律失常、心源性休克及猝死。</p><p style="TEXT-INDENT: 2em">3、<span style="color:#ff0000"> </span><span style="color:#ff0000">神经病变：</span>周围神经受累最常见，通常呈对称性，下肢较上肢严重，病情进展缓慢，先出现肢端感觉异常，如伴麻木、针刺、灼热或如踏棉垫感觉，有时痛觉过敏。后期可有运动神经受累。</p><p style="TEXT-INDENT: 2em">自主神经病变也较常见，影响胃肠道、心血管系统、泌尿系统、性器官功能，临床表现有胃排空延迟、饭后或午夜腹泻、便秘；体位性低血压、持续性心动过速；尿失禁、尿潴留、阳痿等。</p><p style="TEXT-INDENT: 2em">4、 眼的其他病变：白内障、青光眼、黄斑病、屈光改变等。</p><p style="TEXT-INDENT: 2em">5、 <span style="color:#ff0000"><!--HAODF:8:tangniaobing-->糖尿病<!--HAODF:/8:tangniaobing-->足：</span>是<!--HAODF:8:tangniaobing-->糖尿病<!--HAODF:/8:tangniaobing-->外周神经病变、下肢动脉粥样硬化供血不足、细菌感染等多种因素所致，引起足部疼痛、皮肤深溃疡、肢端坏死等病变。</p><p style="text-indent: 2em;"><span style="color:#ff0000"><!--HAODF:8:tangniaobing-->糖尿病<!--HAODF:/8:tangniaobing-->各种慢性并发症通常是不可逆性的。</span></p><p style="text-indent: 2em;">严格控制血糖是防止<!--HAODF:8:tangniaobing-->糖尿病<!--HAODF:/8:tangniaobing-->急性、慢性并发症发生的关键。</p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

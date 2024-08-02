@@ -3,6 +3,7 @@
         "hdbscan",
         "indexs",
         "ngram",
+        "pbar",
         "umap",
         "vectorizer"
     ]

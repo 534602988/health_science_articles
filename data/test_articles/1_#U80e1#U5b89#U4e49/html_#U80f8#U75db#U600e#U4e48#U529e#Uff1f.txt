@@ -1,0 +1,29 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    胸痛怎么办？
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">周晓亚</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount">1837</span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail ql-editor" style="word-wrap: break-word;position:relative;">
+                            <p>最近连续两次大抢救，都是73岁的爹爹，都来自湖北县城，都有两周左右的胸痛不适病史，两位爹爹均在办理入院手续之时上厕所后突发心跳骤停，前一位爹爹经过二十多次电复律除颤复律后送往监护室，后因再发心跳骤停家属放弃抢救办理出院，后一位爹爹反复心外按压二十分钟后逐渐恢复心跳血压和自主呼吸，遗憾的是去往监护室后又因再次心跳骤停而抢救不过来了。非常遗憾的两位病人，事后我反复思索，农村的医疗卫生条件有限，医教宣传薄弱，大部分爹爹婆婆有点病痛都自己扛着，等到实在忍不住了才去医院，为时已晚！这两位爹爹之前其实都有胸痛的经历，可都没有及时就医，如果在胸痛初始就来到医院，未必就会走的这么快了！
+</p><p>希望大家能告诉身边的父母长辈，一旦自觉有心前区疼痛不适，建议立刻停止所有的体力负荷活动，安静的坐下来，告知或打电话给自己的家属，然后舌下含服一片硝酸甘油，同时嚼服300毫克(3片)拜阿斯匹林，农村的卫生所一般都会有这两种药，服药后可联系救护车送往当地县医院，基本做到了这三部曲，就可以把我们的抢救成功率提高一半了！
+</p><p>本文系周晓亚医生授权好大夫在线（www.haodf.com）发布，未经授权请勿转载。</p><p><br></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

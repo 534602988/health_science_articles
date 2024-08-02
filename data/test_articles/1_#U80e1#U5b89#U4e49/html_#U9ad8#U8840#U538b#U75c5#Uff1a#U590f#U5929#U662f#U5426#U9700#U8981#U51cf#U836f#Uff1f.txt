@@ -1,0 +1,27 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    高血压病：夏天是否需要减药？
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">李明洲</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount">3163</span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <p style="text-indent: 2em;">许多<!--HAODF:8:gaoxueya--><a href="https://m.haodf.com/citiao/jibing-gaoxueya.html" style="color:#4ba2ed;text-decoration:underline;">高血压</a><!--HAODF:/8:gaoxueya-->患者的血压会随着季节波动，夏季许多人在使用同样剂量的药物血压可能会降低一些幅度。</p><p style="text-indent: 2em;">遇到这些情况，是否需要减少药物的种类或药物的剂量呢？</p><p style="text-indent: 2em;">答案是，可能会减药，但请务必遵从医嘱。因为情况比较复杂。常见措施：</p><p style="text-indent: 2em;">一、轻微降低，无血压降低的相关症状。不减药。</p><p style="text-indent: 2em;">二、仍在正常范围，患者存在高危因素，例如<!--HAODF:8:guanxinbing-->冠心病<!--HAODF:/8:guanxinbing-->、<!--HAODF:8:shenbing-->肾脏疾病<!--HAODF:/8:shenbing-->、脑梗死病史等，无相关症状及相关器官缺血表现，不减药，密切观察。</p><p style="text-indent: 2em;">三、血压明显降低，伴有头晕、乏力症状。减药。</p><p style="text-indent: 2em;">四、减药时，分几种情况。</p><p style="text-indent: 2em;">1、如果长期服用β-受体阻滞剂，只要心率无明显降低（这种情况不多），不停用或减少β-受体阻滞剂。</p><p style="text-indent: 2em;">2、如果患者出汗较多，尽量先停用利尿剂。</p><p style="text-indent: 2em;">3、其他情况，依据具体情况而定。</p><p style="text-indent: 2em;">五、减药时，先减量，后减种类。观察时间宜长一些。减量后，尽量每日用药，不推荐隔日用药。</p><p style="text-indent: 2em;">六、减药后，建议密切观察血压，一旦回升，再逐步加上，恢复原先剂量。特别是，天气变冷时，更要密切监测，以防升高后造成严重后果。</p><p style="text-indent: 2em;">总之，影响血压波动的因素很多。停药、更改降压药物或者减药一定要综合个人的实际用药情况、个体差异，谨慎考虑。稳妥的办法是遵循医生的建议，在医生的指导下依情况进行。</p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

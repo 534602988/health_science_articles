@@ -1,0 +1,40 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    如何养护心脏“支架”？
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">黄智伟</span></span>
+                                        <span class="ml20">
+                                            <font>20</font>人已购买
+                                        </span>
+                                        <span class="likeNum"><span class="js-readCount">1720</span>人感兴趣</span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <div class="abstractText">
+                              <div>摘要：</div>
+                              <div class="text">如何养护您心脏的“支架”？
+                            心脏支架就好比一个管状弹簧网，把狭窄的血管撑开，让血管再通，血液可以通过再通的血管为心肌供应营养。 很多冠心病支架植入术后的患者，一直都恢复较好，但有些人却会在2-3年内复发，出现支架内再狭窄或出现新的其他血管狭窄，为什么会出现这样的差异呢？ 有果必有因。错误的观念决定错误的行为，错误的行为酿成惨痛的结局。支架是需要细心养护的！
+                            如何养护心脏的“支架”？
+                            术后按医嘱规范用药，该吃的药物一个都不能少。
+                            支架术后必须口服抗血小板药物，因为支架术后会引起血管内皮损伤，损伤的内皮会重新长起来。而血小板会在损伤的内皮细胞下聚集，在损伤的地方又形成血栓，可能再次堵塞血管。一旦出现支架内血栓形成，如果不在医院，没有及时得到治理，是非常危险的，严重会危及生命。所以必须使用抗血小板药物来预防支架内血栓形成。在口服阿司匹林的基础上，联合使用氯吡格雷/替格瑞洛，通常需要服用至少12个月（支架植入后12个月），预防支架内血栓形成。</div>
+                            </div>
+                            
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                            <div>
+                                <p class="more-content">还有更多精彩内容，请购买后继续阅读</p>
+                                    <a class="buy-btn js-buyArticle" href="javascript:void(0)">购买
+                                    2.9元</a>
+                            </div>
+                
+                
+                
+                        
+                
+                        

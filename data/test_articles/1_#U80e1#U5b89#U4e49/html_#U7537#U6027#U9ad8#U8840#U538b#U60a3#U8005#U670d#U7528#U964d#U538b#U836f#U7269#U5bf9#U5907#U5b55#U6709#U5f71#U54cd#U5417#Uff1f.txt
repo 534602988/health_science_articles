@@ -1,0 +1,36 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    男性高血压患者服用降压药物对备孕有影响吗？
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">丁彦春</span></span>
+                                        <span class="ml20">
+                                            <font>84</font>人已购买
+                                        </span>
+                                        <span class="likeNum"><span class="js-readCount"></span>人感兴趣</span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <div class="abstractText">
+                              <div>摘要：</div>
+                              <div class="text">随着“二胎”开放的政策施行，许多夫妻产生了要“二胎”的想法，可等想要孩子的时候，又发现自己的身体有了毛病，有些男同志患有高血压，需要长期服用降压药物。</div>
+                            </div>
+                            
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                            <div>
+                                <p class="more-content">还有更多精彩内容，请购买后继续阅读</p>
+                                    <a class="buy-btn js-buyArticle" href="javascript:void(0)">购买
+                                    2.9元</a>
+                            </div>
+                
+                
+                
+                        
+                
+                        

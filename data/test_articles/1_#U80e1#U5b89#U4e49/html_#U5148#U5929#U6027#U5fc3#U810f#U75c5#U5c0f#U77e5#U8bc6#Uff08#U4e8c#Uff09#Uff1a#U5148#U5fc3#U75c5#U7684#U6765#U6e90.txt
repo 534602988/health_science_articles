@@ -1,0 +1,33 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    先天性心脏病小知识（二）：先心病的来源
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">张刚成</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount">521</span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail ql-editor" style="word-wrap: break-word;position:relative;">
+                            <p style="text-align: justify;">先心病的来源大致可分为4大类：遗传；药物；环境；疾病</p><div class="hdf-image">
+                    <div data-url="https://n4.hdfimg.com/g12/M01/79/31/2YYBAGHJXRaABJq4AARmWM1PfQA721.png?_ms_=fe72" data-thumbnailurl="https://n4.hdfimg.com/g12/M01/79/31/2YYBAGHJXRaABJq4AARmWM1PfQA721.png?_ms_=fe72" data-attachmentid="9508984814" data-description="" data-filename="图片 1.png" data-width="3969" data-height="1746" data-unwell="0" class="image-container holder read-only"><div class="image-inner-container"> <span><img data-src="https://n4.hdfimg.com/g12/M01/79/31/2YYBAGHJXRaABJq4AARmWM1PfQA721.png?_ms_=fe72" src="https://n4.hdfimg.com/g12/M01/79/31/2YYBAGHJXRaABJq4AARmWM1PfQA721.png?_ms_=fe72" alt="图片 1.png" class="visible-img"></span></div> <p class="desc-input" style="display: none;"></p></div>
+                </div><p style="text-align: justify;"></p><p style="text-align: justify;">	通常我们认为家族有先心病史或者父母有先心病的，子女先心病的概率要大于其他人群（当然这不是说有先心病的生孩子一定会的先心病；</p><p style="text-align: justify;">	药物方面和疾病方面，一般在备孕期间或者孕后不知道的情况下，服用阿司匹林和强力霉素等四环类抗生素，包括避孕药等药物，同时母亲患风疹和感冒等疾病，都会加大孩子先心的可能；</p><p style="text-align: justify;">	环境方面，在孕早期，胎位心脏发育期间，接触放射性物质，刺激性化学品（如油漆，家里装修产生的刺激气体等），都会诱发孩子先心的几率性；</p><p style="text-align: justify;">	此外，父亲母亲酗酒，可能导致胎儿患有酒精中毒综合症，而此类疾病多半有先心病。</p><p style="text-align: justify;">	</p><p style="text-align: justify;">5)原来先天性心脏病和这么多因素有关，那有个说法就是怀孕头三个月很重要，是不是头三个月注意了，就不容易得先天性心脏病呢？</p><p style="text-align: justify;">	这里我们要特别强调一下，为什么怀孕前三个月特别重要，要避免情绪激动，避免接触污染物，避免滥用药物。对于心脏而言，从胚胎发育来说，心脏是在胚胎发育的头8周发育完成的，这个过程非常复杂和精细，我们把心脏比喻成两房两厅,这两房两厅是从一个长管经过一系列复杂的旋转形成，旋转的过程中，房门有了，电线也有了。</p><div class="hdf-image">
+                    <div data-url="https://n3.hdfimg.com/g12/M04/79/31/2YYBAGHJXUaAZ9-UAAAi4axlF4k799.jpg?_ms_=b3b2" data-thumbnailurl="https://n3.hdfimg.com/g12/M04/79/31/2YYBAGHJXUaAZ9-UAAAi4axlF4k799.jpg?_ms_=b3b2" data-attachmentid="9508985419" data-description="" data-filename="图片 11.jpg" data-width="284" data-height="157" data-unwell="0" class="image-container holder read-only"><div class="image-inner-container"> <span><img data-src="https://n3.hdfimg.com/g12/M04/79/31/2YYBAGHJXUaAZ9-UAAAi4axlF4k799.jpg?_ms_=b3b2" src="https://n3.hdfimg.com/g12/M04/79/31/2YYBAGHJXUaAZ9-UAAAi4axlF4k799.jpg?_ms_=b3b2" alt="图片 11.jpg" class="visible-img"></span></div> <p class="desc-input" style="display: none;"></p></div>
+                </div><div class="hdf-image">
+                    <div data-url="https://n1.hdfimg.com/g11/M05/7E/15/1oYBAGHJXVqAa7HlAAMVHv2GvZc328.jpg?_ms_=61ce" data-thumbnailurl="https://n1.hdfimg.com/g11/M05/7E/15/1oYBAGHJXVqAa7HlAAMVHv2GvZc328.jpg?_ms_=61ce" data-attachmentid="9508985645" data-description="" data-filename="图片 1.jpg" data-width="2275" data-height="995" data-unwell="0" class="image-container holder read-only"><div class="image-inner-container"> <span><img data-src="https://n1.hdfimg.com/g11/M05/7E/15/1oYBAGHJXVqAa7HlAAMVHv2GvZc328.jpg?_ms_=61ce" src="https://n1.hdfimg.com/g11/M05/7E/15/1oYBAGHJXVqAa7HlAAMVHv2GvZc328.jpg?_ms_=61ce" alt="图片 1.jpg" class="visible-img"></span></div> <p class="desc-input" style="display: none;"></p></div>
+                </div><p style="text-align: justify;">但是如果在房间建造的过程中，任何的感染、药物等等，都会干扰房间的建设，会引起墙上有洞，所以在建造房间，也就是心脏发育的时候，避免外界干扰尤为关键。同时胚胎的其它系统，包括神经、骨骼、消化系统大多都是在孕期的头三个月发育完成，所以老话说的头三个月很重要，不仅仅针对心脏。</p><p><br></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

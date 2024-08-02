@@ -1,0 +1,27 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    24小时动态血压监测系列之二 ： 24小时血压监测的目的
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">范书英</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount"></span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <p style="text-indent: 2em;">24小时血压监测的目的主要有</p><p style="text-indent: 2em;">1.对所有<!--HAODF:8:gaoxueya--><a href="https://m.haodf.com/citiao/jibing-gaoxueya.html" style="color:#4ba2ed;text-decoration:underline;">高血压</a><!--HAODF:/8:gaoxueya-->患者，明确24小时的血压变化规律，确定血压曲线类型，明确血压升高的时间、程度及伴随心率情况，明确是否存在不适当<!--HAODF:8:dixueya-->低血压<!--HAODF:/8:dixueya-->，以便于确定最佳给药时间、给药种类和给药剂量。</p><p style="text-indent: 2em;">2.对血压控制不佳者，发现血压控制不佳的原因。</p><p style="text-indent: 2em;">3.对血压波动过大者，发现血压波动的原因。</p><p style="text-indent: 2em;">4.检出隐性<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->病人：有些患者白天血压尚可，夜间血压升高，诊室很难发现真实状态。</p><p style="text-indent: 2em;">5.明确到底有没有<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->病：像上文中提到的小刚，后来做血压监测排除了<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->。</p><p style="text-indent: 2em;">6.检出“白大衣<!--HAODF:8:gaoxueya-->高血压<!--HAODF:/8:gaoxueya-->”：有些人生性胆小，见到大夫就紧张，血压飚的很高，但自己在家测量都没事的病人。</p><p><span style="color: rgb(0, 112, 192); font-family: arial,helvetica,sans-serif; font-size: 16px;"><span style="color: rgb(0, 112, 192); font-size: 16px;">本文系范书英医生授权好大夫在线（</span>www.haodf.com<span style="color: rgb(0, 112, 192); font-size: 16px;">）发布，未经授权请勿转载。</span></span></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

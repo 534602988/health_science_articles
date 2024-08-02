@@ -1,0 +1,34 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    降压药不可随便停
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">米小龙</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount">4098</span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail ql-editor" style="word-wrap: break-word;position:relative;">
+                            <p><a href="https://m.haodf.com/citiao/jibing-gaoxueya.html" style="color:#4ba2ed;text-decoration:underline;">高血压</a>的治疗，通过饮食控制，运动，减肥等非药物方式，也能起到一定的治疗作用。但是，有的时候，有些人很难左右自己，正如俗话说的人在江湖，身不由己，非药物方式很难完成，所以说，药物治疗仍是一个主要的治疗方法。许多患者用药治疗，但对药物治疗存在很大的错误认识，概括起来包括：
+</p><p>
+</p><p>1、血压正常了就停药。降压药不是抗菌素，抗菌素治疗感染，消灭细菌了就可以停药，而高血压的发病因素改变不了，所以只能长期维持用药。血压正常，是药物作用达到的一种平衡，停药，意味着平衡被打破，血压肯定就会再次升高。
+</p><p>2、长期用药有副作用。不可否认，任何药物都有副作用，但是，这些新上市的降压药的副作用，与高血压并发症的危害比起来，是微乎其微的。孰轻孰重，毋庸多言。
+</p><p>3、血压高也不能用降压药，一旦用就不能停了。其实，不是药物有成瘾性停不了，而是病好不了。
+</p><p>
+</p><p>目前的医学，还无法将高血压根除，治疗高血压最好的方法就是维持用药使血压正常。
+</p><p>本文系米小龙医生授权好大夫在线（www.haodf.com）发布，未经授权请勿转载</p><p><br></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

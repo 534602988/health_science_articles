@@ -1,0 +1,27 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    三度房室传导阻滞的原因，怎么治疗
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">何学华</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount">32797</span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <p>1.原因</p><p>（1）先天性类型：单纯的传导异常（不合并结构性心脏病）、心脏结构异常如先天性纠正型大血管转位，或母系疾病如系统性红斑狼疮、Sjogren综合症或其他<!--HAODF:8:jiedizuzhibing-->结缔组织病<!--HAODF:/8:jiedizuzhibing-->。</p><p>（2）获得性类型：在儿童完全性<a href="https://m.haodf.com/citiao/jibing-fangshichuandaozuzhi.html" style="color:#4ba2ed;text-decoration:underline;">房室传导阻滞</a>中最主要的病因是心脏手术，其它少见原因包括重症心肌炎、莱姆心脏炎、急性风湿热、<!--HAODF:8:saixianyan-->腮腺炎<!--HAODF:/8:saixianyan-->、白喉、心<!--HAODF:8:jibing-->肌病<!--HAODF:/8:jibing-->、传导系统肿瘤、药物过量和心肌梗死。传导阻滞可为暂时性或永久性。</p><p>2.预后</p><p>（1）婴幼儿可发生充血性心力衰竭，尤其是合并先天性心脏缺损者。</p><p>（2）单纯性先天性传导阻滞者，活过婴儿期后常无症状，随后5-10年内可正常生长发育，X线胸片可显示心脏扩大。</p><p>（3）心室率低于40-45次/分时可有晕厥发作（阿斯发作）。突发的获得性心脏传导阻滞者如果心率不能维持在适当水平，可导致死亡。</p><p>3.治疗</p><p>（1）在心室临时起搏器安装前，儿童和成人传导阻滞有症状者可使用阿托品和异丙肾上腺素。</p><p>（2）经静脉安装心室临时起搏器用于心脏传导阻滞的治疗或预防传导阻滞进展。</p><p>（3）儿童无症状性完全性阻滞者，若心率正常。QRS波无增宽、心室功能正常则无需治疗。</p><p>（4）先天性房室传导阻滞安装起搏器适应症。</p><p>A、有症状或发生充血性心力衰竭。头晕眼花为安装起搏器的早期预警信号。</p><p>B、婴儿心室率低于50-55次/分；或伴有先天性心脏病的婴儿心室率低于70次/分。</p><p>C、有宽大QRS逸搏节律、复杂性心室异位节律或心功能不全。</p><p>（5）由于心脏手术引起的不可逆传导阻滞或心脏手术后持续至少7天的传导阻滞是安装永久人工起搏器的指征。</p><p>（6）儿童安装起搏器后会产生不同的问题：儿童生长发育导致导线张力过高、剧烈运动使导线断裂、电池功能失常（电池周围心肌形成伤疤，尤其在婴儿）、起搏器的寿命有限等问题均需对安装了起搏器的儿童进行随访。</p><p><span style="color: rgb(255, 0, 0);">咨询电话：0731-83929461/83929462</span></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

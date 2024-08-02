@@ -1,0 +1,27 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                     “画地为牢”及早根治房颤
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">胡喜田</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount">4324</span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <p><span style="font-family: arial, helvetica, sans-serif;"><a href="https://m.haodf.com/citiao/jibing-fangchan.html" style="color:#4ba2ed;text-decoration:underline;">房颤</a>是常见的<!--HAODF:8:xinlvbuqi-->心律失常<!--HAODF:/8:xinlvbuqi-->，60岁以下人群的发生率约为1％，随着年龄增长而逐渐增加，在75岁以上人群可达10％。按此估计，我国房颤患者高达800多万。房颤的一大危害是引起脑中风，房颤患者脑中风发生率是无房颤患者的6倍到近20倍。<br>  房颤可导致血栓形成平时我们发现一些老年人血压不高，<!--HAODF:8:dongmaizhouyangyinghua-->动脉硬化<!--HAODF:/8:dongmaizhouyangyinghua-->也不严重，却得了脑中风、偏瘫。发生的主要原因是颤动的心房内血流淤滞，久而久之，形成血凝块即血栓，血栓随血液循环到达身体的各个部位，堵塞动脉造成动脉供血器官的缺血、坏死。如栓子堵塞脑内动脉就造成中风，阻塞四肢动脉则造成肢体的坏死，严重者需要截肢甚至威胁生命。<br>  除此以外，房颤患者还可有憋气、气短，睡到半夜要坐起来喘气，以及活动时气喘，这是由于长期不规则、过快的心脏跳动，导致心脏负荷加重，引起心脏扩大，<!--HAODF:8:xinshuai-->心力衰竭<!--HAODF:/8:xinshuai-->。再者，房颤患者还有心慌、疲乏等症状，活动时上述症状明显加重，从而导致活动受限，工作效率下降、生活质量降低。<br>  根治房颤成为可能房颤是<!--HAODF:8:xinlvbuqi-->心律失常<!--HAODF:/8:xinlvbuqi-->领域的顽疾，长期以来一直缺乏理想的治疗方法。传统治疗为药物治疗和电击复律治疗，但这两种方法均为治标不治本的方法，成功率低，还会出现严重的心跳停搏、恶性<!--HAODF:8:xinlvbuqi-->心律失常<!--HAODF:/8:xinlvbuqi-->、甲亢、肺纤维化等毒副作用。目前研究已明确，房颤患者的肺静脉内以及开口附近存在异位病灶，这种病灶如同碉堡中的机关枪，持续地或间歇性向心房开火，引起心房颤动。随着疾病发展，导致心房扩大、电传导更紊乱，最终演变成为慢性房颤。针对这种原理，如果能切断肺静脉与左心房之间的电联系，使肺静脉紊乱的电活动不能传到心房，就能根治房颤。<br>  攻克房颤技术成熟上世纪九十年代后期开始在X线透视指导下将标测和消融导管送到心房的病灶处，发放射频电流消融以治疗房颤。但由于X线透视为二维，难以达到消融线的完整、连续，故而成功率仅为70%左右。本世纪三维标测系统成功应用于临床，使房颤消融成功率获得了极大提高，成为指导房颤消融的最有力武器。现在的消融方法为在两侧肺静脉口外一定距离各砌一道环形“隔离墙”，可以形象地称之为“画地为牢”，即把肺静脉病灶以及部分心房组织都“囚禁”于其中，消融范围较以前的方法更大、消融连续性更好，而且由于采用盐水灌注消融导管，消融更彻底，不仅治疗阵发房颤成功率高达90%，对于慢性房颤也有70-80%的成功率。目前在欧美的大型治疗中心，采用这种导管消融术已经成为房颤根治的常规方法，治疗的房颤例数已达万余例，总体成功率已达到80-90%，说明房颤的消融治疗已经较为成熟，离大规模临床推广应用为期不远了。<br>  应当提醒广大患者的是，房颤的导管消融术操作较为复杂，成功率及安全性很大程度上取决于手术医生技术、经验，所以应尽可能到经验丰富的治疗中心就诊。</span></p><p><span style="color: rgb(0, 112, 192); font-size: 16px; font-family: arial, helvetica, sans-serif;"><span style="color: rgb(0, 112, 192); font-size: 16px;">本文系胡喜田医生授权好大夫在线（</span>www.haodf.com）发布，未经授权请勿转载。</span></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

@@ -1,0 +1,40 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    哪些心律失常疾病做射频消融治疗效果好？效果能达到根治吗？
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">陈江斌</span></span>
+                                        <span class="ml20">
+                                            <font>55</font>人已购买
+                                        </span>
+                                        <span class="likeNum"><span class="js-readCount"></span>人感兴趣</span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <div class="abstractText">
+                              <div>摘要：</div>
+                              <div class="text">目前射频消融技术比较成熟，广泛应用于抗心律失常的手术治疗，绝大部分手术为根治性手术，下面介绍哪些疾病能够行射频消融治疗？
+                            
+                            1  预激综合征合并阵发性房室折返性心动过速，或者高危预激综合征
+                            
+                            包括显性预激综合征和隐性预激综合征，预激综合征有两种情况，一定要使用视频消融治疗，一种是已经发作至少一次阵发性室上性心动过速，这种阵发性室上性心动过速，为房室折返性心动过速，它一定还会再发，一定要手术治疗；另一种为高危预激综合症，这种预激综合症即使没有发作心动过速，……</div>
+                            </div>
+                            
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                            <div>
+                                <p class="more-content">还有更多精彩内容，请购买后继续阅读</p>
+                                    <a class="buy-btn js-buyArticle" href="javascript:void(0)">购买
+                                    9.9元</a>
+                            </div>
+                
+                
+                
+                        
+                
+                        

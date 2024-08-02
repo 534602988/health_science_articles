@@ -1,0 +1,27 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    肾病综合征为什么要做肾穿刺活检
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">李世军</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount"></span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <p><!--HAODF:8:shenbing--><span style="font-size: 14px;"><font face="楷体_GB2312">  <!--HAODF:8:shenbing-->肾病<!--HAODF:/8:shenbing--><!--HAODF:/8:shenbing-->综合征为什么要做肾穿刺活检？因为<!--HAODF:8:shenbingzonghezheng--><!--HAODF:8:shenbing-->肾病<!--HAODF:/8:shenbing-->综合征<!--HAODF:/8:shenbingzonghezheng-->并不是一种疾病，而是一组有相似临床表现的疾病。而采用肾活检有利于明确诊断、指导治疗、判断预后、探讨临床分型与病理分型的关系，也是提高<!--HAODF:8:shenbing--><!--HAODF:8:shenbing-->肾脏病<!--HAODF:/8:shenbing--><!--HAODF:/8:shenbing-->临床治疗水平的主要方法。<br>1.明确诊断：目前<!--HAODF:8:shenbing-->肾脏病<!--HAODF:/8:shenbing-->的诊断方法基本上有2种，一是临床诊断，二是免疫<!--HAODF:8:binglizhenduan-->病理诊断<!--HAODF:/8:binglizhenduan-->，两者结合应用，才能明确诊断，因此必须依靠肾穿刺活检。例如，临床上都表现为<!--HAODF:8:shenbing-->肾病<!--HAODF:/8:shenbing-->综合征，病理上却可见于多种病变类型，如微小病变、足细胞病，IgA<!--HAODF:8:shenbing-->肾病<!--HAODF:/8:shenbing-->、膜性<!--HAODF:8:shenbing-->肾病<!--HAODF:/8:shenbing-->、局灶节段肾小球硬化等，而最后确诊必需依靠免疫<!--HAODF:8:binglizhenduan-->病理诊断<!--HAODF:/8:binglizhenduan-->。而其它一些少见病，如淀粉样变性，脂蛋白<!--HAODF:8:shenbing-->肾病<!--HAODF:/8:shenbing-->等，临床也表现为<!--HAODF:8:shenbing-->肾病<!--HAODF:/8:shenbing-->综合征，如不活检，临床无法诊断。</font></span></p><p><span style="font-size: 14px;"><font face="楷体_GB2312">2. 指导治疗：通过肾穿刺活检明确诊断后，可为临床制定治疗方案、修正治疗方案，提供重要的依据。若肾穿刺活检诊断为微小病变型，则应用激素治疗效果良好，而其它病理类型，对激素治疗的反应性也不同，则可能早期加用细胞毒药物，以免延误病情。</font></span></p><p><span style="font-size: 14px;"><font face="楷体_GB2312">3.判断预后：肾穿刺活检明确诊断后，基本上可以估计病变的预后，临床上诊断为同一类型的<!--HAODF:8:shenbing-->肾病<!--HAODF:/8:shenbing-->，病理上表现也不相同，其预后也不尽相同。</font></span></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        

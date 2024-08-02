@@ -1,0 +1,27 @@
+<div class="ml20 mr20 mt20 clearfix article">
+                        <h1 class="fn f30 tc">
+                                    慢性肾脏病(CKD)的定义及分期
+                        </h1>
+                
+                        <div>
+                            <p class="f14 mt30 mb30 gray2 tc fs">
+                                    <span class="ml20">发表者：<span class="article_writer">姚胜林</span></span>
+                                        <span class="ml20">
+                                            <font class="orange1" id="hits"><span class="js-readCount"></span></font>人已读
+                                        </span>
+                            </p>
+                        </div>
+                
+                        <div class="pb20 article_detail " style="word-wrap: break-word;position:relative;">
+                            <p style="margin-left:45px"><span style=";font-family:宋体">定义：是指肾脏损伤或</span>GFR<span style=";font-family:宋体">＜</span>60ml/min/1.73m<sup>2</sup><span style=";font-family:宋体">持续</span>3<span style=";font-family:宋体">个月。</span><span style=";font-family: 宋体">（1）</span><span style=";font-family:宋体">肾脏损伤（肾脏结构或功能异常）≥</span>3<span style=";font-family:宋体">个月，可以有或无</span>GFR<span style=";font-family:宋体">下降，可表现为下列异常：病理学检查异常；肾损伤的指标阳性：包括血、尿成分异常或影像学检查异常；</span><span style=";font-family:宋体">（2）</span>GFR&lt;60ml/min/1.73m<sup>2</sup><span style=";font-family:宋体">≥</span>3<span style=";font-family:宋体">个月，有或无肾脏损伤证据。</span></p><p></p><p style="text-align:center"><span style=";font-family: 宋体">表</span>1 <span style=";font-family:宋体">慢性肾脏病的分期</span></p><table border:1px="" solid="" cellspacing="0" cellpadding="0" style="border:1px solid #000"><tbody><tr class="firstRow"><td width="84" valign="top" style="width: 84px;border:1px solid #000"><p style="text-align:center"><strong><span style=";font-family:宋体;color:blue">阶段</span></strong></p></td><td width="288" valign="top" style="width: 288px;border:1px solid #000"><p style="text-align:center"><strong><span style=";font-family:宋体;color:blue">描述</span></strong></p></td><td width="156" valign="top" style="width: 156px;border:1px solid #000"><p style="text-align:center"><strong><span style=";font-family:宋体;color:blue">肾小球滤过率（</span></strong><strong><span style=";color:blue">GFR</span></strong><strong><span style=";font-family:宋体;color:blue">）</span></strong></p></td></tr><tr><td width="84" style="width: 84px;border:1px solid #000"><p><span style=";font-family:宋体">危险性增加</span></p></td><td width="288" style="width: 288px;border:1px solid #000"><p style="text-indent: 28px"><span style=";font-family:   宋体">慢性肾脏病的危险因素（如糖尿病、高血压、家族史、高龄等）</span></p></td><td width="156" style="width: 156px;border:1px solid #000"><p style="text-indent: 28px">90<span style=";font-family:宋体">以上</span></p></td></tr><tr><td width="84" style="width: 84px;border:1px solid #000"><p style="text-indent: 28px">1</p></td><td width="288" style="width: 288px;border:1px solid #000"><p style="text-indent: 28px"><span style=";font-family:   宋体">肾脏损伤（尿中出现蛋白）而滤过率正常</span></p></td><td width="156" style="width: 156px;border:1px solid #000"><p style="text-indent: 28px">90<span style=";font-family:宋体">以上</span></p></td></tr><tr><td width="84" style="width: 84px;border:1px solid #000"><p style="text-indent: 28px">2</p></td><td width="288" style="width: 288px;border:1px solid #000"><p style="text-indent: 28px"><span style=";font-family:   宋体">肾脏损伤，滤过率轻度下降</span></p></td><td width="156" style="width: 156px;border:1px solid #000"><p style="text-indent: 28px">60<span style=";font-family:宋体">至</span>89</p></td></tr><tr><td width="84" style="width: 84px;border:1px solid #000"><p style="text-indent: 28px">3</p></td><td width="288" style="width: 288px;border:1px solid #000"><p style="text-indent: 28px"><span style=";font-family:   宋体">滤过率中度下降</span></p></td><td width="156" style="width: 156px;border:1px solid #000"><p style="text-indent: 28px">30<span style=";font-family:宋体">至</span>59</p></td></tr><tr><td width="84" style="width: 84px;border:1px solid #000"><p style="text-indent: 28px">4</p></td><td width="288" style="width: 288px;border:1px solid #000"><p style="text-indent: 28px"><span style=";font-family:   宋体">滤过率重度下降</span></p></td><td width="156" style="width: 156px;border:1px solid #000"><p style="text-indent: 28px">15<span style=";font-family:宋体">至</span>29</p></td></tr><tr><td width="84" style="width: 84px;border:1px solid #000"><p style="text-indent: 28px">5</p></td><td width="288" style="width: 288px;border:1px solid #000"><p style="text-indent: 28px"><span style=";font-family:   宋体">肾衰竭（需要透析或肾移植）</span></p></td><td width="156" style="width: 156px;border:1px solid #000"><p style="text-indent: 28px">15<span style=";font-family:宋体">以下</span></p></td></tr></tbody></table><p><span style="font-size:14px;font-family:宋体">国际肾脏病基金会肾脏疾病转归质量（</span><span style="font-size:14px;font-family:'Times New Roman'">NKF-K/DOQI</span><span style="font-size:14px;font-family:宋体">）慢性肾脏疾病临床行为指南。</span></p><p></p>
+                             <div class="js-qn" style="display: none;"></div>
+                        </div>
+                
+                
+                
+                                
+                
+                
+                        
+                
+                        
