@@ -1,3 +1,4 @@
+import os
 import pymongo
 import pymongo.collection
 from sentence_transformers import SentenceTransformer
@@ -7,6 +8,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from bertopic import BERTopic
 from tqdm import tqdm
 import global_var 
+import torch
 
 
 def count_topic(articles: list[str], info_dict: dict) -> int:
@@ -16,7 +18,7 @@ def count_topic(articles: list[str], info_dict: dict) -> int:
     return len(set(topics))
 
 
-def count_topic_all(read_collection:pymongo.collection.Collection,wrote_collection:pymongo.collection.Collection)->None:
+def count_topic_all(read_collection:pymongo.collection.Collection,wrote_collection:pymongo.collection.Collection) -> None:
     stop_words = global_var.get_stop_word()
     embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
     umap_model = UMAP(
@@ -45,25 +47,47 @@ def count_topic_all(read_collection:pymongo.collection.Collection,wrote_collecti
     for record in records:
         paragraphs = record["text"].split("\n")
         paragraphs = [paragraph for paragraph in paragraphs if len(paragraph) >= 6]
-        title2articles.update({record["title"]: paragraphs})
+        title2articles[record["title"]] = paragraphs
         articles.extend(paragraphs)
-    embeddings = embedding_model.encode(articles, show_progress_bar=True)
-    topic_model.fit_transform(articles, embeddings)
-    info_df = topic_model.get_document_info(articles)
-    info_dict = info_df[["Document", "Topic"]].set_index("Document")["Topic"].to_dict()
+    if os.path.exists("topic_model.bin"):
+        topic_model = BERTopic.load("topic_model.bin")
+    else:
+        info_dict = _extracted_from_count_topic_all_35(
+            embedding_model, articles, topic_model
+        )
     bulk_updates = []
-    for title in tqdm(title2articles.keys(),desc='Processing records topic count', total=len(list(title2articles.keys()))):
+
+    for title in tqdm(title2articles.keys(),desc='Processing records topic count', total=len(title2articles.keys())):
         articles = title2articles[title]
         new_record = {"title": title, "count_topic": count_topic(articles, info_dict)}
-        bulk_updates.append(
-            pymongo.UpdateOne(
-                {"title": new_record["title"]}, {"$set": new_record}, upsert=True
-            )
-        )
-
-    if bulk_updates:
-        wrote_collection.bulk_write(bulk_updates)
+        # bulk_updates.append(
+        #     pymongo.UpdateOne(
+        #         {"title": new_record["title"]}, {"$set": new_record}, upsert=True
+        #     )
+        # )
+        tqdm.write(str(new_record))
+        wrote_collection.update_one({"title": new_record["title"]}, {"$set": new_record}, upsert=True)
+    # if bulk_updates:
+    #     wrote_collection.bulk_write(bulk_updates)
     return None
+
+
+# TODO Rename this here and in `count_topic_all`
+def _extracted_from_count_topic_all_35(embedding_model, articles, topic_model):
+    print('start_embedding.....')
+    if torch.cuda.is_available():
+        device = torch.device("cuda")
+        print("cuda is available to use")
+    else:
+        device = torch.device("cpu")
+        print("cuda is unavailable")
+    embeddings = embedding_model.encode(articles, show_progress_bar=True, device=device)
+    print('start create topic .....')
+    topic_model.fit_transform(articles, embeddings)
+    topic_model.save("topic_model.bin")
+    print("Topic model saved at topic_model.bin")
+    info_df = topic_model.get_document_info(articles)
+    return info_df[["Document", "Topic"]].set_index("Document")["Topic"].to_dict()
 
 # embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
 # umap_model = UMAP(

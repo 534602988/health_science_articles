@@ -2,7 +2,6 @@ import os
 import re
 import traceback
 import pandas as pd
-import pymongo.collation
 import pymongo.collection
 import pymongo.database
 from process_mongo import get_db

@@ -2,6 +2,7 @@ import math
 import re
 import traceback
 import numpy as np
+import pymongo
 from tqdm import tqdm
 import global_var
 import jieba
@@ -9,9 +10,7 @@ import jieba.posseg as pseg
 from bs4 import BeautifulSoup
 from collections import Counter
 from global_var import SENTENCE_SPLIT
-import pymongo
-import sentiment
-import count_topic
+from pymongo.collection import Collection
 LONG2SHORT = 10
 
 
@@ -26,8 +25,7 @@ def calculate_entropy(probabilities):
     float: The entropy of the probability distribution.
 
     """
-    entropy = -sum(p * math.log2(p) for p in probabilities.values())
-    return entropy
+    return -sum(p * math.log2(p) for p in probabilities.values())
 
 
 
@@ -43,8 +41,7 @@ def sum_occurrences(a: list, b: list):
         int: The total number of occurrences of elements in list 'a' in list 'b'.
     """
     counter_b = Counter(b)
-    total_occurrences = sum(counter_b[element] for element in a)
-    return total_occurrences
+    return sum(counter_b[element] for element in a)
 
 
 def count_html_elements(html_content):
@@ -120,8 +117,7 @@ def count_about_word(words: List[str]) -> dict:
         non_repeating_word_count / total_word_count if total_word_count > 0 else 0
     )
     # Calculate the average length of words
-    word_lengths = [len(word) for word in words]
-    average_word_length = sum(word_lengths) / len(word_lengths) if word_lengths else 0
+    average_word_length = len(''.join(words)) / total_word_count
     return {
         "total_word_count": total_word_count,
         "unique_word_count": unique_word_count,
@@ -304,7 +300,7 @@ def count_is_real(pos_count: dict, is_real: dict):
 
     """
     real, unreal = 0, 0
-    for key in pos_count.keys():
+    for key in pos_count:
         if is_real[key] == 1:
             real += pos_count[key]
         else:
@@ -378,7 +374,7 @@ def count_fog(avg_sentence_len, complex_words_percentage):
     return {"fog": 0.8 * avg_sentence_len + complex_words_percentage}
 
 
-def segment(collection_read:pymongo.collection.Collection) -> None:
+def segment(collection_read:Collection) -> None:
     """
     Segments the text in each record of the 'articles' collection in the database.
     Uses the jieba library to perform word segmentation on the 'text' field of each record.
@@ -388,7 +384,7 @@ def segment(collection_read:pymongo.collection.Collection) -> None:
     for record in tqdm(records, desc="Processing records segment",total=len(records)):
         if "text" in record.keys():
             # Perform word segmentation on the 'text' field using jieba library
-            text_seg = " ".join(jieba.lcut(record["text"]))
+            text_seg = jieba.lcut(record["text"])
             # Create a new record with the segmented text
             record = {"title": record["title"], "text_seg": text_seg}
             # Update the record in the collection
@@ -396,48 +392,60 @@ def segment(collection_read:pymongo.collection.Collection) -> None:
                 {"title": record["title"]}, {"$set": record}, upsert=True
             )
         else:
-            print(f'text field is not found in the title{record}')
+            tqdm.write(f'text field is not found in the title{record}')
     return None
 
-def calculate_all(articles:pymongo.collection.Collection,indexs:pymongo.collection.Collection)->None:
+def calculate_all(articles:Collection,indexs:Collection,check_field_ignore:str=None,limit:int=None) -> None:
     rare_word = global_var.get_rare_list()
     real_is_dict = global_var.get_real_pos()
     word_dict = global_var.get_word_dict()
     medical_list = global_var.get_medical_list()
-    print(f'global var are successfully wrote')
-    count_topic.count_topic_all(articles,indexs)
-    print(f'topic are successfully wrote')
+    print('global var are successfully wrote')
+
     # Start to calculate the index
     bulk_updates = []
-    records= list(articles.find())
-    for record in tqdm(records, desc="Processing records calculate", total=len(records)):
+    records = articles.find().limit(limit) if limit is not None else articles.find()
+    for record in tqdm(records, desc="Processing records calculate",total=limit if limit is not None else 100000):
         try:
+            if check_field_ignore is not None and indexs.find_one({"title": record["title"], check_field_ignore: {"$exists": True}}) is not None:
+                continue
             new_record = {}
             new_record.update(count_html_elements(record["html"]))
             new_record.update(count_about_word(record["text_seg"]))
-            new_record.update({"pos_len": len(record["pos_count"])})
-            new_record.update(count_about_sentence(record["text"], record["pos_list"]))
             new_record.update(count_about_structure(record["text_seg"], word_dict))
-            new_record.update(count_is_real(record["pos_count"], real_is_dict))
-            new_record.update(count_sentiment(record["sentiment_list"]))
             new_record.update(count_metaphor(record["text_seg"], word_dict['metaphor']))
-            new_record.update(count_rare(record["text"], rare_word))
             new_record.update(count_parallelism(record["text_seg"], word_dict['conjunctions']))
             new_record.update(count_medical(record["text_seg"], medical_list))
-            new_record.update({"character_count": len(record["text"])})
+            new_record.update(count_word_pos(record["text"]))
+            new_record.update(count_rare(record["text"], rare_word))
+            new_record.update(count_is_real(new_record["pos_count"], real_is_dict))
+            new_record.update(count_sentiment(record["sentiment_list"]))
+            new_record.update(count_about_sentence(record["text"], new_record["pos_list"]))
+            new_record.update(count_fog(new_record["average_sentence_length"], new_record["real_percentage"]))
+            new_record["character_count"] = len(record["text"])
+            new_record["pos_len"] = len(new_record["pos_count"])
+            new_record["completely"] = True
             new_record["title"] = record["title"]
+            # tqdm.write(str(new_record))
+            # indexs.update_one({"title": new_record["title"]}, {"$set": new_record}, upsert=True)
             bulk_updates.append(
                 pymongo.UpdateOne(
                     {"title": new_record["title"]}, {"$set": new_record}, upsert=True
                 )
             )
-        except Exception:
-            print(traceback.print_exc())
-            break
+        except Exception as e:
+            tqdm.write(str(e))
+    print('all records were successfully calculated and starting to wrote them')
     if bulk_updates:
-        indexs.bulk_write(bulk_updates)
+        indexs.bulk_write(bulk_updates,ordered=False)
+    print('all records were successfully wrote')
+
 
 if __name__ == "__main__":
-    print('test')
+    client = pymongo.MongoClient(global_var.client_url)
+    database = client[global_var.database_name]
+    articles = database['articles']
+    indexs = database['indexs_backend']
+    calculate_all(articles,indexs,None,None)
     # for record in records:
     #     print(count_fog(record["average_length"], record["complex_words_percentage"]))

@@ -1,14 +1,13 @@
 import pandas as pd
 from pymongo import MongoClient
-import pymongo
+from pymongo.database import Database
 from tqdm import tqdm
 import json
-from tqdm import tqdm
 
 
 def get_db(
     client_url: str = "mongodb://10.48.48.7:27017/", db_name: str = "health_articles"
-):
+)-> Database:
     # Establish a connection to MongoDB
     client = MongoClient(client_url)
     db = client[db_name]
@@ -16,7 +15,7 @@ def get_db(
 
 
 def copy_a2b(
-    database: pymongo.database.Database,
+    database: Database,
     collection_read_name: str,
     collection_wrote_name: str,
     field: str = "data_availability",
@@ -43,14 +42,14 @@ def copy_a2b(
                     upsert=True,
                 )
             else:
-                print(
+                tqdm.write(
                     f"Field '{field}' not found in document with {key} = {result.get(key)}"
                 )
             pbar.update(1)
 
 
 def delete_empty_text(
-    database: pymongo.database.Database, collection_name: str, field: str = "text"
+    database: Database, collection_name: str, field: str = "text"
 ):
     # Delete documents where the specified field is empty
     database[collection_name].delete_many(
@@ -63,13 +62,13 @@ def delete_empty_text(
 
 
 def map_fields(
-    database: pymongo.database.Database, table_name: str, field_mapping: dict
+    database: Database, table_name: str, field_mapping: dict
 ):
     """
     Maps fields from one collection to another based on a field mapping dictionary.
 
     Args:
-        db (pymongo.database.Database): The MongoDB database.
+        db (Database): The MongoDB database.
         table_name (str): The name of the source collection.
         field_mapping (dict): A dictionary mapping old field names to new field names.
 
@@ -80,18 +79,22 @@ def map_fields(
     total_documents = collection.count_documents({})
     with tqdm(total=total_documents, desc="Processing documents") as pbar:
         for document in collection.find():
-            updated_document = {}
-            for old_field, new_field in field_mapping.items():
-                if old_field in document:
-                    updated_document[new_field] = document[old_field]
-            new_collection = database[f"{table_name}_copy"]
-            new_collection.insert_one(updated_document)
-            pbar.update(1)
+            try:
+                updated_document = {
+                    new_field: document[old_field]
+                    for old_field, new_field in field_mapping.items()
+                    if old_field in document
+                }
+                new_collection = database[f"{table_name}_copy"]
+                new_collection.insert_one(updated_document)
+                pbar.update(1)
+            except Exception as e:
+                tqdm.write(f"An error occurred: {str(e)}")
     return new_collection
 
 
 def merge(
-    database: pymongo.database.Database,
+    database: Database,
     local_collection_name: str,
     foreign_collection_name: str,
     local_field: str,
@@ -102,7 +105,7 @@ def merge(
     Merge data from two MongoDB collections based on specified fields.
 
     Args:
-        db (pymongo.database.Database): The MongoDB database object.
+        db (Database): The MongoDB database object.
         local_collection_name (str): The name of the local collection.
         foreign_collection_name (str): The name of the foreign collection.
         local_field (str): The field in the local collection to merge on.
@@ -124,7 +127,7 @@ def merge(
 
 
 def delete_incomplete_documents(
-    database: pymongo.database.Database,
+    database: Database,
     collection_name: str,
     required_fields: list = None,
 ):
@@ -152,7 +155,7 @@ def delete_incomplete_documents(
 
 
 def delete_duplicates(
-    database: pymongo.database.Database,
+    database: Database,
     collection_name: str,
     required_fields: list = None,
 ):

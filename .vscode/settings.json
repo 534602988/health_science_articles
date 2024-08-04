@@ -4,7 +4,11 @@
         "indexs",
         "ngram",
         "pbar",
+        "tqdm",
         "umap",
         "vectorizer"
-    ]
+    ],
+    "code-runner.executorMap": {
+		"python": "$pythonPath $fullFileName",
+	}
 }

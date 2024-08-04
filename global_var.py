@@ -3,7 +3,9 @@ import os
 
 import pandas as pd
 SENTENCE_SPLIT = r"[。.!?！？]"
-
+client_url = 'mongodb://10.48.48.7:27017/'
+database_name = 'health_articles'
+health_articles_folder_path = "/workspace/dataset/health/article"
 def txt2list(folder_path: str):
     """
     Convert text files in a folder to a list of words.

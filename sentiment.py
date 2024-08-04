@@ -124,7 +124,7 @@ def get_sentiment_list(sentiment_dict:dict,read_collection:pymongo.collection.Co
     bulk_updates = []
     for record in tqdm(records, desc='Processing records sentiment_list',total=len(records)):
         if "text" not in record.keys():
-            print(f'Text not found in record with title = {record.get("title")}')
+            tqdm.write(f'Text not found in record with title = {record.get("title")}')
         else:
             text = record["text"]
             new_record = calculate_sentiment_text(text, sentiment_dict)
