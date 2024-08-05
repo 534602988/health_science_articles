@@ -62,7 +62,7 @@ def delete_empty_text(
 
 
 def map_fields(
-    database: Database, table_name: str, field_mapping: dict
+    database: Database, table_name: str, field_mapping: dict,output_name:str='merge'
 ):
     """
     Maps fields from one collection to another based on a field mapping dictionary.
@@ -85,7 +85,7 @@ def map_fields(
                     for old_field, new_field in field_mapping.items()
                     if old_field in document
                 }
-                new_collection = database[f"{table_name}_copy"]
+                new_collection = database[f"{output_name}"]
                 new_collection.insert_one(updated_document)
                 pbar.update(1)
             except Exception as e:
@@ -118,7 +118,7 @@ def merge(
     df_local = pd.DataFrame(database[local_collection_name].find())
     df_foreign = pd.DataFrame(database[foreign_collection_name].find())
     merged_df = pd.merge(
-        df_local, df_foreign, how="left", left_on=local_field, right_on=foreign_field
+        df_local, df_foreign, how="inner", left_on=local_field, right_on=foreign_field
     )
     merged_count = len(merged_df)
     if merged_count > 0:
@@ -189,6 +189,40 @@ def delete_duplicates(
     print(f"Deleted {len(duplicates)} duplicate documents")
 
 
+def unicode2chr(encoded_str:str)->dict:
+    """
+    This Python function decodes an encoded string containing Unicode characters into a readable string.
+    
+    :param encoded_str: The `encoded_str` parameter is a string that contains encoded information. The
+    function `unicode2chr` takes this encoded string as input and decodes it to extract author
+    information. The encoded string is expected to have a specific format with numerical prefixes and
+    hexadecimal encoded characters separated by underscores and hashtags
+    :return: The function `unicode2chr` returns a dictionary with two keys: 'author_order' and 'author'.
+    The 'author_order' key contains the integer value of the prefix extracted from the input string, and
+    the 'author' key contains the decoded string obtained by converting the hexadecimal parts of the
+    input string to their corresponding Unicode characters and joining them together.
+    """
+    # 检查是否为空字符串
+    if not encoded_str:
+        return (None, "")
+    # 提取前缀数字和编码部分
+    parts = encoded_str.split('_')
+    prefix = int(parts[0])
+    encoded_parts = parts[1].split('#U')[1:]
+    try:
+        decoded_str = ''.join([chr(int(part, 16)) for part in encoded_parts])
+    except ValueError:
+        decoded_str = ''.join([chr(int(part, 16)) for part in encoded_parts if all(c in '0123456789ABCDEF' for c in part)])
+    return {'author_order': prefix, 'author': decoded_str}
+
+def fix_unicode(database: Database,collection_name: str,)->None:
+    total_documents = database[collection_name].count_documents({})
+    with tqdm(total=total_documents, desc="Processing documents") as pbar:
+        for record in database[collection_name].find({},{ "author": 1}):
+            record.update(unicode2chr(record['author']))
+            database[collection_name].update_one({"_id": record["_id"]}, {"$set": record}, upsert=True)
+            pbar.update(1)
+    
 if __name__ == "__main__":
     # Connect to the MongoDB database
     db = get_db()

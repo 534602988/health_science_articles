@@ -46,10 +46,10 @@ def files2db(
     for file_name in os.listdir(folder_path):
         if file_name.endswith(".txt") and file_name.startswith(header):
             file_path = os.path.join(folder_path, file_name)
-            with open(file_path, "r", encoding="utf-8") as file:
+            with open(file_path, "r") as file:
                 content = file.read()
                 title =title_pattern.search(file_name).group(1)
-                record = {header: content, "title": title, "author": author}
+                record = {header: content, "title": title, "author": str(author)}
                 try:
                     collection.update_one(
                         {"title": record["title"]}, {"$set": record}, upsert=True

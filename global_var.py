@@ -2,6 +2,7 @@ import json
 import os
 
 import pandas as pd
+topic_model_path = "/workspace/model/health_article_topic_model.bin"
 SENTENCE_SPLIT = r"[。.!?！？]"
 client_url = 'mongodb://10.48.48.7:27017/'
 database_name = 'health_articles'
