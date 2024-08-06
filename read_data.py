@@ -9,7 +9,13 @@ import pymongo
 from tqdm import tqdm
 
 
-def write_txt_html_xlsx2db(database:pymongo.database.Database,txt_collection_name:str,html_collection_name:str,xlsx_collection_name:str,parent_folder: str) -> None:
+def write_txt_html_xlsx2db(
+    database: pymongo.database.Database,
+    txt_collection_name: str,
+    html_collection_name: str,
+    xlsx_collection_name: str,
+    parent_folder: str,
+) -> None:
     """
     Writes files from the specified parent folder to the database.
 
@@ -40,7 +46,7 @@ def files2db(
     Returns:
         None
     """
-    title_pattern = re.compile(r'(?:html|text)_(?:\d+\.)?(.*?)\.(?:txt|html)')
+    title_pattern = re.compile(r"(?:html|text)_(?:\d+\.)?(.*?)\.(?:txt|html)")
     folder_name = os.path.basename(folder_path)
     author = folder_name
     for file_name in os.listdir(folder_path):
@@ -48,13 +54,13 @@ def files2db(
             file_path = os.path.join(folder_path, file_name)
             with open(file_path, "r") as file:
                 content = file.read()
-                title =title_pattern.search(file_name).group(1)
+                title = title_pattern.search(file_name)[1]
                 record = {header: content, "title": title, "author": str(author)}
                 try:
                     collection.update_one(
                         {"title": record["title"]}, {"$set": record}, upsert=True
                     )
-                except:
+                except Exception:
                     print(f"wrong{record}")
                     print(traceback.print_exc())
 
@@ -101,8 +107,8 @@ def xlsx2db(folder_path: str, collection: pymongo.collection.Collection) -> None
                 )
 
 
-
 if __name__ == "__main__":
     database = get_db()
-    write_txt_html_xlsx2db(database,"articles","articles","demand","/workspace/dataset/health/article")
-
+    write_txt_html_xlsx2db(
+        database, "articles", "articles", "demand", "/workspace/dataset/health/article"
+    )

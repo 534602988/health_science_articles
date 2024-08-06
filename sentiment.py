@@ -62,7 +62,7 @@ def get_label_data(sentiment_dict_path:str = "data/sentiment.xlsx")->dict:
     return label_dict
 
 
-def calculate_sentiment_sentence(sentence:str, sentiment_dict:dict)->int:
+def calculate_sentiment_sentence(sentence:str, sentiment_dict:dict) -> int:
     """
     Calculate the sentiment score of a given sentence based on a sentiment dictionary.
 
@@ -79,15 +79,32 @@ def calculate_sentiment_sentence(sentence:str, sentiment_dict:dict)->int:
     # 计算情感值
     sentiment_scores = defaultdict(int)
     for word in words:
-        sentiment_scores["joy"] += sentiment_dict["joy"].get(word, 0)
-        sentiment_scores["surprise"] += sentiment_dict["surprise"].get(word, 0)
-        sentiment_scores["anger"] += sentiment_dict["anger"].get(word, 0)
-        sentiment_scores["sadness"] += sentiment_dict["sadness"].get(word, 0)
-        sentiment_scores["fear"] += sentiment_dict["fear"].get(word, 0)
-        sentiment_scores["disgust"] += sentiment_dict["disgust"].get(word, 0)
+        _apply_sentiment_word_scores(
+            sentiment_dict, word, sentiment_scores
+        )
     sentiment_score = dict(sentiment_scores)
     total_score = sum(sentiment_score.values())
     return int(total_score)
+
+
+def _apply_sentiment_word_scores(sentiment_dict: dict, word: str, sentiment_scores: dict) -> None:
+    """
+    Applies sentiment word scores to the given sentiment scores dictionary.
+
+    Args:
+        sentiment_dict (dict): A dictionary containing sentiment word scores for different emotions.
+        word (str): The word for which sentiment scores are to be applied.
+        sentiment_scores (dict): A dictionary containing sentiment scores for different emotions.
+
+    Returns:
+        None
+    """
+    sentiment_scores["joy"] += sentiment_dict["joy"].get(word, 0)
+    sentiment_scores["surprise"] += sentiment_dict["surprise"].get(word, 0)
+    sentiment_scores["anger"] += sentiment_dict["anger"].get(word, 0)
+    sentiment_scores["sadness"] += sentiment_dict["sadness"].get(word, 0)
+    sentiment_scores["fear"] += sentiment_dict["fear"].get(word, 0)
+    sentiment_scores["disgust"] += sentiment_dict["disgust"].get(word, 0)
 
 
 def calculate_sentiment_text(text: str, sentiment_dict: dict) -> dict:

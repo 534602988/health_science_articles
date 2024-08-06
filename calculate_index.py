@@ -9,12 +9,13 @@ import jieba
 import jieba.posseg as pseg
 from bs4 import BeautifulSoup
 from collections import Counter
-from global_var import SENTENCE_SPLIT
-from pymongo.collection import Collection
-LONG2SHORT = 10
+from global_var import SENTENCE_SPLIT, LONG2SHORT
+from pymongo.collection import Collection as PymongoCollection
+from collections import Counter
 
 
-def calculate_entropy(probabilities):
+
+def calculate_entropy(probabilities: dict) -> float:
     """
     Calculate the entropy of a probability distribution.
 
@@ -28,8 +29,7 @@ def calculate_entropy(probabilities):
     return -sum(p * math.log2(p) for p in probabilities.values())
 
 
-
-def sum_occurrences(a: list, b: list):
+def sum_occurrences(a: list, b: list) -> int:
     """
     Calculates the total number of occurrences of elements in list 'a' in list 'b'.
 
@@ -44,7 +44,7 @@ def sum_occurrences(a: list, b: list):
     return sum(counter_b[element] for element in a)
 
 
-def count_html_elements(html_content):
+def count_html_elements(html_content: str) -> dict:
     """
     Counts the number of different HTML elements in the given HTML content.
 
@@ -77,16 +77,12 @@ def count_html_elements(html_content):
     }
 
 
-from typing import List
-from collections import Counter
-
-
-def count_about_word(words: List[str]) -> dict:
+def count_about_word(words: list[str]) -> dict:
     """
     Counts various metrics related to a list of words.
 
     Args:
-        words (List[str]): A list of words.
+        words (list[str]): A list of words.
 
     Returns:
         dict: A dictionary containing the following metrics:
@@ -117,7 +113,7 @@ def count_about_word(words: List[str]) -> dict:
         non_repeating_word_count / total_word_count if total_word_count > 0 else 0
     )
     # Calculate the average length of words
-    average_word_length = len(''.join(words)) / total_word_count
+    average_word_length = len("".join(words)) / total_word_count
     return {
         "total_word_count": total_word_count,
         "unique_word_count": unique_word_count,
@@ -129,7 +125,7 @@ def count_about_word(words: List[str]) -> dict:
     }
 
 
-def count_word_pos(text):
+def count_word_pos(text: str):
     """
     Count the occurrences of each part-of-speech tag in the given text.
 
@@ -152,7 +148,7 @@ def count_word_pos(text):
     return {"pos_count": pos_counts, "pos_list": pos_list}
 
 
-def count_about_sentence(text: str, pos_list: list):
+def count_about_sentence(text: str, pos_list: list) -> dict:
     """
     Counts various metrics related to sentences in a given text.
 
@@ -179,13 +175,17 @@ def count_about_sentence(text: str, pos_list: list):
     # Count the total number of sentences
     sentence_count = len(sentences)
     # Count the number of sentences that are longer than a threshold
-    long_sentence_count = len([sentence for sentence in sentences if len(sentence.strip()) > LONG2SHORT])
+    long_sentence_count = len(
+        [sentence for sentence in sentences if len(sentence.strip()) > LONG2SHORT]
+    )
     # Calculate the standard deviation of sentence lengths
     sentence_length_dev = float(np.std(sentence_lengths) if sentence_lengths else 0)
     # Calculate the number of sentences that are shorter than or equal to the threshold
     short_sentence_count = sentence_count - long_sentence_count
     # Calculate the average length of sentences
-    average_length = sum(sentence_lengths) / len(sentence_lengths) if sentence_lengths else 0
+    average_length = (
+        sum(sentence_lengths) / len(sentence_lengths) if sentence_lengths else 0
+    )
     # Calculate a measure of sentence cohesion
     cohesive = 1 / average_length
     # Count the number of "x" marks in the part-of-speech list
@@ -207,7 +207,7 @@ def count_about_sentence(text: str, pos_list: list):
     }
 
 
-def count_sentiment(sentiment_list: list):
+def count_sentiment(sentiment_list: list) -> dict:
     """
     Calculates the sentiment score and sentiment variety based on the given list of sentiments.
 
@@ -229,7 +229,7 @@ def count_sentiment(sentiment_list: list):
     }
 
 
-def count_about_structure(word_list: list, word_dict: dict):
+def count_about_structure(word_list: list, word_dict: dict) -> dict:
     """
     Counts the occurrences of words in a given word list based on the provided word dictionary.
 
@@ -254,7 +254,7 @@ def count_about_structure(word_list: list, word_dict: dict):
     }
 
 
-def count_medical(word_list: list, medical_list: list):
+def count_medical(word_list: list, medical_list: list) -> dict:
     """
     Counts the occurrences of medical words in a given word list.
 
@@ -270,7 +270,7 @@ def count_medical(word_list: list, medical_list: list):
     }
 
 
-def count_rare(text: str, rare_word: list):
+def count_rare(text: str, rare_word: list) -> dict:
     """
     Counts the occurrences of rare words in a given text and calculates the percentage.
 
@@ -287,7 +287,7 @@ def count_rare(text: str, rare_word: list):
     return {"rare": total_count, "rare_percentage": total_count / len(text)}
 
 
-def count_is_real(pos_count: dict, is_real: dict):
+def count_is_real(pos_count: dict, is_real: dict) -> dict:
     """
     Calculate the percentage of real articles based on the positive count and is_real dictionary.
 
@@ -308,7 +308,7 @@ def count_is_real(pos_count: dict, is_real: dict):
     return {"real_percentage": real / (unreal + real)}
 
 
-def count_parallelism(word_list:list,conjunctions_list:list):
+def count_parallelism(word_list: list, conjunctions_list: list) -> dict:
     """
     Counts the number of parallelism occurrences in a given word list.
 
@@ -323,6 +323,7 @@ def count_parallelism(word_list:list,conjunctions_list:list):
             The count is stored under the key "parallelism".
     """
     from collections import defaultdict
+
     filtered_lst = [item for item in word_list if item in conjunctions_list]
     positions = defaultdict(list)
     for idx, value in enumerate(filtered_lst):
@@ -344,7 +345,7 @@ def count_parallelism(word_list:list,conjunctions_list:list):
     return {"parallelism": len(result)}
 
 
-def count_metaphor(word_list: list, metaphorical_expressions: list):
+def count_metaphor(word_list: list, metaphorical_expressions: list) -> dict:
     """
     Counts the occurrences of metaphorical expressions in a given word list.
 
@@ -359,7 +360,7 @@ def count_metaphor(word_list: list, metaphorical_expressions: list):
     return {"metaphor": sum_occurrences(word_list, metaphorical_expressions)}
 
 
-def count_fog(avg_sentence_len, complex_words_percentage):
+def count_fog(avg_sentence_len, complex_words_percentage) -> dict:
     """
     Calculates the Fog Index based on the average sentence length and the percentage of complex words.
 
@@ -374,14 +375,14 @@ def count_fog(avg_sentence_len, complex_words_percentage):
     return {"fog": 0.8 * avg_sentence_len + complex_words_percentage}
 
 
-def segment(collection_read:Collection) -> None:
+def segment(collection_read: PymongoCollection) -> None:
     """
     Segments the text in each record of the 'articles' collection in the database.
     Uses the jieba library to perform word segmentation on the 'text' field of each record.
     Updates each record with a new field 'text_seg' containing the segmented text.
     """
     records = list(collection_read.find())
-    for record in tqdm(records, desc="Processing records segment",total=len(records)):
+    for record in tqdm(records, desc="Processing records segment", total=len(records)):
         if "text" in record.keys():
             # Perform word segmentation on the 'text' field using jieba library
             text_seg = jieba.lcut(record["text"])
@@ -392,36 +393,60 @@ def segment(collection_read:Collection) -> None:
                 {"title": record["title"]}, {"$set": record}, upsert=True
             )
         else:
-            tqdm.write(f'text field is not found in the title{record}')
+            tqdm.write(f"text field is not found in the title{record}")
     return None
 
-def calculate_all(articles:Collection,indexs:Collection,check_field_ignore:str=None,limit:int=None) -> None:
+
+def calculate_all(
+    articles: PymongoCollection,
+    indexs: PymongoCollection,
+    check_field_ignore: str = None,
+    limit: int = None,
+) -> None:
     rare_word = global_var.get_rare_list()
     real_is_dict = global_var.get_real_pos()
     word_dict = global_var.get_word_dict()
     medical_list = global_var.get_medical_list()
-    print('global var are successfully wrote')
+    print("global var are successfully wrote")
 
     # Start to calculate the index
     bulk_updates = []
     records = articles.find().limit(limit) if limit is not None else articles.find()
-    for record in tqdm(records, desc="Processing records calculate",total=limit if limit is not None else 100000):
+    for record in tqdm(
+        records,
+        desc="Processing records calculate",
+        total=limit if limit is not None else 100000,
+    ):
         try:
-            if check_field_ignore is not None and indexs.find_one({"title": record["title"], check_field_ignore: {"$exists": True}}) is not None:
+            if (
+                check_field_ignore is not None
+                and indexs.find_one(
+                    {"title": record["title"], check_field_ignore: {"$exists": True}}
+                )
+                is not None
+            ):
                 continue
             new_record = {}
             new_record.update(count_html_elements(record["html"]))
             new_record.update(count_about_word(record["text_seg"]))
             new_record.update(count_about_structure(record["text_seg"], word_dict))
-            new_record.update(count_metaphor(record["text_seg"], word_dict['metaphor']))
-            new_record.update(count_parallelism(record["text_seg"], word_dict['conjunctions']))
+            new_record.update(count_metaphor(record["text_seg"], word_dict["metaphor"]))
+            new_record.update(
+                count_parallelism(record["text_seg"], word_dict["conjunctions"])
+            )
             new_record.update(count_medical(record["text_seg"], medical_list))
             new_record.update(count_word_pos(record["text"]))
             new_record.update(count_rare(record["text"], rare_word))
             new_record.update(count_is_real(new_record["pos_count"], real_is_dict))
             new_record.update(count_sentiment(record["sentiment_list"]))
-            new_record.update(count_about_sentence(record["text"], new_record["pos_list"]))
-            new_record.update(count_fog(new_record["average_sentence_length"], new_record["real_percentage"]))
+            new_record.update(
+                count_about_sentence(record["text"], new_record["pos_list"])
+            )
+            new_record.update(
+                count_fog(
+                    new_record["average_sentence_length"], new_record["real_percentage"]
+                )
+            )
             new_record["character_count"] = len(record["text"])
             new_record["pos_len"] = len(new_record["pos_count"])
             new_record["completely"] = True
@@ -435,17 +460,17 @@ def calculate_all(articles:Collection,indexs:Collection,check_field_ignore:str=N
             )
         except Exception as e:
             tqdm.write(str(e))
-    print('all records were successfully calculated and starting to wrote them')
+    print("all records were successfully calculated and starting to wrote them")
     if bulk_updates:
-        indexs.bulk_write(bulk_updates,ordered=False)
-    print('all records were successfully wrote')
+        indexs.bulk_write(bulk_updates, ordered=False)
+    print("all records were successfully wrote")
 
 
 if __name__ == "__main__":
     client = pymongo.MongoClient(global_var.client_url)
     database = client[global_var.database_name]
-    articles = database['articles']
-    indexs = database['indexs_backend']
-    calculate_all(articles,indexs,None,None)
+    articles = database["articles"]
+    indexs = database["indexs_backend"]
+    calculate_all(articles, indexs, None, None)
     # for record in records:
     #     print(count_fog(record["average_length"], record["complex_words_percentage"]))

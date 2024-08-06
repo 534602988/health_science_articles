@@ -1,17 +1,6 @@
 import pandas as pd
-from pymongo import MongoClient
 from pymongo.database import Database
 from tqdm import tqdm
-import json
-
-
-def get_db(
-    client_url: str = "mongodb://10.48.48.7:27017/", db_name: str = "health_articles"
-)-> Database:
-    # Establish a connection to MongoDB
-    client = MongoClient(client_url)
-    db = client[db_name]
-    return db
 
 
 def copy_a2b(
@@ -20,7 +9,7 @@ def copy_a2b(
     collection_wrote_name: str,
     field: str = "data_availability",
     key: str = "title",
-):
+) -> None:
     """
     Copies documents from one collection to another, updating or inserting a specified field.
 
@@ -50,7 +39,7 @@ def copy_a2b(
 
 def delete_empty_text(
     database: Database, collection_name: str, field: str = "text"
-):
+) -> None:
     # Delete documents where the specified field is empty
     database[collection_name].delete_many(
         {"$or": [{field: {"$exists": False}}, {field: None}, {field: ""}]}
@@ -62,8 +51,8 @@ def delete_empty_text(
 
 
 def map_fields(
-    database: Database, table_name: str, field_mapping: dict,output_name:str='merge'
-):
+    database: Database, table_name: str, field_mapping: dict, output_name: str = "merge"
+) -> None:
     """
     Maps fields from one collection to another based on a field mapping dictionary.
 
@@ -90,7 +79,7 @@ def map_fields(
                 pbar.update(1)
             except Exception as e:
                 tqdm.write(f"An error occurred: {str(e)}")
-    return new_collection
+    return None
 
 
 def merge(
@@ -130,7 +119,7 @@ def delete_incomplete_documents(
     database: Database,
     collection_name: str,
     required_fields: list = None,
-):
+) -> None:
     """
     Deletes documents from a collection that do not have all the required fields.
 
@@ -158,7 +147,7 @@ def delete_duplicates(
     database: Database,
     collection_name: str,
     required_fields: list = None,
-):
+) -> None:
     """
     Removes duplicate documents from a collection based on specified fields.
 
@@ -189,10 +178,10 @@ def delete_duplicates(
     print(f"Deleted {len(duplicates)} duplicate documents")
 
 
-def unicode2chr(encoded_str:str)->dict:
+def unicode2chr(encoded_str: str) -> dict:
     """
     This Python function decodes an encoded string containing Unicode characters into a readable string.
-    
+
     :param encoded_str: The `encoded_str` parameter is a string that contains encoded information. The
     function `unicode2chr` takes this encoded string as input and decodes it to extract author
     information. The encoded string is expected to have a specific format with numerical prefixes and
@@ -206,40 +195,38 @@ def unicode2chr(encoded_str:str)->dict:
     if not encoded_str:
         return (None, "")
     # 提取前缀数字和编码部分
-    parts = encoded_str.split('_')
+    parts = encoded_str.split("_")
     prefix = int(parts[0])
-    encoded_parts = parts[1].split('#U')[1:]
+    encoded_parts = parts[1].split("#U")[1:]
     try:
-        decoded_str = ''.join([chr(int(part, 16)) for part in encoded_parts])
+        decoded_str = "".join([chr(int(part, 16)) for part in encoded_parts])
     except ValueError:
-        decoded_str = ''.join([chr(int(part, 16)) for part in encoded_parts if all(c in '0123456789ABCDEF' for c in part)])
-    return {'author_order': prefix, 'author': decoded_str}
+        decoded_str = "".join(
+            [
+                chr(int(part, 16))
+                for part in encoded_parts
+                if all(c in "0123456789ABCDEF" for c in part)
+            ]
+        )
+    return {"author_order": prefix, "author": decoded_str}
 
-def fix_unicode(database: Database,collection_name: str,)->None:
+
+def fix_unicode(database: Database, collection_name: str) -> None:
+    """
+    Fix unicode characters in the 'author' field of documents in a MongoDB collection.
+
+    Args:
+        database: MongoDB database object.
+        collection_name: Name of the collection to process.
+
+    Returns:
+        None
+    """
     total_documents = database[collection_name].count_documents({})
     with tqdm(total=total_documents, desc="Processing documents") as pbar:
-        for record in database[collection_name].find({},{ "author": 1}):
-            record.update(unicode2chr(record['author']))
-            database[collection_name].update_one({"_id": record["_id"]}, {"$set": record}, upsert=True)
+        for record in database[collection_name].find({}, {"author": 1}):
+            record.update(unicode2chr(record["author"]))
+            database[collection_name].update_one(
+                {"_id": record["_id"]}, {"$set": record}, upsert=True
+            )
             pbar.update(1)
-    
-if __name__ == "__main__":
-    # Connect to the MongoDB database
-    db = get_db()
-
-    # Read the field dictionary from a JSON file
-    with open("field_dict.json", "r") as f:
-        field_dict = json.load(f)
-    map_fields(db, "indexs", field_dict)
-    # remove_duplicates(db["articles"],['title'])
-    # remove_duplicates(db["demand"],['title'])
-    # remove_duplicates(db["indexs_copy"],['title'])
-    # remove_duplicates(db["indexs_merge"],['title'])
-    merge(db, "demand", "indexs_copy", "title", "title", "indexs_merge")
-    # collection = db["articles"]
-    # delete_empty_text(collection, field="text")
-    # copy_a2b(db["demand"], db["indexs_copy"], "author", "title")
-    # collection = db['articles']
-    # field_to_remove = 'sentiment_'
-    # result = collection.update_many({}, {'$unset': {field_to_remove: ""}})
-    # print(f"{result.modified_count} documents updated.")
